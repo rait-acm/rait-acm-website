@@ -27,6 +27,16 @@
                               <!-- Template Main CSS File -->
                               <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
                                 <link rel="stylesheet" href="../assets/css/login.css">
+                                <style>
+                                   .button input{
+                                    background: transparent;
+                                    border: none; 
+                                    color: white;
+                                  }
+                                  .button:hover input{
+                                    color: black;
+                                  }
+                                </style>
                             </head>
                             
                             <body>
