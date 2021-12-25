@@ -589,7 +589,7 @@ section {
   padding-right: 4px;
   color: #fff;
 }
-.about .content p:last-child {
+.about .content h6:last-child {
   margin-bottom: 0;
 }
 .read-more {
@@ -620,7 +620,7 @@ section {
   right: 20px;
   top: 12px;
 } */
-.about .row p{
+.about .row h6{
   line-height: 2.5rem;
 }
 /*--------------------------------------------------------------
