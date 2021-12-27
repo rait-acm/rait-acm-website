@@ -1,7 +1,25 @@
-<!-- <style>
-    
-</style> -->
-
+<style>    
+.alert {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}.alert-success {
+    background-color: rgba(227, 253, 235, 1);
+    border-color: rgba(38, 179, 3, 1);
+    color: rgba(60, 118, 61, 1);
+}.alert-error {
+    background-color: rgba(248, 215, 218, 1);
+    border-color: rgba(220, 53, 69, 1);
+    color: rgba(114, 28, 36,1);
+}
+</style>
 <?php
     include '../../connectiondb.php';
     if(!$conn)
@@ -9,14 +27,12 @@
 		die("Connection to this database failed due to ".mysqli_connect_error());
 	}
 
-// Checked connection
-
 // Escape user inputs for security
-$name = mysqli_real_escape_string($conn, $_REQUEST['Name']);
+$name = mysqli_real_escape_string($conn, $_REQUEST['name']);
 $event_type = mysqli_real_escape_string($conn, $_REQUEST['event_type']);
 $start_date = mysqli_real_escape_string($conn, $_REQUEST['start_date']);
 $temp_end_date = mysqli_real_escape_string($conn, $_REQUEST['end_date']);
-$end_date = // cheack if it's only one day event 
+$end_date = $temp_end_date ;// cheack if it's only one day event 
 $desc = mysqli_real_escape_string($conn, $_REQUEST['description']);
 $recording_link = mysqli_real_escape_string($conn, $_REQUEST['recording_link']);
 // $finalvenue = ($ven == 'Other') ?  $newven : $ven;
@@ -25,10 +41,12 @@ $temp = explode(".", $filename); //sep filename and extension
 $file_ext = substr($filename, strripos($filename, '.')); //getting extension
 $newfilename =  $name . '_' . $start_date . $file_ext; //giving new name
 $ok = 1;
-$targetfolder = '/assets/img/events' . $newfilename; 
+$targetfolder = '../../assets/img/events/' . $newfilename; 
+$path = '/assets/img/events/' . $newfilename; 
 // check path and link
 $file_type = $_FILES['file']['type'];
 
+$status = mysqli_real_escape_string($conn, $_REQUEST['status']);
 // checking duplicate entry 
 
 $flag = 0;
@@ -48,15 +66,15 @@ if ($flag == 0) {
     }
 
     // Attempt insert query execution
-    $sql = "INSERT INTO events_data (name, event_type, start_date, end_date, recording_link,targetfolder) VALUES ( '$name','$event_type', '$start_date', $end_date, '$desc', '$recording_link','$targetfolder')";
+    $sql = "INSERT INTO events (name, event_type, start_date, end_date, recording_link, description,image, status) VALUES ( '$name','$event_type', '$start_date', $end_date,'$recording_link','$desc' , '$path', '$status')";
     if (mysqli_query($conn, $sql)) {
         echo ("<div class='alert alert-success'>
 
        Records added successfully. <br>
-    <a href=' .php'>Go back to homepage<br><a> </div>");
+    <a href='addEvents.php'>Go back to add more <br><a> </div>");
 
         echo ("<script>
-    setTimeout(function(){ window.location=' .php' }, 8000);
+    setTimeout(function(){ window.location='addEvents.php' }, 4000);
     </script>");
     } else {
         echo "
