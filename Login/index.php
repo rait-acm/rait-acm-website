@@ -83,7 +83,7 @@
                                                               <h5 class = 'error'> <?php echo $_GET['error'];?></h5>
                                                             <?php }  ?>
                                                           <div class="col-md-12 form-group">
-                                                            <input type="text" name="username" class="form-control" id="name" placeholder="Username" required>
+                                                            <input type="email" name="username" class="form-control" id="name" placeholder="Username" required>
                                                           </div>
                                                           <div class="col-md-12 form-group mt-3 md-0 mb-3">
                                                             <input type="password" class="form-control" name="password" id="email" placeholder="Password" required>

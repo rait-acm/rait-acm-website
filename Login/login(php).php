@@ -8,11 +8,15 @@
     
     if(isset($_POST['submit']))
     {
-        $username = $_POST['username'];
-        $password = $_POST['password'];
+        // $username = $_POST['username'];
+        // $password = $_POST['password'];
+        $username =    mysqli_real_escape_string($conn, $_POST['username']);
+        $password = mysqli_real_escape_string($conn, $_POST['password']);    
+        // to escape special characters to prevent sql injection
 
-        $user_search = "SELECT * FROM `login_credentials` WHERE `Username` LIKE '$username'";// ORDER BY `Sr` ASC";
-        $query = mysqli_query($conn, $user_search);
+    //  $user_search = "SELECT * FROM `login_credentials` WHERE `Username` LIKE '$username'";   // ORDER BY `Sr` ASC";
+      $user_search = "SELECT * FROM `login_credentials` WHERE `Username` LIKE '$username' ";   // LIMIT 1
+      $query = mysqli_query($conn, $user_search);
 
         $email_count = mysqli_num_rows($query);
 
