@@ -30,7 +30,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="assets/css/event.css">
 </head>
 
 <body>
@@ -73,9 +73,9 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-upcoming">Past</li>
-              <li data-filter=".filter-past">Upcoming</li>
-              <!-- <li data-filter=".filter-web">Web</li> -->
+              <li data-filter=".filter-upcoming">Upcoming</li>
+              <li data-filter=".filter-past">Past</li>
+              <!-- <li data-filter=".filter-ongoing">Web</li> -->
             </ul>
           </div>
         </div>
@@ -83,53 +83,44 @@
         <div class="row portfolio-container">
 
         <?php
-                    $sql = "SELECT * FROM event_data";
+                    $sql = "SELECT * FROM events";
                     $result = $conn->query($sql);
                     $a = 1;
                     while ($row = $result->fetch_assoc()) {
         ?>
 
-          <div class="col-lg-12 col-md-6 portfolio-item filter-upcoming">
-            <!-- <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div> -->
+          <div class="col-lg-12 col-md-6 portfolio-item filter-<?php echo strtolower($row['status']);  ?>">
+       
             <div class="row">
 
               <!-- Grid column -->
               <div class="col-lg-5">
           
-                <!-- Featured image -->
+                <!-- Featured image  add alternative link -->
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
-                  <a>
+                  <img class="img-fluid"
+                   src="<?php  $img_url = $row['image'] == "" || null ? "https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" : ".".$row['image']; echo $img_url ;  ?>" 
+                   alt="<?php echo $row['name'];  ?>" alt="<?php echo $row['name'];  ?> Image">
+                  <!-- <a>
                     <div class="mask rgba-white-slight"></div>
-                  </a>
+                  </a> -->
                 </div>
           
               </div>
-              <!-- Grid column -->
-          
-              <!-- Grid column -->
               <div class="col-lg-7">
           
-                <!-- Category -->
-                <!--<a href="#!" class="green-text">
-                  <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
-                </a> -->
+                <!-- Category  .. can make more filters like this --> 
+                <a  class="green-text">
+                  <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i><?php  echo $row['event_type'];  ?></h6>
+                </a>
                 <!-- Post title -->
-                <h3 class="font-weight-bold mb-3"><strong> <?php echo $row['event_name'];  ?> </strong></h3>
+                <h3 class="font-weight-bold mb-3"><strong><?php echo $row['name'];  ?> </strong></h3>
                 <!-- Excerpt -->
-                <p><?php  echo $row['type'];  ?> </p>
-                <!-- Post data -->
-                <p>Event on: <strong><?php echo $row['date'];  ?> </strong></p>
+                <p>
+                <?php echo $row['description'];  ?>
+                  </p>
+
+                <p>Event on: <strong><?php echo $row['start_date'];  ?> </strong></p>
                 <!-- Read more button -->
                 <!-- <a class="btn-md button">Read more</a> -->
           
@@ -142,18 +133,7 @@
           <?php   }   ?>
 
 
-          <div class="col-lg-12 col-md-6 portfolio-item filter-past">
-            <!-- <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div> -->
+          <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
             <div class="row">
 
               <!-- Grid column -->
@@ -161,18 +141,13 @@
           
                 <!-- Featured image -->
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image">
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
+                  <img class="featured-image"
+                  src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image">
+                  
                 </div>
           
               </div>
-              <!-- Grid column -->
-          
-              <!-- Grid column -->
               <div class="col-lg-7">
-          
                 <!-- Category -->
                 <a href="#!" class="green-text">
                   <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
@@ -180,8 +155,7 @@
                 <!-- Post title -->
                 <h3 class="font-weight-bold mb-3"><strong>All 2</strong></h3>
                 <!-- Excerpt -->
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                  placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
+                <p>A wiki enables communities of editors and contributors to write documents collaboratively. All that people require to contribute is a computer, Internet access, a web browser, and a basic understanding of a simple markup language (e.g. MediaWiki markup language). A single page in a wiki website is referred to as a "wiki page", while the entire collection of pages, which are usually well-interconnected by hyperlinks, is "the wiki". A wiki is essentially a database for creating, browsing, a djd judn</p>
                 <!-- Post data -->
                 <p>Event on: <strong>19/08/2018</strong></p>
                 <!-- Read more button -->
@@ -192,126 +166,13 @@
           
             </div>
           </div>
-<!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-past">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div> -->
 
         </div>
       </div>
     </section>
-    <!-- End Portfolio Section -->
 
   </main>
-  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">

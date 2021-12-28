@@ -112,8 +112,8 @@
 
 
       <div class="formGroup">
-        <label for="description">Description of event (upto ~150 char)<span class="required">*:</span> </label>
-        <textarea name="description" maxlength="150" required name="desc" placeholder="short description of event"
+        <label for="description">Description of event (upto 500 char)<span class="required">*:</span> </label>
+        <textarea name="description" maxlength="500" required name="desc" placeholder="short description of event"
           class="form-control"> </textarea>
       </div>
       <!-- write function to keep track of count and alert accordingly -->
