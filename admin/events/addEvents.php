@@ -50,6 +50,11 @@
       <div class="formGroup">
       </div>
       <div class="formGroup">
+
+      <label for="name">Verification code <span class="required">*</span>:</label>
+        <input type="number" name="code" class="form-control" placeholder="enter verification code " value="101" autocomplete="off" required />
+    <!-- delete value after db population -->
+
         <label for="name">Name of event<span class="required">*</span>:</label>
         <input type="text" name="name" class="form-control" placeholder="enter name" autocomplete="off" required />
       </div>
@@ -106,7 +111,7 @@
         <input type="date" class="form-control" name="end_date" id="end_date" value="" style="max-width: 30%;">
 
         <label for="recording_link">Recording Link of event:</label>
-        <input type="text" name="recording_link" class="form-control" placeholder="paste yt/fb link of event "
+        <input type="url" name="recording_link" class="form-control" placeholder="paste yt/fb link of event "
           autocomplete="off" />
       </div>
 

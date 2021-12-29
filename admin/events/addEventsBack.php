@@ -28,6 +28,7 @@
 	}
 
 // Escape user inputs for security
+$code = mysqli_real_escape_string($conn, $_REQUEST['code']);
 $name = mysqli_real_escape_string($conn, $_REQUEST['name']);
 $event_type = mysqli_real_escape_string($conn, $_REQUEST['event_type']);
 $start_date = mysqli_real_escape_string($conn, $_REQUEST['start_date']);
@@ -47,12 +48,11 @@ $path = '/assets/img/events/' . $newfilename;
 $file_type = $_FILES['file']['type'];
 
 $status = mysqli_real_escape_string($conn, $_REQUEST['status']);
-// checking duplicate entry 
+// check verification code 
+$code == 101 ? ($flag = 1 ): ($flag = 0);
 
-$flag = 0;
 
-
-if ($flag == 0) {
+if ($flag == 1) {
     //upload doc
     if ($file_type != "application/pdf") {
         if (move_uploaded_file($_FILES['file']['tmp_name'], $targetfolder)) {
@@ -81,7 +81,17 @@ if ($flag == 0) {
     <div class='alert alert-error'>
     ERROR: Could not able to execute $sql. </div>" . mysqli_error($conn);
     }
-};
+} else{
+    echo "
+    <div class='alert alert-error'>
+    Wrong verification code </br>
+    <p> Not a authenticated user to update events </p>
+
+   </div>";
+    echo ("<script>
+    setTimeout(function(){ window.location='addEvents.php' }, 4000);
+    </script>");
+}
 
 
 // Close connection
