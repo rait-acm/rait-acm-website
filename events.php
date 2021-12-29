@@ -27,10 +27,11 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/vendor/modal-video/modal-video.min.css" />
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/event.css">
+  <link rel="stylesheet" href="assets/css/modal.css">
 </head>
 
 <body>
@@ -91,19 +92,17 @@
 
           <div class="col-lg-12 col-md-6 portfolio-item filter-<?php echo strtolower($row['status']);  ?>">
        
-            <div class="row">
+            <div class="row row-container">
 
               <!-- Grid column -->
               <div class="col-lg-5">
           
                 <!-- Featured image  add alternative link -->
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img class="img-fluid"
+                  <img class="featured-image"
                    src="<?php  $img_url = $row['image'] == "" || null ? "https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" : ".".$row['image']; echo $img_url ;  ?>" 
                    alt="<?php echo $row['name'];  ?>" alt="<?php echo $row['name'];  ?> Image">
-                  <!-- <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a> -->
+
                 </div>
           
               </div>
@@ -121,9 +120,10 @@
                   </p>
 
                 <p>Event on: <strong><?php echo $row['start_date'];  ?> </strong></p>
-                <!-- Read more button -->
                 <!-- <a class="btn-md button">Read more</a> -->
-          
+            <button   onclick="openModal('https://www.youtube.com/embed/kzJBHiIBpfA?start=474');">View event </button>
+              
+
               </div>
               <!-- Grid column -->
           
@@ -132,6 +132,27 @@
 
           <?php   }   ?>
 
+<!-- ============= modal for event recording ==================== -->
+<div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <!-- <div class="numbertext">1 / 4</div> -->
+          <iframe
+            width="100%"
+            height="600"
+            src="https://www.youtube.com/embed/kzJBHiIBpfA?start=474"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="caption-container">
+          <p id="caption">caption</p>
+        </div>
+      </div>
+    </div>
 
           <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
             <div class="row">
@@ -155,7 +176,7 @@
                 <!-- Post title -->
                 <h3 class="font-weight-bold mb-3"><strong>All 2</strong></h3>
                 <!-- Excerpt -->
-                <p>A wiki enables communities of editors and contributors to write documents collaboratively. All that people require to contribute is a computer, Internet access, a web browser, and a basic understanding of a simple markup language (e.g. MediaWiki markup language). A single page in a wiki website is referred to as a "wiki page", while the entire collection of pages, which are usually well-interconnected by hyperlinks, is "the wiki". A wiki is essentially a database for creating, browsing, a djd judn</p>
+                <p>A wiki enables communities of editors and contributors to write contribute is a computer, Internet access, a web browser, and a basic understanding of a simple markup language (e.g. MediaWiki markup language). A single page in a wiki website is referred to as a "wiki page", while the entire collection of pages, which are usually well-interconnected by hyperlinks, is "the wiki". A wiki is essentially a database for creating, browsing, a djd judn</p>
                 <!-- Post data -->
                 <p>Event on: <strong>19/08/2018</strong></p>
                 <!-- Read more button -->
@@ -252,6 +273,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
 
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -259,11 +281,9 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <script src="assets/js/modal.js"></script>
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
