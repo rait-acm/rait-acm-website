@@ -4,6 +4,7 @@
     color: white;
     padding: 10px 15px 10px 15px;
     border-radius: 8px;
+    width: fit-content;
 }
 .button:hover{
     background-color: rgb(28, 173, 173);
@@ -16,8 +17,7 @@
     border-radius: 20px;
 }
 .view{
-    width: fit-content;
-    border-right: 1px solid grey;
+    /* width: fit-content; */
     padding-right: 60px;
     padding-left: 40px;
 }

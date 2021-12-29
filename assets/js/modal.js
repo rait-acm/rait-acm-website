@@ -2,6 +2,7 @@ function openModal(url) {
   var frames = document.getElementsByTagName("iframe");
   frames[0].src = url ?? "https://www.youtube.com/embed/kzJBHiIBpfA?start=474";
   document.getElementById("myModal").style.display = "block";
+
 }
 
 function closeModal() {
