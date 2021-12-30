@@ -114,7 +114,7 @@
       <!-- Post data -->
       <p>by <a><strong><?php echo $row["Authorname"];  ?></strong></a>, <?php echo date("d-m-Y", strtotime( $row['Bpostdate']));   ?></p>
       <!-- Read more button -->
-      <a class="btn-md button">Read more</a>
+      <?php echo '  <a class="btn-md button" href="blogs-inside.php?id='. $row["Bid"].'">Read more</a>  '; ?>
 
     </div>
     <!-- Grid column -->
