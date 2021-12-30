@@ -1,8 +1,12 @@
 function openModal(url) {
   var frames = document.getElementsByTagName("iframe");
-  frames[0].src = url ?? "https://www.youtube.com/embed/kzJBHiIBpfA?start=474";
+  let vidioSrc =
+    url != "" && url != null
+      ? url
+      : "https://www.youtube.com/embed/z0EXPWQgLFo";
+  frames[0].src = vidioSrc;
+  // url ?? "https://www.youtube.com/embed/z0EXPWQgLFo";
   document.getElementById("myModal").style.display = "block";
-
 }
 
 function closeModal() {

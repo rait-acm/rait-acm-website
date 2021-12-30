@@ -27,7 +27,6 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/vendor/modal-video/modal-video.min.css" />
 
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/event.css">
@@ -40,7 +39,6 @@
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
       <h1 class="logo"><a href="index.html"><img src="assets/img/acmlogo.png"></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
       <nav id="navbar" class="navbar">
@@ -63,24 +61,21 @@
   <main id="main">
 
  <section id="portfolio" class="portfolio">
+   <!-- ============= modal for event recording ==================== -->
     <div id="myModal" class="modal">
           <span class="close cursor" onclick="closeModal()">&times;</span>
           <div class="modal-content">
             <div class="mySlides">
-              <!-- <div class="numbertext">1 / 4</div> -->
               <iframe
                 width="100%"
                 height="600"
-                src="https://www.youtube.com/embed/kzJBHiIBpfA?start=474"
+                src=""
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </div>
-            <!-- <div class="caption-container">
-              <p id="caption">caption</p>
-            </div> -->
           </div>
         </div>
 
@@ -128,8 +123,7 @@
           
               </div>
               <div class="col-lg-7">
-          
-                <!-- Category  .. can make more filters like this --> 
+  <!-- Category   --> 
                 <a  class="green-text">
                   <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i><?php  echo $row['event_type'];  ?></h6>
                 </a>
@@ -142,7 +136,8 @@
 
                 <p>Event on: <strong><?php echo $row['start_date'];  ?> </strong></p>
                 <!-- <a class="btn-md button">Read more</a> -->
-            <div class="button"   onclick="openModal('https://www.youtube.com/embed/kzJBHiIBpfA?start=474');">View Event</div>
+            <div class="button" onclick="openModal(
+              <?php $row['recording_link'];  ?> );">View Event</div>
             
 
               </div>
@@ -153,7 +148,7 @@
 
           <?php   }   ?>
 
-<!-- ============= modal for event recording ==================== -->
+
 
           <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
             <div class="row">
@@ -189,107 +184,8 @@
             </div>
           </div>
           
-          <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
-            <div class="row">
 
-              <!-- Grid column -->
-              <div class="col-lg-5">
-          
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img class="featured-image"
-                  src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image">
-                  
-                </div>
-          
-              </div>
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="green-text">
-                  <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3"><strong>All 2</strong></h3>
-                <!-- Excerpt -->
-                <p>A wiki enables communities of editors and contributors to write contribute is a computer, Internet access, a web browser, and a basic understanding of a simple markup language (e.g. MediaWiki markup language). A single page in a wiki website is referred to as a "wiki page", while the entire collection of pages, which are usually well-interconnected by hyperlinks, is "the wiki". A wiki is essentially a database for creating, browsing, a djd judn</p>
-                <!-- Post data -->
-                <p>Event on: <strong>19/08/2018</strong></p>
-                <!-- Read more button -->
-                <div class="button"   onclick="openModal('https://www.youtube.com/embed/kzJBHiIBpfA?start=474');">View Event</div>
-          
-              </div>
-              <!-- Grid column -->
-          
-            </div>
-          </div>
-
-          <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
-            <div class="row">
-
-              <!-- Grid column -->
-              <div class="col-lg-5">
-          
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img class="featured-image"
-                  src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image">
-                  
-                </div>
-          
-              </div>
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="green-text">
-                  <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3"><strong>All 2</strong></h3>
-                <!-- Excerpt -->
-                <p>A wiki enables communities of editors and contributors to write contribute is a computer, Internet access, a web browser, and a basic understanding of a simple markup language (e.g. MediaWiki markup language). A single page in a wiki website is referred to as a "wiki page", while the entire collection of pages, which are usually well-interconnected by hyperlinks, is "the wiki". A wiki is essentially a database for creating, browsing, a djd judn</p>
-                <!-- Post data -->
-                <p>Event on: <strong>19/08/2018</strong></p>
-                <!-- Read more button -->
-                <div class="button"   onclick="openModal('https://www.youtube.com/embed/kzJBHiIBpfA?start=474');">View Event</div>
-          
-              </div>
-              <!-- Grid column -->
-          
-            </div>
-          </div>
-
-          <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
-            <div class="row">
-
-              <!-- Grid column -->
-              <div class="col-lg-5">
-          
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img class="featured-image"
-                  src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image">
-                  
-                </div>
-          
-              </div>
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="green-text">
-                  <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3"><strong>All 2</strong></h3>
-                <!-- Excerpt -->
-                <p>A wiki enables communities of editors and contributors to write contribute is a computer, Internet access, a web browser, and a basic understanding of a simple markup language (e.g. MediaWiki markup language). A single page in a wiki website is referred to as a "wiki page", while the entire collection of pages, which are usually well-interconnected by hyperlinks, is "the wiki". A wiki is essentially a database for creating, browsing, a djd judn</p>
-                <!-- Post data -->
-                <p>Event on: <strong>19/08/2018</strong></p>
-                <!-- Read more button -->
-                <div class="button"   onclick="openModal('https://www.youtube.com/embed/kzJBHiIBpfA?start=474');">View Event</div>
-          
-              </div>
-              <!-- Grid column -->
-          
-            </div>
-          </div>
+         
 
         </div>
       </div>
@@ -377,7 +273,6 @@
 
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
