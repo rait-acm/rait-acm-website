@@ -193,80 +193,78 @@
 
   </main>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+<!-- ======= Footer ======= -->
+<footer id="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>RAIT ACM<br>STUDENT CHAPTER</h3>
-            <p>
-              Ramrao Adik Institute Of Technology,<br>
-                Nerul,<br> Navi Mumbai. <br><br>
-              <strong>Phone:</strong> +91 7208363177<br>
-              <strong>Email:</strong> rait.ac.in<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="teams.html">Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="blogs.html">Blogs</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Domains</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Technical</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Editorial</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Publicity</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Creative</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Social Media</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Video Editing</a></li> -->
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>JOIN RAIT ACM TODAY</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <!-- <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form> -->
-            <a href="#">Join Us</a>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
+  <div class="footer-top">
     <div class="container">
+      <div class="row">
 
-      <div class="copyright-wrap d-md-flex py-4">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>RAIT ACM STUDENT CHAPTER 2021</span></strong>. All Rights Reserved
-          </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>RAIT ACM<br>STUDENT CHAPTER</h3>
+          <p>
+            Ramrao Adik Institute Of Technology,<br>
+              Nerul,<br> Navi Mumbai. <br><br>
+            <strong>Phone:</strong> +91 7208363177<br>
+            <strong>Email:</strong> reachraitacm@gmail.com<br>
+          </p>
         </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="teams.html">Team</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="blogs.html">Blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Domains</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Technical</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Management</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Editorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Publicity</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Creative</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Social Media</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>JOIN RAIT ACM TODAY</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          
+          <a href="#">Join Us</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="copyright-wrap d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>RAIT ACM STUDENT CHAPTER 2021.</span></strong> All Rights Reserved
         </div>
       </div>
-
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://twitter.com/RaitACM" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/raitacm" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/rait_acm" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UC9kmsJxDB_nXdgYyY1-0K8w" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/rait-acm-student-chapter-034026197/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/rait-acm" class="github"><i class="bx bxl-github"></i></a>
+      </div>
     </div>
 
-  </footer><!-- End Footer -->
+  </div>
+</footer>
+<!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
