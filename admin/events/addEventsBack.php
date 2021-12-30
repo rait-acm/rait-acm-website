@@ -32,11 +32,11 @@ $code = mysqli_real_escape_string($conn, $_REQUEST['code']);
 $name = mysqli_real_escape_string($conn, $_REQUEST['name']);
 $event_type = mysqli_real_escape_string($conn, $_REQUEST['event_type']);
 $start_date = mysqli_real_escape_string($conn, $_REQUEST['start_date']);
-$temp_end_date = mysqli_real_escape_string($conn, $_REQUEST['end_date']);
-$end_date = $temp_end_date ;// cheack if it's only one day event 
+$end_date = mysqli_real_escape_string($conn, $_REQUEST['end_date']);
+
+//$end_date = $temp_end_date ;// cheack if it's only one day event 
 $desc = mysqli_real_escape_string($conn, $_REQUEST['description']);
 $recording_link = mysqli_real_escape_string($conn, $_REQUEST['recording_link']);
-// $finalvenue = ($ven == 'Other') ?  $newven : $ven;
 $filename = $_FILES["file"]["name"];
 $temp = explode(".", $filename); //sep filename and extension
 $file_ext = substr($filename, strripos($filename, '.')); //getting extension

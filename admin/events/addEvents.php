@@ -108,7 +108,7 @@
         </script>
         <br>
         <label class="End date" for="date">End Date:</label>
-        <input type="date" class="form-control" name="end_date" id="end_date" value="" style="max-width: 30%;">
+        <input type="date" class="form-control" name="end_date" id="end_date"  style="max-width: 30%;">
 
         <label for="recording_link">Recording Link of event:</label>
         <input type="url" name="recording_link" class="form-control" placeholder="paste yt/fb link of event "
