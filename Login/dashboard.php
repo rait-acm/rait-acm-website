@@ -88,8 +88,6 @@ if(isset($_SESSION['user_name']))
                   <button class="dropbtn">View Achievements</button>
                   <div class="dropdown-content">
                     <a href='Download(backend).php?file=<?php echo $_SESSION['password']; ?>'>Hour of Code</a>
-                    <a href="#">Certi 2</a>
-                    <a href="#">Certi 3</a>
                   </div>
                 </div>
               </div>
