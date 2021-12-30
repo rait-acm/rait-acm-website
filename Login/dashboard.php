@@ -47,13 +47,13 @@ if(isset($_SESSION['user_name']))
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="../index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="../index.html">About</a></li>
-          <li><a class="nav-link scrollto" href="../index.html">Domains</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Events</a></li>
+          <li><a class="nav-link scrollto " href="../index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#services">Domains</a></li>
+          <li><a class="nav-link scrollto " href="../events.php">Events</a></li>
           <li><a class="nav-link scrollto" href="../teams.html">Team</a></li>
-          <li><a class="nav-link scrollto" href="../blogs.html">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="../index.html">Contact</a></li>
+          <li><a class="nav-link scrollto" href="../blogs.php">Blogs</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="logout.php">Logout</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
