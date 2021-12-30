@@ -43,8 +43,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html">Domains</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Domains</a></li>
           <li><a class="nav-link scrollto " href="events.html">Events</a></li>
           <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
           <li><a class="nav-link scrollto" href="#portfolio-details">Blogs</a></li>
@@ -135,15 +135,15 @@
               Ramrao Adik Institute Of Technology,<br>
                 Nerul,<br> Navi Mumbai. <br><br>
               <strong>Phone:</strong> +91 7208363177<br>
-              <strong>Email:</strong> rait.ac.in<br>
+              <strong>Email:</strong> reachraitacm@gmail.com<br>
             </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="teams.html">Team</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="blogs.html">Blogs</a></li>
@@ -153,12 +153,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Domains</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Technical</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Editorial</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Publicity</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Creative</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Social Media</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Technical</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Editorial</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Publicity</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Creative</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Social Media</a></li>
             </ul>
           </div>
 
@@ -182,11 +182,12 @@
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/RaitACM" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/raitacm" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/rait_acm" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC9kmsJxDB_nXdgYyY1-0K8w" class="youtube"><i class="bx bxl-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/rait-acm-student-chapter-034026197/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/rait-acm" class="github"><i class="bx bxl-github"></i></a>
         </div>
       </div>
 
@@ -203,7 +204,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
