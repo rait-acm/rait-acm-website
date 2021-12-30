@@ -77,7 +77,7 @@
 
   <?php
         
-        $sql = "SELECT * FROM blog";
+        $sql = "SELECT * FROM blog order by Bpostdate DESC";
         $result = $conn->query($sql);
 
         while ($row = $result->fetch_assoc()) {
