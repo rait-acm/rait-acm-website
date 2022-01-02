@@ -12,8 +12,8 @@ if(isset($_SESSION['user_name']))
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Dashboard</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Members Section| Membership Card| Achivements| RAIT ACM STUDENT CHAPTER" name="description">
+  <meta content="members, certificates, Membership Card, acm, raitacm, membership card, achivements, " name="keywords">
 
   <!-- Favicons -->
   <link href="../assets/img/acmlogo.png" rel="icon">
