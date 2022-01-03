@@ -43,8 +43,18 @@ $file_ext = substr($filename, strripos($filename, '.')); //getting extension
 $newfilename =  $name . '_' . $start_date . $file_ext; //giving new name
 $ok = 1;
 $targetfolder = '../../assets/img/events/' . $newfilename; 
-$path = '/assets/img/events/' . $newfilename; 
+
+// Function to remove the spacial chars like " and ' from img path 
+function RemoveSpecialChar($str) {
+    $res = str_replace( array( '\'', '"',
+    ',' , ';', '<', '>' ), '', $str);
+    // Returning the result 
+    return $res;
+    }
+
+$path = '/assets/img/events/' . RemoveSpecialChar($newfilename); 
 // check path and link
+
 $file_type = $_FILES['file']['type'];
 
 $status = mysqli_real_escape_string($conn, $_REQUEST['status']);

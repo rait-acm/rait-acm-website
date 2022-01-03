@@ -6,7 +6,7 @@
                               <meta content="width=device-width, initial-scale=1.0" name="viewport">
                             
                               <title>Login</title>
-                              <meta content="Member's Section | RAIT ACM STUDENT CHAPTER" name="description">
+                              <meta content="Member Login | RAIT ACM STUDENT CHAPTER" name="description">
                               <meta content="members, raitacm, membership card, achivements, " name="keywords">
                             
                               <!-- Favicons -->
