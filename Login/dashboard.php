@@ -47,9 +47,9 @@ if(isset($_SESSION['user_name']))
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="../index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto " href="../index.html#home">Home</a></li>
           <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="../index.html#services">Domains</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#domain">Domains</a></li>
           <li><a class="nav-link scrollto " href="../events.php">Events</a></li>
           <li><a class="nav-link scrollto" href="../teams.html">Team</a></li>
           <li><a class="nav-link scrollto" href="../blogs.php">Blogs</a></li>

@@ -44,10 +44,10 @@
         <ul>
           <li><a class="nav-link scrollto " href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">Domains</a></li>
+          <li><a class="nav-link scrollto" href="index.html#domain">Domains</a></li>
           <li><a class="nav-link scrollto " href="events.html">Events</a></li>
           <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio-details">Blogs</a></li>
+          <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="Login/index.php">Login</a></li>
         </ul>
@@ -153,12 +153,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Domains</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Technical</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Editorial</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Publicity</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Creative</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Social Media</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Technical</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Editorial</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Publicity</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Creative</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Social Media</a></li>
             </ul>
           </div>
 
