@@ -31,6 +31,9 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/event.css">
   <link rel="stylesheet" href="assets/css/modal.css">
+  <link rel="stylesheet" href="assets/css/pagination.css">
+
+
 </head>
 
 <body>
@@ -183,7 +186,7 @@
           
             </div>
           </div>
-          
+          <script src="assets/js/pagination.js"></script>
 
          
 
