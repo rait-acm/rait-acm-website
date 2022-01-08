@@ -10,9 +10,15 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Blogs</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+    <meta
+      content="Blogs|Ediotorial Team RAIT-ACM. RAIT-ACM Student Chapter is recognized by the International Level Association of Computing Machinery, the World’s Largest Educational and Scientific Computing Society. The Aim of our chapter is to bring together and train students in the domains of creative thinking, problem-solving, programming and management. Interpersonal skills like team building and communication skills are also nurtured through the various activities that we conduct.  We also organize talks, workshops, seminars, and our technical fest “Elixir” along with two 24 hour programming competitions, ‘Hackathon’ and ‘Codeathon’ respectively.
+"
+      name="description"
+    />
+    <meta
+      content="Blog, raitacm,crypography, ml-ai, machine learning, data science, python, nft, learning, "
+      name="keywords"
+    />
   <!-- Favicons -->
   <link href="assets/img/acmlogo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">

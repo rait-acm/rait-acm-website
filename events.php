@@ -118,15 +118,14 @@ $status = $date1 < $date2 ? "past" : "upcoming";
         ?>
 
           <div
-          class="col-lg-12 col-md-6 portfolio-item  filter-<?php  echo setStatusClass($row['start_date']);  ?>" 
+          class="col-lg-12 col-md-6 portfolio-item  
+          filter-<?php  echo setStatusClass($row['start_date']);  ?>" 
           id = "event-<?php echo $row['e_id'];  ?>"
            >
             <div class="row row-container">
               <div class="col-lg-5">
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
                   <img class="featured-image"
-           
-                  id = "eventImg-<?php echo $row['e_id'];  ?>"
                   src= ".<?php echo $row['image']; ?>"
                    alt="<?php echo $row['name'];  ?> Image"
                    onerror= "this.οnerrοr='';
@@ -145,7 +144,13 @@ $status = $date1 < $date2 ? "past" : "upcoming";
                 <?php echo $row['description'];  ?>
                   </p>
 
-                <p>Event on: <strong><?php echo $row['start_date'];  ?> </strong></p>
+                <p>📆: <strong>
+                  <?php $sdate = date_create($row['start_date']);
+                  $edate = date_create($row['end_date']); 
+                  if($row['start_date'] != $row['end_date'] ){ echo date_format($sdate,"d M").' to '. date_format($edate,"d M Y");} 
+                  else echo date_format($sdate,"d M Y") ; 
+                  ;  ?>
+                  </strong></p>
             <div class="button" onclick="openModal(
               <?php $row['recording_link'];  ?> );">View Event</div>
               </div>
