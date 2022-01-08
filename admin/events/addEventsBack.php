@@ -56,7 +56,7 @@ $path = '/assets/img/events/' . RemoveSpecialChar($newfilename);
 
 $file_type = $_FILES['file']['type'];
 
-$status = mysqli_real_escape_string($conn, $_REQUEST['status']);
+// $status = mysqli_real_escape_string($conn, $_REQUEST['status']);
 // check verification code 
 $code == 101 ? ($flag = 1 ): ($flag = 0);
 

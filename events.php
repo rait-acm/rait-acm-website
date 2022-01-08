@@ -10,9 +10,11 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Events</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+    <meta content="Events by RAIT ACM STUDENT CHAPTER" name="description" />
+    <meta
+      content="CODEJAM , Prequel to Perfection, techfest, Workshops, webinars, hour of code, hackthon, codethon, raitacm , rait,  "
+      name="keywords"
+    />
   <!-- Favicons -->
   <link href="assets/img/acmlogo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -37,7 +39,6 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
@@ -116,7 +117,7 @@ $status = $date1 < $date2 ? "past" : "upcoming";
                     while ($row = $result->fetch_assoc()) {
         ?>
 
-          <div  
+          <div
           class="col-lg-12 col-md-6 portfolio-item  filter-<?php  echo setStatusClass($row['start_date']);  ?>" 
           id = "event-<?php echo $row['e_id'];  ?>"
            >
@@ -124,12 +125,13 @@ $status = $date1 < $date2 ? "past" : "upcoming";
               <div class="col-lg-5">
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
                   <img class="featured-image"
-                  loading="lazy"
-                  id = "eventImg-<?php echo $row['e_id'];  ?>
-                   src="<?php  $img_url = $row['image'] == "" || null ? "https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" : ".".$row['image']; echo $img_url ;  ?>" 
+           
+                  id = "eventImg-<?php echo $row['e_id'];  ?>"
+                  src= ".<?php echo $row['image']; ?>"
                    alt="<?php echo $row['name'];  ?> Image"
-                   onerror="checkImg(this.id)"  
-                   >                   <!-- pass category and id to map default poster -->
+                   onerror= "this.οnerrοr='';
+                   this.src='assets/img/events/default/<?php $cat =  $row['event_type']; $eventType= (explode(' ', $cat)[0]); echo strtolower($eventType); ?>-default.webp'" 
+                   >                   <!-- pass category and id to map default poster  -->
                 </div>
               </div>
               <div class="col-lg-7">
@@ -146,70 +148,21 @@ $status = $date1 < $date2 ? "past" : "upcoming";
                 <p>Event on: <strong><?php echo $row['start_date'];  ?> </strong></p>
             <div class="button" onclick="openModal(
               <?php $row['recording_link'];  ?> );">View Event</div>
-            
-
               </div>
-          
             </div>
           </div>
-
+          
           <?php   }   ?>
 
 
-
-          <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-5">
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img class="featured-image"
-                  id='11'
-                  src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image"
-                  onerror="checkImg(this.id)">
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="green-text">
-                  <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3"><strong>All 2</strong></h3>
-                <!-- Excerpt -->
-                <p>A wiki enables communities of editors and contributors to write contribute is a computer, Internet access, a web browser, and a basic understanding of a simple markup language (e.g. MediaWiki markup language). A single page in a wiki website is referred to as a "wiki page", while the entire collection of pages, which are usually well-interconnected by hyperlinks, is "the wiki". A wiki is essentially a database for creating, browsing, a djd judn</p>
-                <!-- Post data -->
-                <p>Event on: <strong>19/08/2018</strong></p>
-                <!-- Read more button -->
-                <div class="button"   onclick="openModal('https://www.youtube.com/embed/kzJBHiIBpfA?start=474');">View Event</div>
-          
-              </div>
-              <!-- Grid column -->
-          
-            </div>
-          </div>
           <script src="assets/js/pagination.js"></script>
-
-         
 
         </div>
       </div>
     </section>
 
   </main>
-<script>
-  function checkImg (eventId){
-  let imgSrc = document.getElementById(eventId)
-  alert(eventId)
-  console.log(eventId)
-}
-function addCardProps (eventId ) // "event"+primary key
-{
-  alert(eventId)
-  let imgSrc = document.getElementById(imgId)
-}
-
-
-</script>
+  
 <!-- ======= Footer ======= -->
 <footer id="footer">
 
