@@ -94,7 +94,7 @@
 
       <!-- Featured image -->
       <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514" alt="Sample image">
         <a>
           <div class="mask rgba-white-slight"></div>
         </a>

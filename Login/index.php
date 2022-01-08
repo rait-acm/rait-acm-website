@@ -90,9 +90,9 @@
                                                           </div>
                                                         </div>
                                                       
-                                                        <div class="forgotpass">
+                                                        <!-- <div class="forgotpass">
                                                             <a>Forgot Password?</a>
-                                                        </div>
+                                                        </div> -->
                                                         <div class="mt-3">
                                                             <div class="button" type="submit" value="Login" name="submit">
                                                                 <input type="submit" value="Login" name="submit">
