@@ -34,7 +34,6 @@ $event_type = mysqli_real_escape_string($conn, $_REQUEST['event_type']);
 $start_date = mysqli_real_escape_string($conn, $_REQUEST['start_date']);
 $end_date = mysqli_real_escape_string($conn, $_REQUEST['end_date']);
 
-//$end_date = $temp_end_date ;// cheack if it's only one day event 
 $desc = mysqli_real_escape_string($conn, $_REQUEST['description']);
 $recording_link = mysqli_real_escape_string($conn, $_REQUEST['recording_link']);
 $filename = $_FILES["file"]["name"];
@@ -76,7 +75,7 @@ if ($flag == 1) {
     }
 
     // Attempt insert query execution
-    $sql = "INSERT INTO events (name, event_type, start_date, end_date, recording_link, description,image, status) VALUES ( '$name','$event_type', '$start_date', $end_date,'$recording_link','$desc' , '$path', '$status')";
+    $sql = "INSERT INTO events (name, event_type, start_date, end_date, recording_link, description,image) VALUES ( '$name','$event_type', '$start_date', '$end_date','$recording_link','$desc','$path' )";
     if (mysqli_query($conn, $sql)) {
         echo ("<div class='alert alert-success'>
 

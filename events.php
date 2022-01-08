@@ -70,7 +70,7 @@
                 width="100%"
                 height="600"
                 src=""
-                title="YouTube video player"
+                title="Event Video"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
@@ -100,27 +100,34 @@
         <div class="row portfolio-container">
 
         <?php
-                    $sql = "SELECT * FROM events";
+
+function setStatusClass($sdate) {
+  $date1 = new DateTime($sdate);
+  $date2 = new DateTime();
+$status = $date1 < $date2 ? "past" : "upcoming";
+  return $status;
+}
+                    $sql = "SELECT * FROM events ORDER BY start_date DESC";
                     $result = $conn->query($sql);
                     $a = 1;
                     while ($row = $result->fetch_assoc()) {
         ?>
 
-          <div class="col-lg-12 col-md-6 portfolio-item filter-<?php echo strtolower($row['status']);  ?>">
-       
+          <div  
+          class="col-lg-12 col-md-6 portfolio-item  filter-<?php  echo setStatusClass($row['start_date']);  ?>" 
+          id = "event-<?php echo $row['e_id'];  ?>"
+           >
             <div class="row row-container">
-
-              <!-- Grid column -->
               <div class="col-lg-5">
-          
-                <!-- Featured image  add alternative link -->
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
                   <img class="featured-image"
+                  loading="lazy"
+                  id = "eventImg-<?php echo $row['e_id'];  ?>
                    src="<?php  $img_url = $row['image'] == "" || null ? "https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" : ".".$row['image']; echo $img_url ;  ?>" 
-                   alt="<?php echo $row['name'];  ?>" alt="<?php echo $row['name'];  ?> Image">
-
+                   alt="<?php echo $row['name'];  ?> Image"
+                   onerror="checkImg(this.id)"  
+                   >                   <!-- pass category and id to map default poster -->
                 </div>
-          
               </div>
               <div class="col-lg-7">
   <!-- Category   --> 
@@ -129,19 +136,16 @@
                 </a>
                 <!-- Post title -->
                 <h3 class="font-weight-bold mb-3"><strong><?php echo $row['name'];  ?> </strong></h3>
-                <!-- Excerpt -->
                 <p>
                 <?php echo $row['description'];  ?>
                   </p>
 
                 <p>Event on: <strong><?php echo $row['start_date'];  ?> </strong></p>
-                <!-- <a class="btn-md button">Read more</a> -->
             <div class="button" onclick="openModal(
               <?php $row['recording_link'];  ?> );">View Event</div>
             
 
               </div>
-              <!-- Grid column -->
           
             </div>
           </div>
@@ -152,17 +156,14 @@
 
           <div class="col-lg-12 col-md-6 portfolio-item filter-past ">
             <div class="row">
-
               <!-- Grid column -->
               <div class="col-lg-5">
-          
-                <!-- Featured image -->
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
                   <img class="featured-image"
-                  src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image">
-                  
+                  id='11'
+                  src="https://mdbootstrap.com/img/Photos/Others/img%20(28).jpg" alt="Sample image"
+                  onerror="checkImg(this.id)">
                 </div>
-          
               </div>
               <div class="col-lg-7">
                 <!-- Category -->
@@ -192,7 +193,20 @@
     </section>
 
   </main>
+<script>
+  function checkImg (eventId){
+  let imgSrc = document.getElementById(eventId)
+  alert(eventId)
+  console.log(eventId)
+}
+function addCardProps (eventId ) // "event"+primary key
+{
+  alert(eventId)
+  let imgSrc = document.getElementById(imgId)
+}
 
+
+</script>
 <!-- ======= Footer ======= -->
 <footer id="footer">
 
