@@ -55,7 +55,7 @@
           <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
           <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="Login/index.php">Login</a></li>
+          <li><a class="getstarted scrollto" href="Member/index.php">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
