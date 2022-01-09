@@ -27,8 +27,8 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
 
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/event.css">
@@ -190,9 +190,9 @@ $status = $date1 < $date2 ? "past" : "upcoming";
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="events.php">Events</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="teams.html">Team</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="blogs.html">Blogs</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="blogs.php">Blogs</a></li>
           </ul>
         </div>
 

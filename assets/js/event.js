@@ -1,7 +1,6 @@
 // need to be loaded before mapping
 //import img from "../../assets/img/events/";
 function setImg(imgId, eventType) {
-  console.log("error", imgId, eventType);
   let imgSrc;
   let category = eventType?.split(" ")[0];
   Boolean(category)

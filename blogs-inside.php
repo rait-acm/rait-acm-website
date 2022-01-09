@@ -75,10 +75,10 @@ function readDocx($filePath) {
         <ul>
           <li><a class="nav-link scrollto " href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html">Domains</a></li>
-          <li><a class="nav-link scrollto " href="events.html">Events</a></li>
+          <li><a class="nav-link scrollto" href="index.html#domain">Domains</a></li>
+          <li><a class="nav-link scrollto " href="events.php">Events</a></li>
           <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
-          <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
+          <li><a class="nav-link scrollto" href="index.html#blogs">Blogs</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="login.html">Login</a></li>
         </ul>
