@@ -1,22 +1,31 @@
 function openModal(url) {
   var frames = document.getElementsByTagName("iframe");
-  let vidioSrc =
-    url != "" && url != null
-      ? url
-      : "https://www.youtube.com/embed/z0EXPWQgLFo";
-  frames[0].src = vidioSrc;
-  // url ?? "https://www.youtube.com/embed/z0EXPWQgLFo";
   alert(frames[0].src);
+  let vSrc = verifyLink(url);
+  frames[0].src = vSrc;
   document.getElementById("myModal").style.display = "block";
 }
 
+function verifyLink(link) {
+  let arr = link?.split("/");
+  // console.log(link, "arr", arr);
+  if (arr.includes("embed")) {
+    return link;
+  }
+  return "https://www.youtube.com/embed/z0EXPWQgLFo";
+}
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
   var frames = document.getElementsByTagName("iframe");
   frames[0].src = "";
-
-  // frames[i].pause()
 }
+
+// function errorVid() {
+//   var frames = document.getElementsByTagName("iframe");
+//   alert("error fixing");
+//   let vSrc = "https://www.youtube.com/embed/z0EXPWQgLFo";
+//   frames[0].src = vSrc;
+// }
 
 var slideIndex = 1;
 showSlides(slideIndex);

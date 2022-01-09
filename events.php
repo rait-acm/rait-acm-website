@@ -27,8 +27,6 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
-  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
 
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/event.css">
@@ -78,6 +76,7 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
+                
               ></iframe>
             </div>
           </div>
@@ -135,7 +134,7 @@ $status = $date1 < $date2 ? "past" : "upcoming";
               </div>
               <div class="col-lg-7">
   <!-- Category   --> 
-                <a  class="green-text">
+                <a  class="green-text" >
                   <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i><?php  echo $row['event_type'];  ?></h6>
                 </a>
                 <!-- Post title -->
@@ -151,9 +150,14 @@ $status = $date1 < $date2 ? "past" : "upcoming";
                   else echo date_format($sdate,"d M Y") ; 
                   ;  ?>
                   </strong></p>
-            <div class="button" onclick="openModal(
-              <?php $row['recording_link'];  ?> );">View Event</div>
+
+            <div class="button" style="display:  <?php $showBtn = $row['recording_link'] == '' ? 'none': 'block'; echo($showBtn) ;  ?> ;" 
+            onclick="openModal(`<?php echo $row['recording_link'];  ?>`)">
+              View Event
+            </div>
+            
               </div>
+
             </div>
           </div>
           
