@@ -1,6 +1,6 @@
 function openModal(url) {
   var frames = document.getElementsByTagName("iframe");
-  alert(frames[0].src);
+  // alert(frames[0].src);
   let vSrc = verifyLink(url);
   frames[0].src = vSrc;
   document.getElementById("myModal").style.display = "block";

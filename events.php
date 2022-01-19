@@ -143,7 +143,7 @@ $status = $date1 < $date2 ? "past" : "upcoming";
                 <?php echo $row['description'];  ?>
                   </p>
 
-                <p>📆: <strong>
+                <p>📆 <strong>
                   <?php $sdate = date_create($row['start_date']);
                   $edate = date_create($row['end_date']); 
                   if($row['start_date'] != $row['end_date'] ){ echo date_format($sdate,"d M").' to '. date_format($edate,"d M Y");} 
