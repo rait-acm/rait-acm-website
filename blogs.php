@@ -10,9 +10,15 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Blogs</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+    <meta
+      content="Blogs|Ediotorial Team RAIT-ACM. RAIT-ACM Student Chapter is recognized by the International Level Association of Computing Machinery, the World’s Largest Educational and Scientific Computing Society. The Aim of our chapter is to bring together and train students in the domains of creative thinking, problem-solving, programming and management. Interpersonal skills like team building and communication skills are also nurtured through the various activities that we conduct.  We also organize talks, workshops, seminars, and our technical fest “Elixir” along with two 24 hour programming competitions, ‘Hackathon’ and ‘Codeathon’ respectively.
+"
+      name="description"
+    />
+    <meta
+      content="Blog, raitacm,crypography, ml-ai, machine learning, data science, python, nft, learning, "
+      name="keywords"
+    />
   <!-- Favicons -->
   <link href="assets/img/acmlogo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -44,12 +50,12 @@
         <ul>
           <li><a class="nav-link scrollto " href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">Domains</a></li>
-          <li><a class="nav-link scrollto " href="events.html">Events</a></li>
+          <li><a class="nav-link scrollto" href="index.html#domain">Domains</a></li>
+          <li><a class="nav-link scrollto " href="events.php">Events</a></li>
           <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio-details">Blogs</a></li>
+          <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="Login/index.php">Login</a></li>
+          <li><a class="getstarted scrollto" href="Member/index.php">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -88,7 +94,7 @@
 
       <!-- Featured image -->
       <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514" alt="Sample image">
         <a>
           <div class="mask rgba-white-slight"></div>
         </a>
@@ -146,19 +152,19 @@
               <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="teams.html">Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="blogs.html">Blogs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blogs.php">Blogs</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Domains</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Technical</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Editorial</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Publicity</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Creative</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Social Media</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Technical</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Editorial</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Publicity</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Creative</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#domain">Social Media</a></li>
             </ul>
           </div>
 
@@ -200,7 +206,7 @@
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <!-- <script src="assets/vendor/glightbox/js/glightbox.min.js"></script> -->
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 

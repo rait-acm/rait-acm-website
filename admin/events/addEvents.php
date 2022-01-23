@@ -59,10 +59,6 @@
         <input type="text" name="name" class="form-control" placeholder="enter name" autocomplete="off" required />
       </div>
 
-      <!-- <div class="formGroup">
-        <label for="">Orientation Subject<span class="required">*</span>:</label>
-        <input type="text" name="Subject" class="form-control" placeholder="Orientation Subject" required>
-      </div> -->
       <div class="formGroup">
         <label for="type">Type<span class="required">*</span>:</label>
         <select name="event_type" id="event_type" required class="form-control">
@@ -101,9 +97,9 @@
             }
 
             let today = new Date()
-            if (sdate.getTime() > today.getTime()) {
-              document.getElementById("status").value = "Upcoming"
-            }
+            // if (sdate.getTime() > today.getTime()) {
+            //   document.getElementById("status").value = "upcoming"
+            // }
           }
         </script>
         <br>
@@ -125,14 +121,14 @@
 
       <label name="img">Image of event<span class="required">*:</span> </label>
       <input type="file" name="file" size="50" class="form-control" /><br>
-      <div class="formGroup">
+      <!-- <div class="formGroup">
         <label class="status">Status <span class="required"></span></label>
         <select list="status-list" class="form-control" id="status" name="status"
           style=" margin-bottom:20px ;max-width:30%">
           <option default selected value="Past" default selected>Past</option>
           <option value="Ongoing">Ongoing</option>
           <option value="Upcoming">Upcoming</option>
-      </div>
+      </div> -->
 
       <input type="submit" class="btn btn-danger" name="Next" action="">
       <input type="reset" class="btn btn-danger" value="Clear">

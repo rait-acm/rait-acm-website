@@ -6,8 +6,8 @@
                               <meta content="width=device-width, initial-scale=1.0" name="viewport">
                             
                               <title>Login</title>
-                              <meta content="" name="description">
-                              <meta content="" name="keywords">
+                              <meta content="Member Login | RAIT ACM STUDENT CHAPTER" name="description">
+                              <meta content="members, raitacm, membership card, achivements, " name="keywords">
                             
                               <!-- Favicons -->
                               <link href="../assets/img/acmlogo.png" rel="icon">
@@ -21,7 +21,6 @@
                               <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
                               <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
                               <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-                              <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
                               <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
                             
                               <!-- Template Main CSS File -->
@@ -49,9 +48,9 @@
                             
                                   <nav id="navbar" class="navbar">
                                     <ul>
-                                      <li><a class="nav-link scrollto " href="../index.html#hero">Home</a></li>
+                                      <li><a class="nav-link scrollto " href="../index.html#home">Home</a></li>
                                       <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
-                                      <li><a class="nav-link scrollto" href="../index.html#services">Domains</a></li>
+                                      <li><a class="nav-link scrollto" href="../index.html#domain">Domains</a></li>
                                       <li><a class="nav-link scrollto " href="../events.php">Events</a></li>
                                       <li><a class="nav-link scrollto" href="../teams.html">Team</a></li>
                                       <li><a class="nav-link scrollto" href="../blogs.php">Blogs</a></li>
@@ -90,9 +89,9 @@
                                                           </div>
                                                         </div>
                                                       
-                                                        <div class="forgotpass">
+                                                        <!-- <div class="forgotpass">
                                                             <a>Forgot Password?</a>
-                                                        </div>
+                                                        </div> -->
                                                         <div class="mt-3">
                                                             <div class="button" type="submit" value="Login" name="submit">
                                                                 <input type="submit" value="Login" name="submit">
@@ -119,18 +118,15 @@
                               <div id="preloader"><img src="/assets/img/preloader-acm-vit.gif"></div>
                             
                               <!-- Vendor JS Files -->
-                              <script src="../assets/vendor/purecounter/purecounter.js"></script>
+                             
                               <script src="../assets/vendor/aos/aos.js"></script>
                               <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                              <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+                            
                               <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
                               <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-                              <script src="../assets/vendor/php-email-form/validate.js"></script>
+                              
                               <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'></script>
-                                <script type='text/javascript' src=''></script>
-                                <script type='text/javascript' src=''></script>
-                            
-                              <!-- Template Main JS File -->
+
                               <script src="../assets/js/main.js"></script>
                             
                             </body>
