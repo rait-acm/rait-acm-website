@@ -8,6 +8,13 @@ html {
 	color: #000;
 }
 
+section{
+  min-width: 100vw;
+}
+a {
+  outline: none;
+}
+
 @media screen and (min-width: 700px) {
 	body > article {
 		display: flex;
@@ -21,7 +28,7 @@ html {
 		position: sticky;
 		top: 0;
 		overflow: hidden;
-		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+		/* box-shadow: 4px -4px 8px rgba(0,0,0,.4); */
 			}
 	figure::after {
 		content: '';
@@ -30,11 +37,11 @@ html {
 		right: 5vmin;
 		bottom: 5vmin;
 		left: 45%;
-		border: 2px dashed #fff;
+		/* border: 2px dashed #fff;
 		outline: 1px solid #fff;
 		outline-offset: -5vmin;
 		backdrop-filter: grayscale(1);
-		pointer-events: none;
+		pointer-events: none; */
 			}
 	figure:nth-of-type(2n)::after {
 		right: 45%;
@@ -516,3 +523,6 @@ html {
     opacity: 1;
   }
   
+  img {
+    max-width: 100%;
+  }
