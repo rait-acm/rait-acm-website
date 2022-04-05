@@ -119,8 +119,10 @@ $status = $date1 < $date2 ? "past" : "upcoming";
           <div
           class="col-lg-12 col-md-6 portfolio-item  
           filter-<?php  echo setStatusClass($row['start_date']);  ?>" 
-          id = "event-<?php echo $row['e_id'];  ?>"
-           >
+          id = "<?php echo  strtolower(str_replace(" ", "-", $row['name'])) ?>"   
+       
+           > 
+           <!--  ideal id to avoid duplicates-  echo  strtolower(str_replace(" ", "-", $row['name'])) .'-' . $row['e_id'];  -->
             <div class="row row-container">
               <div class="col-lg-5">
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
