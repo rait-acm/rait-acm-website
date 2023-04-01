@@ -1,1424 +1,1097 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Teams</title>
-    <meta content="RAIT ACM TEAM 2021-22" name="description" />
-    <meta content="Core team , non-Core, 2021-22, posts" name="keywords" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teams</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <!-- Favicons -->
-    <link href="assets/img/acmlogo.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <!-- fontawsome -->
+  <script src="https://kit.fontawesome.com/f4285c8a48.js" crossorigin="anonymous"></script>
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+  <!-- google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
 
-    <!-- CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <!-- <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    /> -->
+  <!-- css links -->
+  <link rel="stylesheet" href="/assets//css/style.css">
+  <link rel="stylesheet" href="/assets/css/teams.css">
 
-    <!-- Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/teams.css" rel="stylesheet" />
-  </head>
+</head>
 
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top header-inner-pages">
-      <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo">
-          <a href="index.html"><img src="assets/img/acmlogo.png" /></a>
-        </h1>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="nav-img" src="/assets/img/acmlogo rait.png" alt="RAITACM">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Domain">Domains</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#events-section">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Blogs/index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/joinus_Benefits/joinUs/JoinUs.html">Join us</a>
+          </li>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-            <li>
-              <a class="nav-link scrollto" href="index.html#about">About</a>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="index.html#domain">Domains</a>
-            </li>
-            <li><a class="nav-link scrollto" href="events.php">Events</a></li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="blogs.php">Blogs</a></li>
-            <li>
-              <a class="nav-link scrollto" href="index.html#contact">Contact</a>
-            </li>
-            <!-- <li><a class="getstarted scrollto" href="./Member">Login</a></li> -->
-            <li>
-              <button class="custom-btn btn-7"><span href="kleoswebsite/index.html">Kleos</span></button>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
+        </ul>
       </div>
-    </header>
-    <!-- End Header -->
+    </div>
+  </nav>
 
-    <main id="main">
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team">
-        <div class="container-fluid">
-          <div class="section-title">
-            <h2>Teams</h2>
-            <h3>Our Faculty Co-ordinator & Faculty Sponsor</h3>
-            <div class="row">
-              <div class="col-xl-3 col-lg-4 col-md-6 hodcard justify-content-between ">
-                <div class="hod">
-                  <img src="assets/img/team/hod.jpeg" class="img-fluid" alt="" />
-                  <div class="member-info">
-                    <div class="member-info-content">
-                      <h4>DR. ASHISH JADHAV</h4>
-                      <span>HOD OF IT DEPARTMENT</span>
-                    </div>
-                    <div class="social">
-                      <!-- <a href=""><i class="bi bi-github"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a> -->
-                      <a
-                        href="https://www.linkedin.com/in/ashish-jadhav-88a85923/"
-                        ><i class="bi bi-linkedin"></i
-                      ></a>
-                    </div>
-                  </div>
+  <!-- navbar -->
+
+  <!-- teams -->
+  <section id="team" class="team">
+    <div class="container-fluid">
+      <div class="section-title">
+        <h2>TEAMS</h2>
+        <h3>Our Faculty Co-ordinator & Faculty Sponsor</h3>
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6 hodcard justify-content-between ">
+            <div class="hod">
+              <img src="/assets/img/sangita.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>DR. SANGEETA CHAUDHARI</h4>
+                  <span>HOD OF IT DEPARTMENT</span>
                 </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 hodcard justify-content-between ">
-                <div class="hod">
-                  <img src="assets/img/team/hod2.jpeg" class="img-fluid" alt="" />
-                  <div class="member-info">
-                    <div class="member-info-content">
-                      <h4>DR. PALLAVI CHAVAN</h4>
-                      <span>ASSOCIATE FACULTY</span>
-                    </div>
-                    <div class="social">
-                      <!-- <a href=""><i class="bi bi-github"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a> -->
-                      <a
-                        href="https://www.linkedin.com/in/pallavi-chavan-85b67922/"
-                        ><i class="bi bi-linkedin"></i
-                      ></a>
-                    </div>
-                  </div>
+                <div class="social">
+                  <a href="https://instagram.com/sangita.sc?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/dr-sangita-chaudhari-52b6731a"><i
+                      class="fa-brands fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
-
-           
-            <h3 class="our-hardworking-team">Our Core <span>Team</span></h3>
-            <p>
-              We see a world where computing helps solve tomorrow’s problems
-              <br />
-              where we use our knowledge and skills to advance the profession
-              and make a positive impact.
-            </p>
           </div>
-
-          
-  
-                  <div class="container">
-                    <div class="row gx-2 justify-content-center">
-                      <div class="col-lg-4 col-md-12">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/anirudh.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>ANIRUDH EYYANI</h4>
-                              <span>CHAIRPERSON</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/AnirudhEyyani"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/anirudheyyani_/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/anirudheyyani/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/hemang.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>HEMANG RANJAN</h4>
-                              <span>VICE CHAIRPERSON</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/Hemang417"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/hemangranjan417/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/hemangranjan/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/gauri.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>GAURI JADHAV</h4>
-                              <span>GENERAL SECRETARY</span>
-                            </div>
-                            <div class="social">
-                              <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                              <a href="https://www.instagram.com/gaurijadhav_1608/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/gauri-jadhav-34b74b19b/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                    </div>
-                  </div>
-
-                  <div class="container">
-                    <div class="row gx-2 justify-content-center">
-                      <div class="col-lg-4 col-md-12">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/kanishka.jpeg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>KANISHKA GHODKE</h4>
-                              <span>TREASURER</span>
-                            </div>
-                            <div class="social">
-                              <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                              <a href="https://www.instagram.com/kanishkag_/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/kanishka-ghodke-a723921b7/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/zaid.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>ZAID KHAN</h4>
-                              <span>WEB MASTER</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/ZaidKhan2002"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/zaidd._.khan/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/zaid-khan-a342231b5/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/omkar.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>OMKAR KOMARPANT</h4>
-                              <span>TECHNICAL CHIEF</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/Omkarrr"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/ommkaarrr/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/omkar-komarpant-a490991b7/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                    </div>
-                  </div>
-
-                  <div class="container">
-                    <div class="row gx-2 justify-content-center">
-                      <div class="col-lg-4 col-md-12">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/rimi.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>RIMI ROY</h4>
-                              <span>MEMBERSHIP CHAIR</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/rimi0602"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/rimi06.rr/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/rimi-roy-0b8a3920b/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/akanksha.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>AKANKSHA MATHPATI</h4>
-                              <span>WOMEN IN TECH</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/missmathpati"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/missmathpati/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/akanksha-a-mathpati-817959212/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/anushka.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>ANUSHKA GUPTA</h4>
-                              <span>PUBLIC RELATIONS OFFICER</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/itsanushkagupta"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/itsanushkaguptaa/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/anushka-gupta3006"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                    </div>
-                  </div>
-
-                  <div class="container">
-                    <div class="row gx-2 justify-content-center">
-                      <div class="col-lg-4 col-md-12">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/karan.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>KARAN LOKARE</h4>
-                              <span>SPONSORSHIP HEAD</span>
-                            </div>
-                            <div class="social">
-                              <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                              <a href="https://www.instagram.com/karan__lokare/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/karan-lokare-b93a72212"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/raj.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>RAJ PAUWAA</h4>
-                              <span>MANAGEMENT CHIEF</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/rajpauwaa"><i class="bi bi-github"></i></a>
-                              <a href="https://instagram.com/raj.pauwaa?igshid=YmMyMTA2M2Y="
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="http://www.linkedin.com/in/raj-pauwaa-3565b2208"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                      <div class="col-lg-4 col-md-6">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/sneha.JPG"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>SNEHA KHOREJA</h4>
-                              <span>LOGISTICS HEAD</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/sneha17-hub"><i class="bi bi-github"></i></a>
-                              <a href="https://www.instagram.com/sneehhhaaaaaa/"
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/sneha-khoreja-4a0724212/"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  
-                    </div>
-                  </div>
-
-                  <div class="container">
-                    <div class="row gx-2 justify-content-center">
-                      <div class="col-lg-4 col-md-12">
-                        <div class="member">
-                          <img
-                            src="assets/img/team/megha.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                          <div class="member-info">
-                            <div class="member-info-content">
-                              <h4>MEGHA NAIR</h4>
-                              <span>MARKETING HEAD</span>
-                            </div>
-                            <div class="social">
-                              <a href="https://github.com/meghanair02"><i class="bi bi-github"></i></a>
-                              <a href="https://instagram.com/meegghhaa?igshid=YmMyMTA2M2Y="
-                                ><i class="bi bi-instagram"></i
-                              ></a>
-                              <a
-                                href="https://www.linkedin.com/in/megha-nair-268b92212"
-                                ><i class="bi bi-linkedin"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                     
-                  
-                    
-                  
-                    </div>
-                  </div>
-                  <!-- End Member Item -->
-
-                <div class="section-title">
-                  <h3 class="our-hardworking-team">
-                    Non-Core <span>Team</span>
-                  </h3>
+          <div class="col-xl-3 col-lg-4 col-md-6 hodcard justify-content-between ">
+            <div class="hod">
+              <img src="/assets/img/Core _ Non core/hod2.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>DR. PALLAVI CHAVAN</h4>
+                  <span>ASSOCIATE FACULTY</span>
                 </div>
-
-                <div class="container">
-                  <div class="row gx-3 justify-content-center">
-                  <h3 class="row justify-content-center">Junior Tech Chiefs</h3>
-                    <div class="col-lg-2 col-md-12">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/nupur.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>NUPUR THIKEKAR</h4>
-                            <span>JUNIOR TECH CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/nupurthikekar"><i class="bi bi-github"></i></a>
-                            <a href="https://www.instagram.com/nupurthikekar/"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/nupur-thikekar-593387242/"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/priyanka.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>PRIYANKA SHINDE</h4>
-                            <span>JUNIOR TECH CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/winnieitis"><i class="bi bi-github"></i></a>
-                            <a href="https://www.instagram.com/priyayynka/"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/priyanka-shinde-7ba5421b7/"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/danish.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>DANISH ANSARI</h4>
-                            <span>JUNIOR TECH CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/ddeveloper100"><i class="bi bi-github"></i></a>
-                            <a href="https://instagram.com/danish.a_24?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/danish-ansari-366970224"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/aditya.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>ADITYA CHOWDHURY</h4>
-                            <span>JUNIOR TECH CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                            <a href="https://www.instagram.com/_.callmeaditya_/"><i class="bi bi-instagram"></i></a>
-                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/shreyash.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SHREYASH PINGLE</h4>
-                            <span>JUNIOR TECH CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/shrey802"><i class="bi bi-github"></i></a>
-                            <a href="https://www.instagram.com/shreyash_pingle/"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/shreyash-pingle-902133215/"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                  </div>
-                <iv>
-              
-                <div class="container">
-                  <div class="row gx-3 justify-content-center">
-                  <h3 class="row justify-content-center">Junior Design Chiefs</h3>
-                    <div class="col-lg-2 col-md-12">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/sayuj.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SAYUJ ZODGE</h4>
-                            <span>JUNIOR DESIGN CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                            <a href="https://instagram.com/sayujjjjj?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/sayuj-zodge-40a55621a"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/siya.JPG"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SIYA KOCHERI</h4>
-                            <span>JUNIOR DESIGN CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                            <a href="https://instagram.com/siiyyyaaa?igshid=NjZiMGI4OTY="><i class="bi bi-instagram"></i></a>
-                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/keshav.JPG"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>KESHAV PAI</h4>
-                            <span>JUNIOR DESIGN CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/NotChampi0n"><i class="bi bi-github"></i></a>
-                            <a href="https://www.instagram.com/itsnot3.14/"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/keshavpai927/"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/vinay.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>VINAY THAK</h4>
-                            <span>JUNIOR DESIGN CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/vinu09062002"><i class="bi bi-github"></i></a>
-                            <a href="https://www.instagram.com/vinu_9622"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/vinay-thak-467988166"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/shresth.JPG"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SHRESHTH SRIVASTAVA</h4>
-                            <span>JUNIOR DESIGN CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                            <a href="https://www.instagram.com/sanjay.shreshth15"><i class="bi bi-instagram"></i></a>
-                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                  </div>
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/pallavi-chavan-85b67922/"><i
+                      class="fa-brands fa-linkedin"></i></a>
                 </div>
-
-                <div class="container">
-                  <div class="row gx-3 justify-content-center">
-                  <h3 class="row justify-content-center">Junior Publicity Chiefs</h3>
-                    <div class="col-lg-2 col-md-12">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/vaibhavi.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>VAIBHAVI NAKUM</h4>
-                            <span>JUNIOR PUBLICITY CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/reetika.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>REETIKA SHARMA</h4>
-                            <span>JUNIOR PUBLICITY CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img src="assets/img/team/ameyshinde.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>AMEY SHINDE</h4>
-                            <span>JUNIOR PUBLICITY CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/ameyshinde003"><i class="bi bi-github"></i></a>
-                            <!-- <a href=""><i class="bi bi-instagram"></i></a> -->
-                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/samiksha.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SAMIKSHA PATIL</h4>
-                            <span>JUNIOR PUBLICITY CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <!-- <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a> -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/vraj.jpeg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>VRAJ ANANDPARA</h4>
-                            <span>JUNIOR PUBLICITY CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                            <a href="https://www.instagram.com/vraj.anandpara/"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/vraj-anandpara/"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                  </div>
-                </div>
-
-                <div class="container">
-                  <div class="row gx-3 justify-content-center">
-                  <h3 class="row justify-content-center">Junior Management Chiefs</h3>
-                    <div class="col-lg-2 col-md-12">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/pratik.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>PRATIK BHAT</h4>
-                            <span>JUNIOR MANAGEMENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/PratikB30"><i class="bi bi-github"></i></a>
-                            <a href="https://instagram.com/pratikbhat_?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/pratik-bhat-628042230"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/nityanand.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>NITYANAND BANKAR</h4>
-                            <span>JUNIOR MANAGEMENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/Nityabankar23"><i class="bi bi-github"></i></a>
-                            <a href="https://instagram.com/nitya.bankar?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/nityanand-bankar-70b4b823a"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/aaryan.jpeg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>AARYAN BUTALA</h4>
-                            <span>JUNIOR MANAGEMENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/Aaryan-1304"><i class="bi bi-github"></i></a>
-                            <a href="https://www.instagram.com/aaryannbutala/"><i class="bi bi-instagram"></i></a>
-                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/jay.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>JAY GANATRA</h4>
-                            <span>JUNIOR MANAGEMENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <!-- <a href=""><i class="bi bi-github"></i></a> -->
-                            <a href="https://www.instagram.com/jay_ganatra03_/"><i class="bi bi-instagram"></i></a>
-                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/krish.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>KRISH KARKERA</h4>
-                            <span>JUNIOR MANAGEMENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href="https://github.com/Krishkarkera"><i class="bi bi-github"></i></a>
-                            <a href="https://www.instagram.com/krish.k_2308/?r=nametag"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/krish-karkera-8baa73203/"><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                  </div>
-                </div>
-
-                <div class="container">
-                  <div class="row gx-3 justify-content-center">
-                  <h3 class="row justify-content-center">Junior Creative Chiefs</h3>
-                    <div class="col-lg-2 col-md-12">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/pragya.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>PRAGYA KAJLA</h4>
-                            <span>JUNIOR CREATIVE CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/pranavi.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>PRANAVI PARITI</h4>
-                            <span>JUNIOR CREATIVE CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/palak.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>PALAK TIWARI</h4>
-                            <span>JUNIOR CREATIVE CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/suraj.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SURAJ JAISWAR</h4>
-                            <span>JUNIOR CREATIVE CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/naufil.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>NAUFIL RAKHANGE</h4>
-                            <span>JUNIOR CREATIVE CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                  </div>
-                </div>
-
-                <div class="container">
-                  <div class="row gx-3 justify-content-center">
-                  <h3 class="row justify-content-center">Junior Content Chiefs</h3>
-                    <div class="col-lg-2 col-md-12">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/priyanshi.JPG"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>PRIYANSHI SINGH</h4>
-                            <span>JUNIOR CONTENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/sakshi.JPG"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SAKSHI DHAMANE</h4>
-                            <span>JUNIOR CONTENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/nidhi.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>NIDHI SURVE</h4>
-                            <span>JUNIOR CONTENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/gaurav.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>GAURAV OJHA</h4>
-                            <span>JUNIOR CONTENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/ira.jpeg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>IRA GHEVDE</h4>
-                            <span>JUNIOR CONTENT CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                  </div>
-                </div>
-
-                
-                <div class="container">
-                  <div class="row gx-3 justify-content-center">
-                  <h3 class="row justify-content-center">Junior Media Graphics Chiefs</h3>
-                    <div class="col-lg-2 col-md-12">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/amogh.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>AMOGH GAIKWAD</h4>
-                            <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/shwetal.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>SHWETAL RAY</h4>
-                            <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/utkarsh.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>UTKARSH RAJE</h4>
-                            <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/pooja.JPG"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>POOJA MOHANTY</h4>
-                            <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-6">
-                      <div class="member">
-                        <img
-                          src="assets/img/team/amey.jpeg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                        <div class="member-info">
-                          <div class="member-info-content">
-                            <h4>AMEY PATNE</h4>
-                            <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
-                          </div>
-                          <div class="social">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                  </div>
-                </div>
-      </section>
-      <!-- End Team Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>RAIT ACM<br />STUDENT CHAPTER</h3>
-              <p>
-                Ramrao Adik Institute Of Technology,<br />
-                Nerul,<br />
-                Navi Mumbai. <br /><br />
-                <strong>Phone:</strong> +91 7208363177<br />
-                <strong>Email:</strong> reachraitacm@gmail.com<br />
-              </p>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html#about">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="events.php">Events</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="teams.html">Team</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="blogs.phpl">Blogs</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Domains</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html#domain">Technical</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html#domain">Management</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html#domain">Editorial</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html#domain">Publicity</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html#domain">Creative</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html#domain">Social Media</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>JOIN RAIT ACM TODAY</h4>
-
-              <a href="https://bit.ly/raitacm">Join Us</a>
+              </div>
             </div>
           </div>
+        </div>
+
+
+        <h3 class="our-hardworking-team">Our Core <span>Team</span></h3>
+        <p class="core-p">
+          We see a world where computing helps solve tomorrow’s problems
+          <br />
+          where we use our knowledge and skills to advance the profession
+          and make a positive impact.
+        </p>
+      </div>
+
+
+
+      <div class="container">
+        <div class="row gx-2 justify-content-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/anirudh.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>ANIRUDH EYYANI</h4>
+                  <span>CHAIRPERSON</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/AnirudhEyyani"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/anirudheyyani_/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/anirudheyyani/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/hemang.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>HEMANG RANJAN</h4>
+                  <span>VICE CHAIRPERSON</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/Hemang417"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/hemangranjan417/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/hemangranjan/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/gauri.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>GAURI JADHAV</h4>
+                  <span>GENERAL SECRETARY</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/gaurijadhav_1608/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/gauri-jadhav-34b74b19b/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
       <div class="container">
-        <div class="copyright-wrap d-md-flex py-4">
-          <div class="me-md-auto text-center text-md-start">
-            <div class="copyright">
-              &copy; Copyright
-              <strong><span>RAIT ACM STUDENT CHAPTER 2021.</span></strong> All
-              Rights Reserved
+        <div class="row gx-2 justify-content-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/kanishka.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>KANISHKA GHODKE</h4>
+                  <span>TREASURER</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/kanishkag_/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/kanishka-ghodke-a723921b7/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="https://twitter.com/RaitACM" class="twitter"
-              ><i class="bx bxl-twitter"></i
-            ></a>
-            <a href="https://www.facebook.com/raitacm" class="facebook"
-              ><i class="bx bxl-facebook"></i
-            ></a>
-            <a href="https://www.instagram.com/rait_acm" class="instagram"
-              ><i class="bx bxl-instagram"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/channel/UC9kmsJxDB_nXdgYyY1-0K8w"
-              class="youtube"
-              ><i class="bx bxl-youtube"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/rait-acm-student-chapter-034026197/"
-              class="linkedin"
-              ><i class="bx bxl-linkedin"></i
-            ></a>
-            <a href="https://github.com/rait-acm" class="github"
-              ><i class="bx bxl-github"></i
-            ></a>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/zaid.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>ZAID KHAN</h4>
+                  <span>WEB MASTER</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/ZaidKhan2002"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/zaidd._.khan/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/zaid-khan-a342231b5/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/omkar.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>OMKAR KOMARPANT</h4>
+                  <span>TECHNICAL CHIEF</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/Omkarrr"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/ommkaarrr/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/omkar-komarpant-a490991b7/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </footer>
-    <!-- End Footer -->
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
-    <div id="preloader"></div>
+      <div class="container">
+        <div class="row gx-2 justify-content-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/rimi.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>RIMI ROY</h4>
+                  <span>MEMBERSHIP CHAIR</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/rimi0602"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/rimi06.rr/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/rimi-roy-0b8a3920b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- JS Files -->
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/akanksha.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>AKANKSHA MATHPATI</h4>
+                  <span>WOMEN IN TECH</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/missmathpati"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/missmathpati/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/akanksha-a-mathpati-817959212/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/anushka.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>ANUSHKA GUPTA</h4>
+                  <span>PUBLIC RELATIONS OFFICER</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/itsanushkagupta"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/itsanushkaguptaa/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/anushka-gupta3006"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row gx-2 justify-content-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/karan.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>KARAN LOKARE</h4>
+                  <span>SPONSORSHIP HEAD</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/karan__lokare/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/karan-lokare-b93a72212"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/raj.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>RAJ PAUWAA</h4>
+                  <span>MANAGEMENT CHIEF</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/rajpauwaa"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://instagram.com/raj.pauwaa?igshid=YmMyMTA2M2Y="><i
+                      class="fa-brands fa-instagram"></i></a>
+                  <a href="http://www.linkedin.com/in/raj-pauwaa-3565b2208"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/sneha.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>SNEHA KHOREJA</h4>
+                  <span>LOGISTICS HEAD</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/sneha17-hub"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/sneehhhaaaaaa/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/sneha-khoreja-4a0724212/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row gx-2 justify-content-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/megha.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>MEGHA NAIR</h4>
+                  <span>MARKETING HEAD</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/meghanair02"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://instagram.com/meegghhaa?igshid=YmMyMTA2M2Y="><i
+                      class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/megha-nair-268b92212"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+      <!-- End Member Item -->
+
+      <div class="section-title">
+        <h3 class="our-hardworking-team">
+          Non-Core <span>Team</span>
+        </h3>
+      </div>
+
+      <div class="container">
+        <div class="row gx-3 justify-content-center">
+          <h3 class="row justify-content-center">Junior Tech Chiefs</h3>
+          <div class="col-lg-2 col-md-12">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/nupur.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>NUPUR THIKEKAR</h4>
+                  <span>JUNIOR TECH CHIEF</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/nupurthikekar"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/nupurthikekar/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/nupur-thikekar-593387242/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/priyanka.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>PRIYANKA SHINDE</h4>
+                  <span>JUNIOR TECH CHIEF</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/winnieitis"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/priyayynka/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/priyanka-shinde-7ba5421b7/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/danish.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>DANISH ANSARI</h4>
+                  <span>JUNIOR TECH CHIEF</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/ddeveloper100"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://instagram.com/danish.a_24?igshid=YmMyMTA2M2Y="><i
+                      class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/danish-ansari-366970224"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/aditya.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>ADITYA CHOWDHURY</h4>
+                  <span>JUNIOR TECH CHIEF</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/_.callmeaditya_/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member">
+              <img src="assets/img/Core _ Non core/shreyash.jpeg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>SHREYASH PINGLE</h4>
+                  <span>JUNIOR TECH CHIEF</span>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/shrey802"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/shreyash_pingle/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/shreyash-pingle-902133215/"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <iv>
+
+          <div class="container">
+            <div class="row gx-3 justify-content-center">
+              <h3 class="row justify-content-center">Junior Design Chiefs</h3>
+              <div class="col-lg-2 col-md-12">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/sayuj.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>SAYUJ ZODGE</h4>
+                      <span>JUNIOR DESIGN CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href="https://instagram.com/sayujjjjj?igshid=YmMyMTA2M2Y="><i
+                          class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/sayuj-zodge-40a55621a"><i
+                          class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/siya.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>SIYA KOCHERI</h4>
+                      <span>JUNIOR DESIGN CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href="https://instagram.com/siiyyyaaa?igshid=NjZiMGI4OTY="><i
+                          class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/keshav.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>KESHAV PAI</h4>
+                      <span>JUNIOR DESIGN CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://github.com/NotChampi0n"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/itsnot3.14/"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/keshavpai927/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/vinay.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>VINAY THAK</h4>
+                      <span>JUNIOR DESIGN CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://github.com/vinu09062002"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/vinu_9622"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/vinay-thak-467988166"><i
+                          class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/shresth.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>SHRESHTH SRIVASTAVA</h4>
+                      <span>JUNIOR DESIGN CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/sanjay.shreshth15"><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row gx-3 justify-content-center">
+              <h3 class="row justify-content-center">Junior Publicity Chiefs</h3>
+              <div class="col-lg-2 col-md-12">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/vaibhavi.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>VAIBHAVI NAKUM</h4>
+                      <span>JUNIOR PUBLICITY CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/reetika.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>REETIKA SHARMA</h4>
+                      <span>JUNIOR PUBLICITY CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/ameyshinde.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>AMEY SHINDE</h4>
+                      <span>JUNIOR PUBLICITY CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://github.com/ameyshinde003"><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/samiksha.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>SAMIKSHA PATIL</h4>
+                      <span>JUNIOR PUBLICITY CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/vraj.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>VRAJ ANANDPARA</h4>
+                      <span>JUNIOR PUBLICITY CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/vraj.anandpara/"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/vraj-anandpara/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row gx-3 justify-content-center">
+              <h3 class="row justify-content-center">Junior Management Chiefs</h3>
+              <div class="col-lg-2 col-md-12">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/pratik.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>PRATIK BHAT</h4>
+                      <span>JUNIOR MANAGEMENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://github.com/PratikB30"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://instagram.com/pratikbhat_?igshid=YmMyMTA2M2Y="><i
+                          class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/pratik-bhat-628042230"><i
+                          class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/nityanand.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>NITYANAND BANKAR</h4>
+                      <span>JUNIOR MANAGEMENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://github.com/Nityabankar23"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://instagram.com/nitya.bankar?igshid=YmMyMTA2M2Y="><i
+                          class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/nityanand-bankar-70b4b823a"><i
+                          class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/aaryan.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>AARYAN BUTALA</h4>
+                      <span>JUNIOR MANAGEMENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://github.com/Aaryan-1304"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/aaryannbutala/"><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/jay.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>JAY GANATRA</h4>
+                      <span>JUNIOR MANAGEMENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/jay_ganatra03_/"><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/krish.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>KRISH KARKERA</h4>
+                      <span>JUNIOR MANAGEMENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://github.com/Krishkarkera"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/krish.k_2308/?r=nametag"><i
+                          class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/krish-karkera-8baa73203/"><i
+                          class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row gx-3 justify-content-center">
+              <h3 class="row justify-content-center">Junior Creative Chiefs</h3>
+              <div class="col-lg-2 col-md-12">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/pragya.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>PRAGYA KAJLA</h4>
+                      <span>JUNIOR CREATIVE CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/pranavi.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>PRANAVI PARITI</h4>
+                      <span>JUNIOR CREATIVE CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/palak.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>PALAK TIWARI</h4>
+                      <span>JUNIOR CREATIVE CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/suraj.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>SURAJ JAISWAR</h4>
+                      <span>JUNIOR CREATIVE CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/naufil.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>NAUFIL RAKHANGE</h4>
+                      <span>JUNIOR CREATIVE CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row gx-3 justify-content-center">
+              <h3 class="row justify-content-center">Junior Content Chiefs</h3>
+              <div class="col-lg-2 col-md-12">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/priyanshi.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>PRIYANSHI SINGH</h4>
+                      <span>JUNIOR CONTENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/sakshi.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>SAKSHI DHAMANE</h4>
+                      <span>JUNIOR CONTENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/nidhi.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>NIDHI SURVE</h4>
+                      <span>JUNIOR CONTENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/gaurav.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>GAURAV OJHA</h4>
+                      <span>JUNIOR CONTENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/ira.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>IRA GHEVDE</h4>
+                      <span>JUNIOR CONTENT CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="container">
+            <div class="row gx-3 justify-content-center">
+              <h3 class="row justify-content-center">Junior Media Graphics Chiefs</h3>
+              <div class="col-lg-2 col-md-12">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/amogh.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>AMOGH GAIKWAD</h4>
+                      <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/shwetal.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>SHWETAL RAY</h4>
+                      <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/utkarsh.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>UTKARSH RAJE</h4>
+                      <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/pooja.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>POOJA MOHANTY</h4>
+                      <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6">
+                <div class="member">
+                  <img src="assets/img/Core _ Non core/amey.jpeg" class="img-fluid" alt="" />
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>AMEY PATNE</h4>
+                      <span>JUNIOR MEDIA GRAPHICS CHIEF</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+  </section>
+
+  <!-- teams -->
+
+  <!-- footer -->
+  
+
+<!-- footer starts here -->
+<section id="Footer">
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="footer-logo-rait" src="assets/img/ACM New White.png" alt="rait-acm_logo">
+      <p class="footer-p">Our Vision is to inspire determination and enthusiasm in a professional environment. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    </div>
+    <div class="col-lg-4">
+      <img class="footer-logo-women" src="assets/img/ACM-W LOGO-white-1.png" alt="rait-acm-w_logo">
+      <p class="footer-p">Our Vision is to inspire determination and enthusiasm in a professional environment. Lorem ipsum dolor,  adipisicing elit. Quibusdam.</p>
+      
+    </div>
+    <div class="col-lg-4">
+      <img src="assets/img/acm-a7cc1ffcc9f89b6cde3ddcab1684ec48.png" alt="acm_logo" class="footer-logo-acm">
+      <p class="footer-p">ACM is the world's largest educational and scientific computing society, aimed at increasing the level and visibility of ACM activities across the globe.</p>
+
+    
+        <h2 class="footer-contact">
+        Contact us at:
+      </h2>
+      <a href="#email" class="footer-email"><i class="fa-lg fa-solid fa-envelope"></i>   Email: rait.ac.in</a>
+    
+  </div>
+  <!-- <div class="row"> -->
+    <!-- <div class="col-lg-4"> -->
+      <div class="footer-sm col-lg-4">
+        <h2 class="Footer-socials">Follow us on Social Media.</h2>
+        <a href="https://www.facebook.com/raitacm/"  class="footer-b fa-2x  fa-brands fa-facebook"></a>
+        <a href="https://www.instagram.com/rait_acm/?hl=en"  class="footer-b fa-2x  fa-brands fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/rait-acm-student-chapter-034026197/"  class="footer-b fa-2x  fa-brands fa-linkedin"></a>
+        <a href="https://twitter.com/RaitACM"  class="footer-b fa-2x  fa-brands fa-twitter"></a>
+      </div>
+
+    <!-- </div> -->
+  <!-- </div> -->
+
+  
+</section>
+
+
+
+  <!-- footer -->
+
+  <!-- bootstrap js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

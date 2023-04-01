@@ -1,507 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Blogs</title>
-    <meta
-      content="Blogs|Ediotorial Team RAIT-ACM. RAIT-ACM Student Chapter is recognized by the International Level Association of Computing Machinery, the World’s Largest Educational and Scientific Computing Society. The Aim of our chapter is to bring together and train students in the domains of creative thinking, problem-solving, programming and management. Interpersonal skills like team building and communication skills are also nurtured through the various activities that we conduct.  We also organize talks, workshops, seminars, and our technical fest “Elixir” along with two 24 hour programming competitions, ‘Hackathon’ and ‘Codeathon’ respectively.
-"
-      name="description"
-    />
-    <meta
-      content="Blog, raitacm,crypography, ml-ai, machine learning, data science, python, nft, learning, "
-      name="keywords"
-    />
+<head>
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css&font -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="/Teams section/Teams.css"> -->
+    <!-- <link rel="stylesheet" href="/joinus_Benefits/joinUs/JoinUs.css"> -->
+    
 
-    <!-- Favicons -->
-    <link href="assets/img/acmlogo.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-    <!-- CSS Files -->
-    <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+        <script src="https://kit.fontawesome.com/f4285c8a48.js" crossorigin="anonymous"></script>
 
-    <!-- Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/blogs.css" />
-  </head>
+</head>
 
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top header-inner-pages">
-      <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo">
-          <a href="index.html"><img src="assets/img/acmlogo.png" /></a>
-        </h1>
-
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-            <li><a class="nav-link scrollto" href="index.html">About</a></li>
-            <li><a class="nav-link scrollto" href="index.html">Domains</a></li>
-            <li><a class="nav-link scrollto" href="events.html">Events</a></li>
-            <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#blogs">Blogs</a>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="index.html#contact">Contact</a>
-            </li>
-            <li>
-              <a class="getstarted scrollto" href="Member/index.php">Login</a>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="nav-img" src="assets/img/acmlogo rait.png" alt="RAITACM">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Domain">Domains</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#events-section">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blogs.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teams.html">Team</a>
+          </li>
+              
+        </ul>
       </div>
-    </header>
-    <!-- End Header -->
+    </div>
+  </nav>
 
-    <main id="main">
-      <!-- ======= Portfolio Details Section ======= -->
-      <section id="portfolio-details" class="portfolio-details">
-        <div class="container">
-          <!-- Section: Blog v.1 -->
-          <section class="my-0">
-            <!-- Section heading -->
-            <div class="section-title">
-              <h2 class="h1-responsive font-weight-bold text-center my-5">
-                Blogs
-              </h2>
-              <p class="text-center w-responsive mx-auto mb-5">
-                The first step in blogging is not writing them but reading them.
-                ~Jeff Jarvis
-              </p>
-            </div>
+  <!-- navbar -->
 
-            <!-- Grid row -->
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-5">
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
-                    alt="Sample image"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
+
+
+
+    <div class="blogs-title">
+        <h1 class="blogs-h1">BLOGS</h1>
+        <h2 class="blogs-h2"><p>The first step in blogging is not writing them but reading them. ~Jeff Jarvis</p></h2> 
+    </div>
+
+
+    <div class="ctr">
+        <div class="row2">
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title">STARTUP WORLD- TECH EDITION</h6>
+                            <p class="card-text text-justify">What springs to your mind when you first hear the word ? To me, a mere 19-year-old, unbeknown to the conventions of the corporate world</p>
+                                <p class="card-text text-justify"> by <b>Nalin Khare</b>,24-09-2022</p>
+                            <a href="https://github.com/rait-acm/rait-acm-website/blob/uat/blog_files/Nalin_khare.docx" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="green-text">
-                  <h6 class="font-weight-bold mb-3">
-                    <i class="fas fa-utensils pr-2"></i>Food
-                  </h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3">
-                  <strong>Title of the new article</strong>
-                </h3>
-                <!-- Excerpt -->
-                <p>
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere
-                  possimus, omnis voluptas assumenda est, omnis dolor
-                  repellendus et aut officiis debitis.
-                </p>
-                <!-- Post data -->
-                <p>
-                  by <a><strong>Carine Fox</strong></a
-                  >, 19/08/2018
-                </p>
-                <!-- Read more button -->
-                <a href="blogs-inside.html" class="btn-md button">Read more</a>
-              </div>
-              <!-- Grid column -->
             </div>
-            <!-- Grid row -->
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">Outernet : How internet became our reality?
+                            </h6>
+                            <p class="card-text text-justify">Let's dive into the world of NFT. It all began with Satoshi Nakamoto, who created the famous cryptocurrency Bitcoin</p>
+                                <p class="card-text text-justify"> by <b>Aryan Joshi</b>,24-09-2022</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
 
-            <hr class="my-5" />
-
-            <!-- Grid row -->
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-5">
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://source.unsplash.com/random/900×700/?blogs"
-                    alt="Sample image"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
                 </div>
-              </div>
-              <!-- Grid column -->
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="indigo-text">
-                  <h6 class="font-weight-bold mb-3">
-                    <i class="fas fa-suitcase pr-2"></i>Travels
-                  </h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3">
-                  <strong>Title of the new article</strong>
-                </h3>
-                <!-- Excerpt -->
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro qui dolorem
-                  ipsum quia sit amet.
-                </p>
-                <!-- Post data -->
-                <p>
-                  by <a><strong>Carine Fox</strong></a
-                  >, 11/08/2018
-                </p>
-                <!-- Read more button -->
-                <a class="btn-md button">Read more</a>
-              </div>
-              <!-- Grid column -->
             </div>
-            <!-- Grid row -->
-            <hr class="my-5" />
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title">Startup World</h6>
+                            <p class="card-text text-justify">Building a startup can be equated to launching a spacecraft. There's a reason it's clich.
 
-            <!-- Grid row -->
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-5">
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://source.unsplash.com/random/900×700/?blogs"
-                    alt="Sample image"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
+                            </p>
+                                <p class="card-text text-justify"> by <b>AYUSH MALI</b>,24-09-2022</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- Grid column -->
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="indigo-text">
-                  <h6 class="font-weight-bold mb-3">
-                    <i class="fas fa-suitcase pr-2"></i>Travels
-                  </h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3">
-                  <strong>Title of the new article</strong>
-                </h3>
-                <!-- Excerpt -->
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro qui dolorem
-                  ipsum quia sit amet.
-                </p>
-                <!-- Post data -->
-                <p>
-                  by <a><strong>Carine Fox</strong></a
-                  >, 11/08/2018
-                </p>
-                <!-- Read more button -->
-                <a class="btn-md button">Read more</a>
-              </div>
-              <!-- Grid column -->
             </div>
-            <hr class="my-5" />
 
-            <!-- Grid row -->
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-5">
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://source.unsplash.com/random/900×700/?blogs"
-                    alt="Sample image"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-              </div>
-              <!-- Grid column -->
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="indigo-text">
-                  <h6 class="font-weight-bold mb-3">
-                    <i class="fas fa-suitcase pr-2"></i>Travels
-                  </h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3">
-                  <strong>Title of the new article</strong>
-                </h3>
-                <!-- Excerpt -->
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro qui dolorem
-                  ipsum quia sit amet.
-                </p>
-                <!-- Post data -->
-                <p>
-                  by <a><strong>Carine Fox</strong></a
-                  >, 11/08/2018
-                </p>
-                <!-- Read more button -->
-                <a class="btn-md button">Read more</a>
-              </div>
-              <!-- Grid column -->
-            </div>
-            <hr class="my-5" />
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">Women in Tech World</h6>
+                            <p class="card-text text-justify">We all are aware that its said that the tech world is dominated by men. But its high time to change this notation.</p>
+                                <p class="card-text text-justify"> by <b>Akanksha Mathpati</b>,07-02-2021</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
 
-            <!-- Grid row -->
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-5">
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://source.unsplash.com/random/900×700/?blogs"
-                    alt="Sample image"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
                 </div>
-              </div>
-              <!-- Grid column -->
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="indigo-text">
-                  <h6 class="font-weight-bold mb-3">
-                    <i class="fas fa-suitcase pr-2"></i>Travels
-                  </h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3">
-                  <strong>Title of the new article</strong>
-                </h3>
-                <!-- Excerpt -->
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro qui dolorem
-                  ipsum quia sit amet.
-                </p>
-                <!-- Post data -->
-                <p>
-                  by <a><strong>Carine Fox</strong></a
-                  >, 11/08/2018
-                </p>
-                <!-- Read more button -->
-                <a class="btn-md button">Read more</a>
-              </div>
-              <!-- Grid column -->
             </div>
-            <hr class="my-5" />
 
-            <!-- Grid row -->
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-5">
-                <!-- Featured image -->
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://source.unsplash.com/random/900×700/?blogs"
-                    alt="Sample image"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">Cyber Security</h6>
+                            <p class="card-text text-justify">SHORT CYBER SECURITY IS THE PRACTICES WHICH ARE DEVELOPED TO PROTECT THE COMPUTER PROGRAMS, COMPUTER SOFTWARES AND NETWORKS FROM UNAUTHORIZED ACCESS AND CYBER ATTACKS.</p>
+                                <p class="card-text text-justify"> by <b>Kewin Sahaya</b>,07-02-2021</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
                 </div>
-              </div>
-              <!-- Grid column -->
-              <div class="col-lg-7">
-                <!-- Category -->
-                <a href="#!" class="indigo-text">
-                  <h6 class="font-weight-bold mb-3">
-                    <i class="fas fa-suitcase pr-2"></i>Travels
-                  </h6>
-                </a>
-                <!-- Post title -->
-                <h3 class="font-weight-bold mb-3">
-                  <strong>Title of the new article</strong>
-                </h3>
-                <!-- Excerpt -->
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro qui dolorem
-                  ipsum quia sit amet.
-                </p>
-                <!-- Post data -->
-                <p>
-                  by <a><strong>Carine Fox</strong></a
-                  >, 11/08/2018
-                </p>
-                <!-- Read more button -->
-                <a class="btn-md button">Read more</a>
-              </div>
-              <!-- Grid column -->
             </div>
-          </section>
-          <!-- Section: Blog v.1 -->
+
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">
+                                CTF-Cyber Security</h6>
+                            <p class="card-text text-justify">Companies hire ethical hackers to find and improve-security flaws in their systems, to prevent cyber-criminals from being able to hack them and steal their information/data.</p>
+                                <p class="card-text text-justify"> by <b>Kunal Verma</b>,07-02-2021</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">Cryptocurrency</h6>
+                            <p class="card-text text-justify">Bitcoin is a form of cryptocurrency and had been attracting a lot of interest lately.</p>
+                                <p class="card-text text-justify"> by <b>Nilesh Ahuja</b>,07-02-2021</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">
+                                Python Libraries</h6>
+                            <p class="card-text text-justify">According to statistics and StackOverflow trends, Python is the fastest-growing and highly ranked programming language in the past few years.</p>
+                                <p class="card-text text-justify"> by <b>Roshni Chauhan</b>,07-02-2021</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">New York and its street photography</h6>
+                            <p class="card-text text-justify">List for five places that will advent followers and make your page diverse.</p>
+                                <p class="card-text text-justify"> by <b>Khushi Patel</b>,11-11-2020</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">Implications of ever-increasing globalization</h6>
+                            <p class="card-text text-justify">Technology is the leading form of business globalization. Technology has globalized the planet and has brought a renaissance in the global economy.</p>
+                                <p class="card-text text-justify"> by <b>Khushi Patel</b>, 07-07-2020</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">All about Edge Computing!</h6>
+                            <p class="card-text text-justify">Edge computing is a distributed, open IT architecture that features decentralized processing power, enabling mobile computing and Internet of Things (IoT) technologies.</p>
+                                <p class="card-text text-justify"> by <b>Khushi Patel</b>,29-05-2020</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="shrey col-md-9 p-3">
+                <div class="row blog-card">
+                    <div class="col-md-4">
+                        <img class="w-100" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block">
+                            <h6 class="card-title text-left">The 4 types of Engineers! Which one are you?</h6>
+                            <p class="card-text text-justify">Attention all tech buffs- the great, growling engine of technology! In a race to create bigger and better idiot- proof programs, these guys dive in head first</p>
+                                <p class="card-text text-justify"> by <b>SOULVOGUE</b>,18-09-2019</p>
+                            <a href="#" class="btn btn-primary">read more...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </div>
-      </section>
-      <!-- End Portfolio Details Section -->
-    </main>
-    <!-- End #main -->
+    </div>
+<!-- footer starts here -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>RAIT ACM<br />STUDENT CHAPTER</h3>
-              <p>
-                Ramrao Adik Institute Of Technology,<br />
-                Nerul,<br />
-                Navi Mumbai. <br /><br />
-                <strong>Phone:</strong> +91 7208363177<br />
-                <strong>Email:</strong> rait.ac.in<br />
-              </p>
-            </div>
+  
+    
 
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#home">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#about">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="events.html">Events</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="teams.html">Team</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="blogs.php">Blogs</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Domains</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Technical</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Management</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Editorial</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Publicity</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Creative</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Social Media</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>JOIN RAIT ACM TODAY</h4>
-              <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </p>
-
-              <a href="#">Join Us</a>
-            </div>
-          </div>
-        </div>
+<!-- footer starts here -->
+<section id="Footer">
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="footer-logo" src="assests/img/ACM New White.png" alt="rait-acm_logo">
+        <p class="footer-p">Our Vision is to inspire determination and enthusiasm in a professional environment. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  
       </div>
-
-      <div class="container">
-        <div class="copyright-wrap d-md-flex py-4">
-          <div class="me-md-auto text-center text-md-start">
-            <div class="copyright">
-              &copy; Copyright
-              <strong><span>RAIT ACM STUDENT CHAPTER 2021.</span></strong> All
-              Rights Reserved
-            </div>
-          </div>
-          <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          </div>
-        </div>
+      <div class="col-lg-4">
+        <img class="footer-logo-women" src="assets/img/ACM-W LOGO-white-1.png" alt="rait-acm-w_logo">
+        <p class="footer-p">Our Vision is to inspire determination and enthusiasm in a professional environment. Lorem ipsum dolor,  adipisicing elit. Quibusdam.</p>
+        
       </div>
-    </footer>
-    <!-- End Footer -->
+      <div class="col-lg-4">
+        <img src="assets/img/acm-a7cc1ffcc9f89b6cde3ddcab1684ec48.png" alt="acm_logo" class="footer-logo-acm">
+        <p class="footer-p">ACM is the world's largest educational and scientific computing society, aimed at increasing the level and visibility of ACM activities across the globe.</p>
+  
+      
+          <h2 class="footer-contact">
+          Contact us at:
+        </h2>
+        <a href="#email" class="footer-email"><i class="fa-lg fa-solid fa-envelope"></i>   Email: rait.ac.in</a>
+      
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="footer-sm">
+          <h2 class="Footer-socials">Follow us on Social Media.</h2>
+          <a href="https://www.facebook.com/raitacm/"  class="footer-b fa-2x  fa-brands fa-facebook"></a>
+          <a href="https://www.instagram.com/rait_acm/?hl=en"  class="footer-b fa-2x  fa-brands fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/rait-acm-student-chapter-034026197/"  class="footer-b fa-2x  fa-brands fa-linkedin"></a>
+          <a href="https://twitter.com/RaitACM"  class="footer-b fa-2x  fa-brands fa-twitter"></a>
+        </div>
+  
+      </div>
+    </div>
+  
+    
+  </section>
+  
+  <!-- footer ends here -->
+   
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
-    <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="assets/vendor/glightbox/js/glightbox.min.js"></script> -->
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+</body>
+
 </html>

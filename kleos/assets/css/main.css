@@ -317,16 +317,16 @@ ol li {
 
 .btn-common1 {
   /* background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%); */
-  background-color: rgb(121, 116, 116);
+  background-color: #1c4980;
   position: relative;
 }
 
 .btn-common:hover {
   /* color: #fff; */
-  background-image: linear-gradient(65deg, rgb(253, 45, 191) 0, #ff2fff 100%);
-  color: #000;
+  background-image: linear-gradient(65deg, rgb(45, 59, 253) 0, #231886 100%);
+  color: rgb(255, 254, 254);
   font-weight: bold !important;
-  box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
+  /* box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4); */
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -334,20 +334,32 @@ ol li {
 
 .btn-common1:hover {
   /* color: #fff; */
-  background-image: linear-gradient(65deg, rgb(233, 210, 226) 0, #ff2fff 100%);
-  color: #000;
+  background-color: #0073e6;
+  color: rgb(255, 255, 255);
   font-weight: bold !important;
-  box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
+  /* box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4); */
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
 }
 
+/* .apply-button {
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #000; 
+}
+
+.banner-btn {
+  padding-top: 10px ;
+  justify-content: space-around;
+} */
 
 .btn-common:hover {
   /* color: #fff; */
   background-color: rgb(247, 223, 7);
-  color: #000;
+  color: rgb(248, 248, 248);
   box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
