@@ -1,0 +1,45 @@
+.reg-head {
+  text-align: center;
+  font-size: auto;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  color: white;
+}
+.Registration-Criteria {
+  /* margin-top: 90px; */
+  background: url(../img/gallery/section_bg03.png);
+  margin-bottom: none;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.reg-list {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 50px;
+  line-height: 40px;
+}
+@media (max-width: 768px) {
+  .Registration-Criteria {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .reg-head {
+    font-size: 34px;
+  }
+  .reg-list {
+    font-size: 16px;
+  }
+}
+/* #empty {
+  height: 70px;
+  width: 100%;
+} */
+
+@media (max-width: 768px) {
+  /*ACMpresntsTechnothon-img */
+  .about-img {
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,200 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-size: cover;
+}
+
+.header {
+  font-size: 2rem;
+  text-align: center;
+  /* margin-bottom: -100px; */
+}
+
+.header__heading {
+  color: #fff;
+}
+
+.main {
+  margin: auto;
+  padding: 15px;
+  max-width: 1100px;
+}
+
+.events-table {
+  background-color: #fff;
+  border: none;
+  border-spacing: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .events-table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+}
+
+.events-table__headings {
+  display: none;
+  color: #fff;
+  background-color: #34495e;
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__headings {
+    display: table-header-group;
+    background-color: color(navBlue);
+  }
+}
+
+.events-table__row {
+  display: block;
+  padding: 20px 0 10px;
+  border: 0;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__row {
+    display: table-row;
+    padding: 5px;
+  }
+}
+
+.events-table__row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.events-table__row:before {
+  display: block;
+}
+
+.events-table__cell {
+  clear: left;
+  display: block;
+  padding: 20px 10px;
+  border: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__cell {
+    text-align: center;
+  }
+}
+
+.events-table__cell:before {
+  content: attr(data-label) ":";
+  display: block;
+  margin-right: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__cell:before {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__cell--date {
+    width: 14%;
+    text-align: center;
+  }
+
+  .events-table__cell--date span {
+    margin-bottom: 3px;
+    font-size: 2.1rem;
+    display: block;
+    text-align: center;
+  }
+}
+
+.events-table__cell--description:before {
+  float: none;
+  margin-bottom: 20px;
+  /* padding-left: 30px; */
+}
+@media (min-width: 600px) {
+  .events-table__cell--description {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__cell--description {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__heading,
+  .events-table__cell {
+    display: table-cell;
+    float: none;
+    clear: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .events-table__heading {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: color(navBlue);
+    border: 0;
+  }
+
+  .events-table__heading--description {
+    padding-left: 100px;
+    text-align: left;
+  }
+}
+
+.event__cta {
+  position: relative;
+  bottom: 10px;
+  display: block;
+  padding: 10px;
+  width: 120px;
+  overflow: hidden;
+  color: #34495e;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #34495e;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.event__cta:hover {
+  color: #fff;
+  background-color: #34495e;
+}
+
+@media screen and (min-width: 600px) {
+  .event__cta {
+    bottom: 0;
+  }
+}
+
+/*  extra ---> for mobile view from index.html */
+
+@media (max-width: 768px) {
+  .about-technothon {
+    text-align: center;
+  }
+  .mobbtn {
+    padding-left: 30%;
+    padding-right: auto;
+  }
+}
+
