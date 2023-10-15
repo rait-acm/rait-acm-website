@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+
 .reg-head {
   text-align: center;
   font-size: auto;
@@ -8,10 +11,28 @@
 }
 .Registration-Criteria {
   /* margin-top: 90px; */
-  background: url(../img/gallery/section_bg03.png);
+  background: url(../img/hero/prize-pool.webp);
   margin-bottom: none;
-  padding-left: 80px;
-  padding-right: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40%;
+}
+.Registration-Criteria .prizetext{
+  position: absolute;
+  color: #fff;
+  font-size: 70px;
+  line-height: 1.3;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Registration-Criteria .right-prize{
+  float: right;
 }
 
 .reg-list {
@@ -41,5 +62,17 @@
   /*ACMpresntsTechnothon-img */
   .about-img {
     padding-left: 30px;
+  }
+  .Registration-Criteria img{
+    display: none;
+  }
+  .Registration-Criteria .prizetext{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Registration-Criteria img{
+    display: none;
   }
 }

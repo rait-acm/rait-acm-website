@@ -2828,6 +2828,7 @@ hr {
     overflow: hidden
 }
 
+
 @media (max-width: 767px) {
     .slider-area .hero__caption {
         padding: 39px 24px 55px 44px
@@ -3912,7 +3913,8 @@ hr {
 }
 
 .footer-bg {
-    background: #010b1d
+    background: #010b1d;
+    margin-top: -30px;
 }
 
 .footer-bottom-area .footer-border {
