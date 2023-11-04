@@ -4,13 +4,13 @@
 }
 .Center{
     /* background-color: #154787 !important; */
-    background-image: url(/Tynet/ASSETS/Website-BG-\(1920x1080\).png) !important;
+    background-image: url(/Tynet/ASSETS/Website-BG-\(1920x1080\).webp) !important;
 }
 
 @media (max-width:768px)  {
     .Center{
         /* background-color: #154787 !important; */
-        background-image: url(/Tynet/ASSETS/mobileView\ BG.png) !important;
+        background-image: url(/Tynet/ASSETS/mobileView\ BG.webp) !important;
     }
 }
 #prizes{
@@ -397,6 +397,9 @@ table {
     border:2px solid white;
     padding: 10px 18px;
     border-radius: 50px;
+    color: #000;
+    font-weight: bolder;
+    background-color: #39B5FB;
 }
 .register:hover{
     color: white;
