@@ -4,7 +4,7 @@
 }
 .Center{
     /* background-color: #154787 !important; */
-    background-image: url(/Tynet/ASSETS/Website-BG-\(1920x1080\).webp) !important;
+    background-image: url(/Tynet/ASSETS/Website-BG.png) !important;
 }
 
 @media (max-width:768px)  {
@@ -406,7 +406,7 @@ table {
 }
 #reg
 {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: -15px;
 }
 
@@ -1146,7 +1146,7 @@ table {
 
 @media only screen and (min-width:768px) {
     .Text--medium {
-        font-size: 26px;
+        font-size: 23px;
         line-height: 36px
     }
 }
@@ -1499,18 +1499,19 @@ table {
 
 @media only screen and (min-width:960px) {
     .Nav {
-        margin-left: -276px
+        text-align: center;
+        margin-left: -250px;
     }
     .Nav.is-fixed {
         margin-left: -22pc
     }
 }
 
-@media only screen and (min-width:1240px) {
+/* @media only screen and (min-width:1240px) {
     .Nav.is-fixed {
         margin-left: -276px
     }
-}
+} */
 
 .Nav-item {
     display: block;
@@ -1575,7 +1576,7 @@ table {
 
 @media only screen and (min-width:768px) {
     .Nav-center {
-        margin-left: -60px;
+        /* margin-left: -60px; */
         margin-top : -10px;
         margin-right: 10px;
     }
@@ -2247,9 +2248,9 @@ a:hover{
     margin-bottom: 0.4em !important;
 }
 
-.u-marginTop {
+/* .u-marginTop {
     margin-top: 1em!important
-}
+} */
 
 .u-marginTop-x2 {
     margin-top: 2em!important
@@ -3286,7 +3287,7 @@ footer
 
 .Center .row
 {
-    margin-top: 6em;
+    margin-top: 4.5em;
 }
 
 #photo img:hover
@@ -3326,7 +3327,7 @@ footer
 
 .Center-content
 {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .container{
