@@ -41,15 +41,15 @@ function Header() {
             <img
               src={logoDark}
               alt="logo"
-              width={90}
-              height={30}
+              width={80}
+              height={20}
               className="hidden dark:block"
             />
             <img
               src={logoLight}
               alt="logo"
-              width={90}
-              height={30}
+              width={80}
+              height={20}
               className=" dark:hidden"
             />
           </a>
