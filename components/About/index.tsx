@@ -58,14 +58,14 @@ function About() {
             >
               <span className="font-medium uppercase text-black dark:text-white">
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
-                  New
+                  2024-25
                 </span>{" "}
-                SaaS Boilerplate for Next.js
+                New Tenure
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                A Complete Solution for
+                Perks of Joining&nbsp;
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  SaaS Startup
+                  RAIT ACM
                 </span>
               </h2>
               <p>
@@ -128,17 +128,26 @@ function About() {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
+                Get to Know RAIT ACM
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Packed with All Essential {"   "}
+                Essentials about {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  Integrations
+                  RAIT ACM
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                Association for Computing Machinery (ACM) is the world's largest
+                educational and scientific computing society, delivers resources
+                that advance computing as a science and profession. RAIT ACM is
+                a Student Chapter of the Elite International level ACM
+                organization. It is a committee focused on the overall
+                development and progress of students in RAIT. We work in
+                different fields like Technical, Creative, Publicity, Video
+                Editing, Management, Social Media, and Editorial. Our Mission as
+                a Committee is to bring together and train students in the
+                domains of creative thinking, problem-solving, programming, and
+                management.
               </p>
               <div>
                 <a

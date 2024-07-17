@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero/index";
-import Brands from "@/components/Brands/index";
+// import Brands from "@/components/Brands/index";
 import Feature from "@/components/Features/index";
 import About from "@/components/About/index";
 import FeaturesTab from "@/components/FeaturesTab/index";
@@ -16,16 +16,16 @@ function Home() {
   return (
     <>
       <Hero />
-      <Brands />
-      <Feature />
+      {/* <Brands /> */}
       <About />
-      <FeaturesTab />
+      <Feature />
+      {/* <FeaturesTab /> */}
       <FunFact />
-      <Integration />
+      {/* <Integration /> */}
       <CTA />
       <FAQ />
       <Testimonial />
-      <Pricing />
+      {/* <Pricing /> */}
       <Contact />
       <Blog />
     </>

@@ -11,11 +11,9 @@ function Feature() {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "DOMAINS",
+              subtitle: "Core Domains of RAIT ACM",
+              description: `In all fields of technology, we have domains that offer every individual the opportunity to grow.`,
             }}
           />
           {/* <!-- Section Title End --> */}

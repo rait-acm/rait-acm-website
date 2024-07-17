@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import logoDark from "/images/logo/logo-dark.svg";
-import logoLight from "/images/logo/logo-light.svg";
+import logoDark from "/images/logo/logodark.png";
+import logoLight from "/images/logo/logolight.png";
 
 function Header() {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -41,16 +41,16 @@ function Header() {
             <img
               src={logoDark}
               alt="logo"
-              width={119.03}
+              width={90}
               height={30}
-              className="hidden w-full dark:block"
+              className="hidden dark:block"
             />
             <img
               src={logoLight}
               alt="logo"
-              width={119.03}
+              width={90}
               height={30}
-              className="w-full dark:hidden"
+              className=" dark:hidden"
             />
           </a>
 

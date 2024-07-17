@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import logoDark from "/images/logo/logodark.png";
+import logoLight from "/images/logo/logolight.png";
 
 function Footer() {
   return (
@@ -30,22 +32,20 @@ function Footer() {
                   <img
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src={logoLight}
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <img
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src={logoDark}
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
-                <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <p className="mb-10 mt-5">#acmtothemoon 🚀</p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
@@ -54,7 +54,7 @@ function Footer() {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  reachraitacm@gmail.com
                 </a>
               </motion.div>
 
@@ -193,7 +193,7 @@ function Footer() {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                  {/* <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
                     Newsletter
                   </h4>
                   <p className="mb-4 w-[90%]">
@@ -234,7 +234,7 @@ function Footer() {
                         </svg>
                       </button>
                     </div>
-                  </form>
+                  </form> */}
                 </motion.div>
               </div>
             </div>
@@ -299,7 +299,8 @@ function Footer() {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} RAIT ACM Student Chapter. All
+                rights reserved
               </p>
             </motion.div>
 
