@@ -6,14 +6,13 @@ function About() {
       {/* <!-- ===== About Start ===== --> */}
       <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -23,16 +22,16 @@ function About() {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_left relative mx-auto aspect-[588/526.5] w-full md:w-1/2"
             >
               <img
-                src="/images/about/about-light-01.png"
+                src="/images/about/about-light-02.svg"
                 alt="About"
                 className="dark:hidden"
                 style={{ position: "absolute", width: "100%", height: "100%" }}
               />
               <img
-                src="/images/about/about-dark-01.png"
+                src="/images/about/about-dark-02.svg"
                 alt="About"
                 className="hidden dark:block"
                 style={{ position: "absolute", width: "100%", height: "100%" }}
@@ -44,7 +43,6 @@ function About() {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -54,10 +52,10 @@ function About() {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right md:w-1/2"
+              className="animate_right w-full md:w-1/2"
             >
               <span className="font-medium uppercase text-black dark:text-white">
-                <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
+                <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white">
                   2024-25
                 </span>{" "}
                 New Tenure
@@ -69,8 +67,8 @@ function About() {
                 </span>
               </h2>
               <p>
-                Join RAIT-ACM today and become a part of of international
-                community which strives in fostering technology.
+                Join RAIT-ACM today and become a part of an international
+                community that strives in fostering technology.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -84,7 +82,7 @@ function About() {
                     Knowledge and Experience
                   </h3>
                   <p>
-                    Get hands onn experience and knowledge of what latest
+                    Get hands-on experience and knowledge of what the latest
                     technology has to offer.
                   </p>
                 </div>
@@ -114,14 +112,13 @@ function About() {
       {/* <!-- ===== About Two Start ===== --> */}
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -131,23 +128,23 @@ function About() {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left md:w-1/2"
+              className="animate_left w-full md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
                 Get to Know RAIT ACM
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Essentials about {"   "}
+                Essentials about{" "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
                   RAIT ACM
                 </span>
               </h2>
               <p>
                 Association for Computing Machinery (ACM) is the world's largest
-                educational and scientific computing society, delivers resources
-                that advance computing as a science and profession. RAIT ACM is
-                a Student Chapter of the Elite International level ACM
-                organization. It is a committee focused on the overall
+                educational and scientific computing society, delivering
+                resources that advance computing as a science and profession.
+                RAIT ACM is a Student Chapter of the Elite International level
+                ACM organization. It is a committee focused on the overall
                 development and progress of students in RAIT. We work in
                 different fields like Technical, Creative, Publicity, Video
                 Editing, Management, Social Media, and Editorial. Our Mission as
@@ -180,7 +177,6 @@ function About() {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -190,16 +186,16 @@ function About() {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_right relative mx-auto aspect-[588/526.5] w-full md:w-1/2"
             >
               <img
-                src="/images/about/about-light-02.svg"
+                src="/images/about/about-light-01.svg"
                 alt="About"
                 className="dark:hidden"
                 style={{ position: "absolute", width: "100%", height: "100%" }}
               />
               <img
-                src="/images/about/about-dark-02.svg"
+                src="/images/about/about-dark-01.svg"
                 alt="About"
                 className="hidden dark:block"
                 style={{ position: "absolute", width: "100%", height: "100%" }}
