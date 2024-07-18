@@ -22,6 +22,7 @@ import SigninPage from "./pages/auth/signin/SignInPage.tsx";
 import Register from "./pages/auth/signup/Register.tsx";
 import SupportPage from "./pages/support/SupportPage.tsx";
 
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Router>
@@ -32,7 +33,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/blog-details" element={<SingleBlogPage />} />
+          <Route path="/blog/:slug" element={<SingleBlogPage/>} />
           <Route path="/error" element={<ErrorPage />} />
           <Route path="/auth/signin" element={<SigninPage />} />
           <Route path="/auth/signup" element={<Register />} />

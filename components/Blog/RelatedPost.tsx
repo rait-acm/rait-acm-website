@@ -31,7 +31,7 @@ function RelatedPost() {
                 )}
               </div>
               <h5 className="text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
-                <Link to={`/blog/blog-details`}>
+              <Link to={`/blog/${post.url}`}>
                   {" "}
                   {post.title.slice(0, 40)}...
                 </Link>

@@ -1,7 +1,33 @@
+import { useParams } from "react-router-dom";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
+import { ActualBlogData } from "./actualblogData"; // Adjust the import path as needed
 
 function SingleBlogPage() {
+
+  const { slug } = useParams<{ slug: keyof typeof indexMapping }>();
+  
+  // Define your mapping object
+  const indexMapping = {
+    advert: 0,
+    design: 1,
+    coding: 2
+    // Add more mappings as needed
+  };
+
+  // Ensure slug is defined and exists in the indexMapping
+  if (!slug || !(slug in indexMapping)) {
+    return <div>Blog not found</div>;
+  }
+
+  // Retrieve the blog data based on the mapped index
+  const blog = ActualBlogData[indexMapping[slug]];
+
+  if (!blog) {
+    return <div>Blog not found</div>;
+  }
+
+
   return (
     <>
       <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
@@ -71,8 +97,8 @@ function SingleBlogPage() {
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <img
-                      src={"/images/blog/blog-01.png"}
-                      alt="Kobe Steel plant that supplied"
+                      src={blog.mainImage}
+                      alt={blog.title}
                       style={{
                         position: "absolute",
                         width: "100%",
@@ -84,75 +110,33 @@ function SingleBlogPage() {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Kobe Steel plant that supplied
+                  {blog.title}
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
-                    <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    <span className="text-black dark:text-white">Author: </span> {blog.author}
                   </li>
                   <li>
-                    <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
-                    </span>{" "}
+                    <span className="text-black dark:text-white">Published On: {blog.publishedOn}</span>
                   </li>
                   <li>
-                    <span className="text-black dark:text-white">
-                      Category:
-                    </span>
-                    Events
+                    <span className="text-black dark:text-white">Category:</span> {blog.category}
                   </li>
                 </ul>
 
                 <div className="blog-details">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
-                  </p>
-
-                  <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
-                  </p>
+                  <p>{blog.content1}</p>
 
                   <div className="flex flex-wrap gap-5">
-                    <img
-                      src={"/images/blog/blog-01.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                    <img
-                      src={"/images/blog/blog-02.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
+                    {blog.images.map((image, index) => (
+                      <img key={index} src={image} width={350} height={200} alt="image" />
+                    ))}
                   </div>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
-                  </h3>
+                  <h3 className="pt-8">{blog.smallh}</h3>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
-                  </p>
+                  <p>{blog.content2}</p>
                 </div>
 
                 <SharePost />
