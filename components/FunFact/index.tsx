@@ -79,6 +79,7 @@ function FunFact() {
               transition={{ duration: 1, delay: 0.5 }}
               viewport={{ once: true }}
               className="animate_top text-center"
+              style={{ width: "120px" }}
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 19000
@@ -102,6 +103,7 @@ function FunFact() {
               transition={{ duration: 1, delay: 0.7 }}
               viewport={{ once: true }}
               className="animate_top text-center"
+              style={{ width: "120px" }}
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 1150
@@ -125,6 +127,7 @@ function FunFact() {
               transition={{ duration: 1, delay: 0.8 }}
               viewport={{ once: true }}
               className="animate_top text-center"
+              style={{ width: "120px" }}
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 135
@@ -148,6 +151,7 @@ function FunFact() {
               transition={{ duration: 1, delay: 0.8 }}
               viewport={{ once: true }}
               className="animate_top text-center"
+              style={{ width: "120px" }}
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 60

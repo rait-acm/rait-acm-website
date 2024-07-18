@@ -56,7 +56,7 @@ export const EventParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[250vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[250vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
         {/* <!-- Section Title Start --> */}
@@ -139,15 +139,19 @@ export const ProductCard = ({
           src={product.thumbnail}
           height="600"
           width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0"
+          className="object-center absolute h-full w-full inset-0"
           alt={product.title}
           style={{ borderRadius: 10 }}
         />
       </Link>
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
-      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
-        {product.title}
-      </h2>
+      <div
+        className="relative group flex items-center justify-center inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"
+        style={{ borderRadius: 10 }}
+      >
+        <h2 className="absolute text-center opacity-0 group-hover/product:opacity-100 text-white">
+          {product.title}
+        </h2>
+      </div>
     </motion.div>
   );
 };

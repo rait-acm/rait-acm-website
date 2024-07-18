@@ -69,8 +69,8 @@ function About() {
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                Join RAIT-ACM today and become a part of of international
+                community which strives in fostering technology.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -81,9 +81,12 @@ function About() {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    React 18, Next.js 13 and TypeScript
+                    Knowledge and Experience
                   </h3>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
+                  <p>
+                    Get hands onn experience and knowledge of what latest
+                    technology has to offer.
+                  </p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -94,9 +97,12 @@ function About() {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Fully Customizable
+                    Free Workshops
                   </h3>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
+                  <p>
+                    Students with ACM international membership get to attend all
+                    RAIT ACM workshops/events for free.
+                  </p>
                 </div>
               </div>
             </motion.div>
