@@ -28,7 +28,7 @@ export const cardContent = [
     description: "Speaker Session",
     title: "STREE-SPURTI",
     date: "📆: 07 Mar 2024",
-    src: "/images/events/streespurti.webp",
+    src: "/images/events/heavy.png",
     content: `A fun event on the occasion of Women's Week for teachers.`,
   },
   {
@@ -44,7 +44,7 @@ export const cardContent = [
     description: "Competition",
     title: "EXTEMPORE COMPETITION",
     date: "📆: 06 Mar 2024",
-    src: "/images/events/Ext-Comp-Banner.webp",
+    src: "/images/events/heavy.png",
     content: `A competition on the occasion of Women's Week by an expert. This competition helps participants to get an opportunity to express opinions, exude confidence, and let words speak for themselves.`,
   },
   {
