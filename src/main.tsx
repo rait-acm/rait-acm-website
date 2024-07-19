@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 import ScrollToTop from "@/components/ScrollToTop/index.tsx";
+import ResetScroll from "@/components/ScrollToTop/ResetScroll.tsx";
 import "./globals.css";
 import ToasterContext from "@/src/context/ToastContext.tsx";
 
@@ -30,6 +31,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Lines />
         <Header />
         <ToasterContext />
+        <ResetScroll />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<BlogPage />} />
