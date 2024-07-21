@@ -52,7 +52,7 @@ function Testimonial() {
               spaceBetween={50}
               slidesPerView={2}
               autoplay={{
-                delay: 2500,
+                delay: 5500,
                 disableOnInteraction: false,
               }}
               pagination={{

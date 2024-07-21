@@ -5,34 +5,26 @@ import { Testimonial } from "@/types/testimonial";
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "An RAIT Fresher",
+    designation: "",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Joining RAIT ACM as a first-year student was a rewarding experience. The environment was welcoming as the non-core and core members made it easy to get involved. The workshops and tech talks were IMMENSELY HELPFUL for improving programming and technical skills. The speaker sessions provided industry knowledge. Overall, the experience was a key part of my academic journey.",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "A Volunteer",
+    designation: "",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Being a part of RAIT ACM Committee felt like I was in a fun technical family. I loved volunteering as it made me dwell in something other than academics. Events like KLEOS helped me in connecting with students from across the nation and learning some new publicity skills. The advice from experienced alumni enriched the learning process and significantly advanced my skills in the tech field.",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "RAIT Faculty Member",
+    designation: "",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
-  },
-  {
-    id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
-    image: image2,
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "It’s an immense pleasure to witness a committee of highly talented individuals collaborating extensively to bring out diverse perspectives and skills. Having attended few of their events, I can with utmost confidence say that the committee strives to level up a student in all aspects. Hackathons are events showcasing the committee’s innovation in the tech field.",
   },
 ];
