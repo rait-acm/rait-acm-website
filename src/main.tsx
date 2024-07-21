@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/home/Home.tsx";
 import Footer from "@/components/Footer/index.tsx";
 import Header from "@/components/Header/index.tsx";
-import Lines from "@/components/Lines/index.tsx";
+// import Lines from "@/components/Lines/index.tsx";
 import {
   BrowserRouter as Router,
   Route,
@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Router>
       <ThemeProvider enableSystem={false} attribute="class" defaultTheme="dark">
-        <Lines />
+        {/* <Lines /> */}
         <Header />
         <ToasterContext />
         <ResetScroll />

@@ -1,10 +1,22 @@
+import { cn } from "@/lib/utils";
+import { GridPattern } from "../GridPattern/GridPattern";
 import { FlipWords } from "@/components/WordFlip/FlipWords";
 
-function Hero() {
+export default function Hero() {
   const words = ["RAIT ACM", "RAIT ACM W", "RAIT ACM SIG-AI"];
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className=" relative pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+        <GridPattern
+          numSquares={100}
+          maxOpacity={0.3}
+          duration={1.5}
+          repeatDelay={1}
+          className={cn(
+            "[mask-image:radial-gradient(950px_circle_at_center,white,transparent)]",
+            "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12"
+          )}
+        />
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col lg:flex-row lg:items-center lg:gap-8 xl:gap-32.5">
             <div className="order-1 lg:order-2 w-full md:w-1/2">
@@ -66,5 +78,3 @@ function Hero() {
     </>
   );
 }
-
-export default Hero;
