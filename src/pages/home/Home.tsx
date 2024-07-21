@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero/index";
-// import Brands from "@/components/Brands/index";
-import Feature from "@/components/Features/index";
+import Feature from "@/components/Domains/index";
 import About from "@/components/About/index";
 import FunFact from "@/components/FunFact/index";
 import CTA from "@/components/CTA/index";
@@ -14,17 +13,13 @@ function Home() {
   return (
     <>
       <Hero />
-      {/* <Brands /> */}
       <About />
       <Feature />
       <HomeEvents />
-      {/* <FeaturesTab /> */}
       <FunFact />
-      {/* <Integration /> */}
       <CTA />
       <FAQ />
       <Testimonial />
-      {/* <Pricing /> */}
       <Contact />
       <Blog />
     </>

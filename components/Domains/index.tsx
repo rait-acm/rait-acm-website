@@ -1,5 +1,5 @@
-import featuresData from "./featuresData";
-import SingleFeature from "./SingleFeature";
+import featuresData from "./DomainsData";
+import SingleFeature from "./SingleDomains";
 import SectionHeader from "../Common/SectionHeader";
 
 function Feature() {

@@ -10,7 +10,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
+    icon: "/images/icon/icon-management.svg",
     title: "Management",
     description:
       "All the activities held throughout the year are overseen by the management team. Events are tracked and problems encountered during events are handled by this domain.",
