@@ -8,7 +8,7 @@ export default function Hero() {
     <>
       <section className=" relative pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <GridPattern
-          numSquares={100}
+          numSquares={40}
           maxOpacity={0.3}
           duration={1.5}
           repeatDelay={1}

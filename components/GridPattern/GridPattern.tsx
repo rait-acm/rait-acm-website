@@ -16,15 +16,15 @@ interface GridPatternProps {
 }
 
 export function GridPattern({
-  width = 40,
-  height = 40,
+  width = 60,
+  height = 60,
   x = -1,
   y = -1,
   strokeDasharray = 0,
-  numSquares = 50,
+  numSquares = 10,
   className,
   maxOpacity = 0.5,
-  duration = 4,
+  duration = 1,
   repeatDelay = 0.5,
   ...props
 }: GridPatternProps) {
