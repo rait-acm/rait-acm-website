@@ -1,5 +1,4 @@
 import React from "react";
-import SectionHeader from "@/components/Common/SectionHeader";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 interface TeamMember {
@@ -7,9 +6,9 @@ interface TeamMember {
   designation: string;
   imageUrl: string;
   links: {
-    instagram: string;
-    linkedin: string;
-    github: string;
+    instagram?: string;
+    linkedin?: string;
+    github?: string;
   };
 }
 
@@ -21,18 +20,6 @@ const NonCoreSection: React.FC<NonCoreSectionProps> = ({ teamMembers }) => {
   return (
     <div className="py-6 sm:py-8 lg:py-12 text-gray-900 dark:text-gray-100">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="mb-10 md:mb-16">
-          {/* <!-- Section Title Start --> */}
-          <SectionHeader
-            headerInfo={{
-              title: "2024-25",
-              subtitle: "Our Non-Core Team",
-              description: `Meet the people that drive RAIT ACM Student Chapter towards success.`,
-            }}
-          />
-          {/* <!-- Section Title End --> */}
-        </div>
-
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
           {teamMembers.map((member, index) => (
             <div
@@ -58,32 +45,36 @@ const NonCoreSection: React.FC<NonCoreSectionProps> = ({ teamMembers }) => {
 
                 <div className="flex justify-center">
                   <div className="flex gap-4">
-                    <a
-                      href={member.links.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 dark:text-gray-500 transition duration-100 hover:text-gray-500 dark:hover:text-gray-300 active:text-gray-600 dark:active:text-gray-400"
-                    >
-                      <FaInstagram className="h-5 w-5" />
-                    </a>
-
-                    <a
-                      href={member.links.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 dark:text-gray-500 transition duration-100 hover:text-gray-500 dark:hover:text-gray-300 active:text-gray-600 dark:active:text-gray-400"
-                    >
-                      <FaLinkedin className="h-5 w-5" />
-                    </a>
-
-                    <a
-                      href={member.links.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 dark:text-gray-500 transition duration-100 hover:text-gray-500 dark:hover:text-gray-300 active:text-gray-600 dark:active:text-gray-400"
-                    >
-                      <FaGithub className="h-5 w-5" />
-                    </a>
+                    {member.links.instagram && (
+                      <a
+                        href={member.links.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 dark:text-gray-500 transition duration-100 hover:text-gray-500 dark:hover:text-gray-300 active:text-gray-600 dark:active:text-gray-400"
+                      >
+                        <FaInstagram className="h-5 w-5" />
+                      </a>
+                    )}
+                    {member.links.linkedin && (
+                      <a
+                        href={member.links.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 dark:text-gray-500 transition duration-100 hover:text-gray-500 dark:hover:text-gray-300 active:text-gray-600 dark:active:text-gray-400"
+                      >
+                        <FaLinkedin className="h-5 w-5" />
+                      </a>
+                    )}
+                    {member.links.github && (
+                      <a
+                        href={member.links.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 dark:text-gray-500 transition duration-100 hover:text-gray-500 dark:hover:text-gray-300 active:text-gray-600 dark:active:text-gray-400"
+                      >
+                        <FaGithub className="h-5 w-5" />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

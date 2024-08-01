@@ -1,15 +1,14 @@
 import React from "react";
-import SectionHeader from "@/components/Common/SectionHeader";
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa"; // Import icons from react-icons
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 interface TeamMember {
   name: string;
   designation: string;
   imgSrc: string;
   links: {
-    instagram: string;
-    linkedin: string;
-    github: string;
+    instagram?: string;
+    linkedin?: string;
+    github?: string;
   };
 }
 
@@ -20,19 +19,6 @@ interface CoreSectionProps {
 const CoreSection: React.FC<CoreSectionProps> = ({ teamMembers }) => {
   return (
     <>
-      <div className="h-[32rem]">
-        {/* <!-- Section Title Start --> */}
-        <SectionHeader
-          headerInfo={{
-            title: "2024-25",
-            subtitle: "Our Core Team",
-            description:
-              "Meet the people that drive RAIT ACM Student Chapter towards success.",
-          }}
-        />
-        {/* <!-- Section Title End --> */}
-      </div>
-
       <div className="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
         <div className="flex justify-center">
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl">
@@ -56,29 +42,33 @@ const CoreSection: React.FC<CoreSectionProps> = ({ teamMembers }) => {
                 </p>
 
                 <div className="flex mt-3 -mx-2">
-                  <a
-                    href={member.links.instagram}
-                    className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                    aria-label="Instagram"
-                  >
-                    <FaInstagram className="w-6 h-6" />
-                  </a>
-
-                  <a
-                    href={member.links.linkedin}
-                    className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                    aria-label="LinkedIn"
-                  >
-                    <FaLinkedin className="w-6 h-6" />
-                  </a>
-
-                  <a
-                    href={member.links.github}
-                    className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                    aria-label="Github"
-                  >
-                    <FaGithub className="w-6 h-6" />
-                  </a>
+                  {member.links.instagram && (
+                    <a
+                      href={member.links.instagram}
+                      className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                      aria-label="Instagram"
+                    >
+                      <FaInstagram className="w-6 h-6" />
+                    </a>
+                  )}
+                  {member.links.linkedin && (
+                    <a
+                      href={member.links.linkedin}
+                      className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                      aria-label="LinkedIn"
+                    >
+                      <FaLinkedin className="w-6 h-6" />
+                    </a>
+                  )}
+                  {member.links.github && (
+                    <a
+                      href={member.links.github}
+                      className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                      aria-label="Github"
+                    >
+                      <FaGithub className="w-6 h-6" />
+                    </a>
+                  )}
                 </div>
               </div>
             ))}

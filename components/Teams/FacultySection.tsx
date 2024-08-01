@@ -1,5 +1,4 @@
 import React from "react";
-import SectionHeader from "@/components/Common/SectionHeader";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 interface TeamMember {
@@ -7,9 +6,9 @@ interface TeamMember {
   designation: string;
   imgSrc: string;
   links: {
-    instagram: string;
-    linkedin: string;
-    github: string;
+    instagram?: string;
+    linkedin?: string;
+    github?: string;
   };
 }
 
@@ -20,16 +19,6 @@ interface FacultySectionProps {
 const FacultySection: React.FC<FacultySectionProps> = ({ teamMembers }) => {
   return (
     <>
-      <div className="h-[32rem]">
-        <SectionHeader
-          headerInfo={{
-            title: "2024-25",
-            subtitle: "Our Faculty Co-ordinator & Faculty Sponsor",
-            description: "Meet the faculty that lead RAIT ACM.",
-          }}
-        />
-      </div>
-
       <div className="container mx-auto px-6 py-10 -mt-72 sm:-mt-80 md:-mt-96 flex justify-center items-center">
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 sm:grid-cols-2 lg:grid-cols-2">
           {teamMembers.map((member, index) => (
@@ -49,27 +38,33 @@ const FacultySection: React.FC<FacultySectionProps> = ({ teamMembers }) => {
                 {member.designation}
               </p>
               <div className="flex mt-3 space-x-2">
-                <a
-                  href={member.links.instagram}
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                  aria-label="Instagram"
-                >
-                  <FaInstagram className="w-6 h-6" />
-                </a>
-                <a
-                  href={member.links.linkedin}
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                  aria-label="LinkedIn"
-                >
-                  <FaLinkedin className="w-6 h-6" />
-                </a>
-                <a
-                  href={member.links.github}
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                  aria-label="Github"
-                >
-                  <FaGithub className="w-6 h-6" />
-                </a>
+                {member.links.instagram && (
+                  <a
+                    href={member.links.instagram}
+                    className="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                    aria-label="Instagram"
+                  >
+                    <FaInstagram className="w-6 h-6" />
+                  </a>
+                )}
+                {member.links.linkedin && (
+                  <a
+                    href={member.links.linkedin}
+                    className="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                    aria-label="LinkedIn"
+                  >
+                    <FaLinkedin className="w-6 h-6" />
+                  </a>
+                )}
+                {member.links.github && (
+                  <a
+                    href={member.links.github}
+                    className="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                    aria-label="Github"
+                  >
+                    <FaGithub className="w-6 h-6" />
+                  </a>
+                )}
               </div>
             </div>
           ))}

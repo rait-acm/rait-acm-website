@@ -23,7 +23,7 @@ import SigninPage from "@/src/pages/auth/signin/SignInPage.tsx";
 import Register from "@/src/pages/auth/signup/Register.tsx";
 import SupportPage from "@/src/pages/support/SupportPage.tsx";
 import { EventsPage } from "@/src/pages/events/EventsPage.tsx";
-import { TeamsPage } from "@/src/pages/teams/2024-25/TeamsPage.tsx";
+import { TeamsPage2024_25 } from "@/src/pages/teams/2024-25/TeamsPage2024-25.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -39,7 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/blog/:slug" element={<SingleBlogPage />} />
           <Route path="/error" element={<ErrorPage />} />
           <Route path="/events" element={<EventsPage />} />
-          <Route path="/team" element={<TeamsPage />} />
+          <Route path="/team" element={<TeamsPage2024_25 />} />
           <Route path="/auth/signin" element={<SigninPage />} />
           <Route path="/auth/signup" element={<Register />} />
           <Route path="/support" element={<SupportPage />} />
