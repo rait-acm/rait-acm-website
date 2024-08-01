@@ -1,9 +1,8 @@
 const coreMembers = [
   {
-    name: "Arthur Melo",
-    designation: "Design Director",
-    imgSrc:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    name: "Vaibhavi Nakum",
+    designation: "Chairperson",
+    imgSrc: "/images/2023_24_team/Vaibhavi2.JPG",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -11,10 +10,9 @@ const coreMembers = [
     },
   },
   {
-    name: "Pamela Anderson",
-    designation: "Lead Developer",
-    imgSrc:
-      "https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    name: "Amogh Gaikwad",
+    designation: "vice Chairperson",
+    imgSrc: "/images/2023_24_team/Amogh2.JPG",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -22,10 +20,79 @@ const coreMembers = [
     },
   },
   {
-    name: "John Doe",
-    designation: "Full stack developer",
-    imgSrc:
-      "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    name: "Nupur Thikekar",
+    designation: "General Secratary",
+    imgSrc: "/images/2023_24_team/Nupur2.JPG",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Priyanshi Singh",
+    designation: "Treasurer",
+    imgSrc: "/images/2023_24_team/Priyanshi2.JPG",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Shreyash Pingle",
+    designation: "Webmaster",
+    imgSrc: "/images/2023_24_team/Shreyash2.JPG",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Dev Nirmal",
+    designation: "Technical Chief",
+    imgSrc: "/images/2023_24_team/Dev2.JPG",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Priyanka Shinde",
+    designation: "Membership Chair",
+    imgSrc: "/images/2023_24_team/Priyanka2.JPG",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Nihar Narsana",
+    designation: "Public Relations Officer",
+    imgSrc: "/images/2023_24_team/Nihar2.JPG",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Aaryan Butala",
+    designation: "Sponsorship Head",
+    imgSrc: "/images/2023_24_team/Aaryan2.JPG",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Jay Ganatra",
+    designation: "Management Chief",
+    imgSrc: "/images/2023_24_team/Jay2.JPG",
     links: {
       instagram: "#",
       linkedin: "#",

@@ -2,9 +2,10 @@ import CoreSection from "@/components/Teams/CoreSection";
 import NonCoreSection from "@/components/Teams/NonCoreSection";
 import FacultySection from "@/components/Teams/FacultySection";
 import SectionHeader from "@/components/Common/SectionHeader";
-import coreMembers from "@/src/pages/teams/2024-25/coreList";
-import nonCoreMembers from "@/src/pages/teams/2024-25/nonCoreList";
-import facultyMembers from "@/src/pages/teams/2024-25/facultyList";
+import coreMembers from "@/src/pages/teams/2023-24/coreList";
+import wMembers from "@/src/pages/teams/2023-24/coreWList";
+import nonCoreMembers from "@/src/pages/teams/2023-24/nonCoreList";
+import facultyMembers from "@/src/pages/teams/2023-24/facultyList";
 import { motion } from "framer-motion";
 
 export const TeamsPage2023_24 = () => {
@@ -49,6 +50,16 @@ export const TeamsPage2023_24 = () => {
             />
           </div>
           <CoreSection teamMembers={coreMembers} />
+          <div className="h-[32rem]">
+            <SectionHeader
+              headerInfo={{
+                title: "2023-24",
+                subtitle: "Our  ACMw Core Team",
+                description: "Meet Our past Heros.",
+              }}
+            />
+          </div>
+          <CoreSection teamMembers={wMembers} />
           <div className="mb-10 md:mb-16">
             <SectionHeader
               headerInfo={{

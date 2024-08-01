@@ -1,9 +1,8 @@
 const nonCoreMembers = [
   {
-    name: "John McCulling",
-    designation: "Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256",
+    name: "Pranav Talmale",
+    designation: "Jr. Tech Chief",
+    imageUrl: "/images/2023_24_team/pranav_talmale.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -11,10 +10,9 @@ const nonCoreMembers = [
     },
   },
   {
-    name: "Kate Berg",
-    designation: "CFO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=256",
+    name: "Siddharth Joisar",
+    designation: "Jr. Tech Chief",
+    imageUrl: "/images/2023_24_team/Siddhart Joisar.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -22,10 +20,9 @@ const nonCoreMembers = [
     },
   },
   {
-    name: "Greg Jackson",
-    designation: "CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=256",
+    name: "Atharva Awle",
+    designation: "Jr. Tech Chief",
+    imageUrl: "/images/2023_24_team/Atharva Awle.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -33,10 +30,9 @@ const nonCoreMembers = [
     },
   },
   {
-    name: "Robert Greyson",
-    designation: "Creative Director",
-    imageUrl:
-      "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256",
+    name: "Kailash Choudhary",
+    designation: "Jr. Tech Chief",
+    imageUrl: "/images/2023_24_team/Kailash Chaudhary.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -44,10 +40,9 @@ const nonCoreMembers = [
     },
   },
   {
-    name: "John Roberts",
-    designation: "Investor Relations",
-    imageUrl:
-      "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&q=75&fit=crop&w=256",
+    name: "Yahya Moosa",
+    designation: "Jr. Tech Chief",
+    imageUrl: "/images/2023_24_team/Yahyamoosa.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -55,10 +50,9 @@ const nonCoreMembers = [
     },
   },
   {
-    name: "Judy Amandez",
-    designation: "Senior Art Director",
-    imageUrl:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&q=75&fit=crop&w=256",
+    name: "Arnav Ambre",
+    designation: "Jr. Management Chief",
+    imageUrl: "/images/2023_24_team/Arnav Ambre.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -66,10 +60,9 @@ const nonCoreMembers = [
     },
   },
   {
-    name: "Rahul Williams",
-    designation: "Creative Director",
-    imageUrl:
-      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&q=75&fit=crop&w=256",
+    name: "Nishant Wanjari",
+    designation: "Jr. Management Chief",
+    imageUrl: "/images/2023_24_team/Nishant Wanjari.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -77,10 +70,89 @@ const nonCoreMembers = [
     },
   },
   {
-    name: "Ari Ferris",
-    designation: "Marketing Analyst",
-    imageUrl:
-      "https://images.unsplash.com/photo-1562904403-a5106bef8319?auto=format&q=75&fit=crop&w=256",
+    name: "Samarjeet Rankhamb",
+    designation: "Jr. Management Chief",
+    imageUrl: "/images/2023_24_team/samar.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Anushka Jadhav",
+    designation: "Jr. Creative Chief",
+    imageUrl: "/images/2023_24_team/Anushka Jadhav.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Yashika Dhuri",
+    designation: "Jr. Creative Chief",
+    imageUrl: "/images/2023_24_team/Yashika Dhuri.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Shruti Patil",
+    designation: "Content Chief",
+    imageUrl: "/images/2023_24_team/Shruti Patil - Content Cheif.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Astha Singh",
+    designation: "Content Chief",
+    imageUrl: "/images/2023_24_team/Astha Singh.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Poulami Majumdar",
+    designation: "Publicity Chief",
+    imageUrl: "/images/2023_24_team/Poulami Majumdar.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Aarya Patil",
+    designation: "Publicity Chief",
+    imageUrl: "/images/2023_24_team/Aarya-publicity.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Arnav Payghan",
+    designation: "Design Chief",
+    imageUrl: "/images/2023_24_team/Arnav Paygan.jpg",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Soham Wankhade",
+    designation: "Media Graphics Chief",
+    imageUrl: "/images/2023_24_team/Soham Wankhede- Mediagraphics cheif.jpg",
     links: {
       instagram: "#",
       linkedin: "#",
