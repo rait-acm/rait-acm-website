@@ -2,12 +2,12 @@ import CoreSection from "@/components/Teams/CoreSection";
 import NonCoreSection from "@/components/Teams/NonCoreSection";
 import FacultySection from "@/components/Teams/FacultySection";
 import SectionHeader from "@/components/Common/SectionHeader";
-import coreMembers from "@/src/pages/teams/2024-25/coreList";
-import nonCoreMembers from "@/src/pages/teams/2024-25/nonCoreList";
-import facultyMembers from "@/src/pages/teams/2024-25/facultyList";
+import coreMembers from "@/src/pages/teams/2021-22/coreList";
+import nonCoreMembers from "@/src/pages/teams/2021-22/nonCoreList";
+import facultyMembers from "@/src/pages/teams/2021-22/facultyList";
 import { motion } from "framer-motion";
 
-export const TeamsPage2024_25 = () => {
+export const TeamsPage2021_22 = () => {
   return (
     <>
       <motion.div
@@ -32,9 +32,9 @@ export const TeamsPage2024_25 = () => {
           <div className="h-[32rem]">
             <SectionHeader
               headerInfo={{
-                title: "2024-2025",
+                title: "2021-22",
                 subtitle: "Our Faculty Co-ordinator & Faculty Sponsor",
-                description: "Meet the faculty that lead RAIT ACM.",
+                description: "Meet Our past Heros.",
               }}
             />
           </div>
@@ -42,10 +42,9 @@ export const TeamsPage2024_25 = () => {
           <div className="h-[32rem]">
             <SectionHeader
               headerInfo={{
-                title: "2024-25",
+                title: "2021-22",
                 subtitle: "Our Core Team",
-                description:
-                  "Meet the people that drive RAIT ACM Student Chapter towards success.",
+                description: "Meet Our past Heros.",
               }}
             />
           </div>
@@ -53,9 +52,9 @@ export const TeamsPage2024_25 = () => {
           <div className="mb-10 md:mb-16">
             <SectionHeader
               headerInfo={{
-                title: "2024-25",
+                title: "2021-22",
                 subtitle: "Our Non-Core Team",
-                description: `Meet the people that drive RAIT ACM Student Chapter towards success.`,
+                description: `Meet Our past Heros.`,
               }}
             />
           </div>

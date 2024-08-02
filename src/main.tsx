@@ -25,6 +25,8 @@ import SupportPage from "@/src/pages/support/SupportPage.tsx";
 import { EventsPage } from "@/src/pages/events/EventsPage.tsx";
 import { TeamsPage2024_25 } from "@/src/pages/teams/2024-25/TeamsPage2024_25.tsx";
 import { TeamsPage2023_24 } from "./pages/teams/2023-24/TeamsPage2023_24.tsx";
+import { TeamsPage2022_23 } from "./pages/teams/2022-23/TeamsPage2022_23.tsx";
+import { TeamsPage2021_22 } from "./pages/teams/2021-22/TeamsPage2021_22.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -42,6 +44,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/events" element={<EventsPage />} />
           <Route path="/team" element={<TeamsPage2024_25 />} />
           <Route path="/team-old" element={<TeamsPage2023_24 />} />
+          <Route path="/team-old1" element={<TeamsPage2022_23 />} />
+          <Route path="/team-old2" element={<TeamsPage2021_22 />} />
           <Route path="/auth/signin" element={<SigninPage />} />
           <Route path="/auth/signup" element={<Register />} />
           <Route path="/support" element={<SupportPage />} />
