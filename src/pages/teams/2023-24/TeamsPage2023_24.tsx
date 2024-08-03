@@ -7,6 +7,7 @@ import wMembers from "@/src/pages/teams/2023-24/coreWList";
 import nonCoreMembers from "@/src/pages/teams/2023-24/nonCoreList";
 import facultyMembers from "@/src/pages/teams/2023-24/facultyList";
 import { motion } from "framer-motion";
+import ButtonContainer from "@/components/Teams/ButtonContainer";
 
 export const TeamsPage2023_24 = () => {
   return (
@@ -70,6 +71,7 @@ export const TeamsPage2023_24 = () => {
             />
           </div>
           <NonCoreSection teamMembers={nonCoreMembers} />
+          <ButtonContainer/>
         </section>
       </motion.div>
     </>

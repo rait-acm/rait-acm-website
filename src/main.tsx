@@ -43,9 +43,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/error" element={<ErrorPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/team" element={<TeamsPage2024_25 />} />
-          <Route path="/team-old" element={<TeamsPage2023_24 />} />
-          <Route path="/team-old1" element={<TeamsPage2022_23 />} />
-          <Route path="/team-old2" element={<TeamsPage2021_22 />} />
+          <Route path="/team-2023-24" element={<TeamsPage2023_24 />} />
+          <Route path="/team-2022-23" element={<TeamsPage2022_23 />} />
+          <Route path="/team-2021-22" element={<TeamsPage2021_22 />} />
           <Route path="/auth/signin" element={<SigninPage />} />
           <Route path="/auth/signup" element={<Register />} />
           <Route path="/support" element={<SupportPage />} />
