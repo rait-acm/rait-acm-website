@@ -71,7 +71,7 @@ export const TeamsPage2023_24 = () => {
             />
           </div>
           <NonCoreSection teamMembers={nonCoreMembers} />
-          <ButtonContainer/>
+          <ButtonContainer />
         </section>
       </motion.div>
     </>

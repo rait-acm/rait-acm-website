@@ -5,6 +5,8 @@ import SectionHeader from "@/components/Common/SectionHeader";
 import coreMembers from "@/src/pages/teams/2024-25/coreList";
 import nonCoreMembers from "@/src/pages/teams/2024-25/nonCoreList";
 import facultyMembers from "@/src/pages/teams/2024-25/facultyList";
+import wMembers from "@/src/pages/teams/2024-25/coreWList";
+import AiMembers from "@/src/pages/teams/2024-25/coreAiList";
 import ButtonContainer from "@/components/Teams/ButtonContainer";
 
 import { motion } from "framer-motion";
@@ -61,15 +63,18 @@ export const TeamsPage2024_25 = () => {
               }}
             />
           </div>
+          <CoreSection teamMembers={AiMembers} />
           <div className="h-[32rem]">
             <SectionHeader
               headerInfo={{
                 title: "2024-25",
                 subtitle: "Our  ACMw Core Team",
-                description: "Meet Our past Heros.",
+                description:
+                  "Meet the people that drive RAIT ACM Student Chapter towards success.",
               }}
             />
           </div>
+          <CoreSection teamMembers={wMembers} />
           <div className="mb-10 md:mb-16">
             <SectionHeader
               headerInfo={{
@@ -80,7 +85,7 @@ export const TeamsPage2024_25 = () => {
             />
           </div>
           <NonCoreSection teamMembers={nonCoreMembers} />
-          <ButtonContainer/>
+          <ButtonContainer />
         </section>
       </motion.div>
     </>

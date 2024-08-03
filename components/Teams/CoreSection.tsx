@@ -21,11 +21,11 @@ const CoreSection: React.FC<CoreSectionProps> = ({ teamMembers }) => {
     <>
       <div className="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl">
+          <div className="flex flex-wrap justify-center gap-8 mt-8 xl:mt-16 max-w-8xl">
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center p-4 border sm:p-6 rounded-xl bg-gray-100 dark:bg-gray-800 dark:border-gray-700"
+                className="flex flex-col items-center p-4 border sm:p-6 rounded-xl bg-gray-100 dark:bg-gray-800 dark:border-gray-700 w-full sm:w-1/2 lg:w-1/4"
               >
                 <img
                   className="object-cover w-full rounded-xl aspect-square"

@@ -1,29 +1,7 @@
-const coreMembers = [
+const AiMembers = [
   {
-    name: "Arthur Melo",
-    designation: "Design Director",
-    imgSrc:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-    links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
-    },
-  },
-  {
-    name: "Pamela Anderson",
-    designation: "Lead Developer",
-    imgSrc:
-      "https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
-    links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
-    },
-  },
-  {
-    name: "John Doe",
-    designation: "Full stack developer",
+    name: "Soham Wankhade",
+    designation: "ACM SIG-AI Chairperson",
     imgSrc:
       "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     links: {
@@ -33,8 +11,8 @@ const coreMembers = [
     },
   },
   {
-    name: "John Doe",
-    designation: "Full stack developer",
+    name: "Prapti Sinha",
+    designation: "ACM SIG-AI ViceChairperson",
     imgSrc:
       "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     links: {
@@ -44,8 +22,8 @@ const coreMembers = [
     },
   },
   {
-    name: "John Doe",
-    designation: "Full stack developer",
+    name: "Amey Shete",
+    designation: "ACM SIG-AI General Secratary",
     imgSrc:
       "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     links: {
@@ -55,8 +33,19 @@ const coreMembers = [
     },
   },
   {
-    name: "John Doe",
-    designation: "Full stack developer",
+    name: "Sakshi Dhamane",
+    designation: "ACM SIG-AI Treasurer",
+    imgSrc:
+      "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    links: {
+      instagram: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Utsab Nandi",
+    designation: "ACM SIG-AI Webmaster",
     imgSrc:
       "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     links: {
@@ -67,4 +56,4 @@ const coreMembers = [
   },
 ];
 
-export default coreMembers;
+export default AiMembers;
