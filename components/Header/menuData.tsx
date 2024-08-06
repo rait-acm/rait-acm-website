@@ -14,19 +14,19 @@ const menuData: Menu[] = [
     path: "/events",
   },
   {
-    id: 2.1,
+    id: 3,
     title: "Blog",
     newTab: false,
     path: "/blog",
   },
+  // {
+  //   id: 2.3,
+  //   title: "Docs",
+  //   newTab: false,
+  //   path: "/docs",
+  // },
   {
-    id: 2.3,
-    title: "Docs",
-    newTab: false,
-    path: "/docs",
-  },
-  {
-    id: 2.3,
+    id: 4,
     title: "Our Team",
     newTab: false,
     path: "/team",
@@ -76,10 +76,22 @@ const menuData: Menu[] = [
   // },
 
   {
-    id: 4,
+    id: 5,
     title: "Support",
     newTab: false,
     path: "/support",
+  },
+  {
+    id: 6,
+    title: "RAIT ACMw",
+    newTab: true,
+    path: "#",
+  },
+  {
+    id: 7,
+    title: "RAIT ACM SIG-AI",
+    newTab: true,
+    path: "#",
   },
 ];
 
