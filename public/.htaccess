@@ -1,8 +1,18 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
+
+    # Ensure index.html is served for root requests
     RewriteRule ^index\.html$ - [L]
+
+    # Redirect to HTTPS if not already using HTTPS
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Check if the requested file or directory exists
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirect all other traffic to index.html (React app's single page)
     RewriteRule . /index.html [L]
 </IfModule>
