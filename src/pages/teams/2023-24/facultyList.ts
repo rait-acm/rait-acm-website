@@ -1,6 +1,6 @@
 const facultyMembers = [
   {
-    name: "DR. Pallavi Cahauhan",
+    name: "Dr. Pallavi Chavan",
     designation: "HOD OF IT DEPARTMENT",
     imgSrc: "/images/2023_24_team/pallavimam.jpeg",
     links: {
@@ -8,7 +8,7 @@ const facultyMembers = [
     },
   },
   {
-    name: "DR. Sangeeta Chaudhari",
+    name: "Dr. Sangeeta Chaudhari",
     designation: "HOD OF CSE DEPARTMENT",
     imgSrc: "/images/2023_24_team/HODIT.jpg",
     links: {

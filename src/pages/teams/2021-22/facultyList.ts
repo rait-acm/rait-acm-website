@@ -1,6 +1,6 @@
 const facultyMembers = [
   {
-    name: "DR. Ashish Jadhav",
+    name: "Dr. Ashish Jadhav",
     designation: "HOD OF IT DEPARTMENT",
     imgSrc:
       "images/2021_22_team/hod.jpeg",
