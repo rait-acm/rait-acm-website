@@ -161,8 +161,18 @@ function Header() {
             >
               Kleos
             </a>
+
+            <a href="/auth/signin">
+            <img
+              src={"https://i.pinimg.com/originals/ac/11/aa/ac11aa2add3b0193c8769e0a17d13535.jpg"}
+              alt="Small Icon"
+              width={40}
+              height={45}
+              className="rounded-full"
+            />
+          </a>
           </div>
-        </div>
+        </div>                        
       </div>
     </header>
   );

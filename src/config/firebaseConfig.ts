@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { getAuth, GoogleAuthProvider,  setPersistence, browserLocalPersistence, browserSessionPersistence } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCCA9f5LEpZRdyPFlGJAC9bYigaWz3btgQ",
@@ -13,6 +13,18 @@ const firebaseConfig = {
   measurementId: "G-D7EYVLC9VB",
 };
 const app = initializeApp(firebaseConfig);
+
+export const setLocalPersistence = () => {
+
+  return setPersistence(auth, browserLocalPersistence)
+   
+};
+
+export const setSessionPersistence = () => {
+  
+  return setPersistence(auth, browserSessionPersistence)
+  
+};
 
 // Export Stuff
 export const auth = getAuth(app);
