@@ -164,7 +164,7 @@ function Header() {
 
             <a href="/auth/signin">
             <img
-              src={"https://i.pinimg.com/originals/ac/11/aa/ac11aa2add3b0193c8769e0a17d13535.jpg"}
+              src={"https://i.imgur.com/KrNruJ8.png"}
               alt="Small Icon"
               width={40}
               height={45}

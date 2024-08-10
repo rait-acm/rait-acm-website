@@ -6,6 +6,7 @@ import { createUserWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { toast } from "react-hot-toast";
 import DarkShape from "/images/shape/shape-dotted-dark.svg";
 import LightShape from "/images/shape/shape-dotted-light.svg";
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
   const [data, setData] = useState({
@@ -15,12 +16,15 @@ function Signup() {
     password: "",
   });
 
+  const navigate = useNavigate();
+
   const signUp = async (e: any) => {
     e.preventDefault(); // Prevent the form from refreshing the page
 
     try {
       await createUserWithEmailAndPassword(auth, data.email, data.password);
       toast.success("User registered successfully!");
+      navigate("/")
       // You can also navigate to another page or reset the form here
     } catch (error: any) {
       console.error("Error signing up:", error.message);
@@ -34,6 +38,7 @@ function Signup() {
     try {
       await signInWithPopup(auth, googleProvider);
       toast.success("User registered successfully!");
+      navigate("/")
       // You can also navigate to another page or reset the form here
     } catch (error: any) {
       console.error("Error signing up:", error.message);
