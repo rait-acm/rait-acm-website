@@ -9,7 +9,7 @@ interface CardProps {
 
 const EventCard: React.FC<CardProps> = ({ title, desc, imgSrc, link }) => {
   return (
-    <div className="m-4 max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="m-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href={link}>
         <img className="rounded-t-lg" src={imgSrc} alt={title} />
       </a>

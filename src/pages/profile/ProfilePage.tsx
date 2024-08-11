@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { auth } from "@/src/config/firebaseConfig";
 import { signOut, updatePassword, reauthenticateWithCredential, EmailAuthProvider, User } from "firebase/auth";
 import { toast } from "react-hot-toast";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Field from "./Field";
 import FieldDropdown from "./FieldDropdown";
 import Modal from "./Modal";
@@ -135,8 +135,8 @@ export default function Profile() {
   return (
     <>
       <section className="overflow-hidden pb-25 pt-45 lg:pb-32.5 lg:pt-50 xl:pb-27.5 xl:pt-45">
-      <div className="flex flex-col lg:flex-row justify-evenly lg:space-x-10 ">
-      <div className="m-2 p-10 lg:p-16 flex flex-col justify-center items-center bg-gray-100 dark:bg-[#2A2E35]">
+      <div className="flex flex-col lg:flex-row justify-evenly lg:space-x-10 ml-10 mr-10">
+      <div className="m-2 mr-10 p-10 lg:p-16 lg:pr-30 lg:pl-30 flex flex-col justify-center items-center bg-gray-100 dark:bg-[#2A2E35]">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/2048px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png"
               alt="Description of Image"
@@ -157,8 +157,25 @@ export default function Profile() {
             </div>
           </div>
           <div className="flex flex-col">
-          <div className="flex justify-center m-2 p-10 bg-gray-100 dark:bg-[#2A2E35] rounded-lg shadow-md">
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-20 m-2 p-5 bg-gray-100 dark:bg-[#2A2E35] rounded-lg shadow-md">
+          <div className="mt-4 flex justify-end mr-6">
+          <nav className="text-gray-500 dark:text-gray-400 mr-5">
+            <ul className="flex space-x-2">
+              <li>
+                <p className="text-gray-800 dark:text-white">
+                  Settings
+                </p>
+              </li>
+              <li>/</li>
+              <li>
+                <Link to="/registered-events" className="hover:underline text-gray-800 dark:text-white">
+                  Events
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          </div>
+          <div className="flex justify-center m-2 p-10 bg-gray-100 dark:bg-[#2A2E35] rounded-lg shadow-md mr-10">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-20 m-2 p-5 bg-gray-100 dark:bg-[#2A2E35] rounded-lg">
               {isEmailPasswordSignIn && (
                 <Field 
                   label="Password"
@@ -193,7 +210,7 @@ export default function Profile() {
             </div>
             </div>
             {showSaveButton ? (
-              <div className="mt-4 flex justify-center sm:justify-end">
+              <div className="mt-4 flex justify-center sm:justify-end mr-6">
                 <button
                   className="mr-4 inline-flex bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg"
                   onClick={handleUpdate}
@@ -202,7 +219,7 @@ export default function Profile() {
                 </button>
               </div>
             ) : (
-              <div className="mt-4 flex justify-center lg:justify-end">
+              <div className="mt-4 flex justify-center lg:justify-end mr-6">
                 <button
                   className="mr-4 inline-flex bg-red-500 text-white px-4 py-2 rounded-lg shadow-lg"
                   onClick={googleSignOut}
