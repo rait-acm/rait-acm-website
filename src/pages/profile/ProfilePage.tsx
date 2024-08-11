@@ -135,18 +135,30 @@ export default function Profile() {
   return (
     <>
       <section className="overflow-hidden pb-25 pt-45 lg:pb-32.5 lg:pt-50 xl:pb-27.5 xl:pt-45">
-        <div className="flex flex-col lg:flex-row justify-evenly items-center lg:space-x-10">
-          <div className="m-2 p-10 flex flex-col justify-center items-center">
+      <div className="flex flex-col lg:flex-row justify-evenly lg:space-x-10 ">
+      <div className="m-2 p-10 lg:p-16 flex flex-col justify-center items-center bg-gray-100 dark:bg-[#2A2E35]">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/2048px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png"
               alt="Description of Image"
               className="w-full h-auto max-w-[200px] max-h-[200px]"
             />
-            <p className="m-4 text-4xl text-center text-gray-800 dark:text-white">{user?.displayName}</p>
+            <p className="mt-4 text-2xl lg:text-3xl text-center text-gray-800 dark:text-white">{user?.displayName}</p>
             <p className="m-4 text-center text-gray-400">{email || "Loading..."}</p>
+            <p className="m-4 text-2xl text-center text-gray-800 dark:text-white">Events</p>
+            <div className="w-full flex flex-col lg:flex-row justify-evenly">
+            <div>
+                <p className="mt-4 text-4xl md:text-6xl text-center text-gray-800 dark:text-white">0</p>
+                <p className="text-1xl md:text-lg text-center text-gray-800 dark:text-white">registered</p>
+              </div>
+              <div>
+                <p className="mt-4 text-4xl md:text-6xl text-center text-gray-800 dark:text-white">0</p>
+                <p className="text-1xl md:text-lg text-center text-gray-800 dark:text-white">participated</p>
+              </div>
+            </div>
           </div>
           <div className="flex flex-col">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-1 gap-x-20 m-2 p-10 bg-gray-100 dark:bg-[#2A2E35] rounded-lg shadow-md">
+          <div className="flex justify-center m-2 p-10 bg-gray-100 dark:bg-[#2A2E35] rounded-lg shadow-md">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-20 m-2 p-5 bg-gray-100 dark:bg-[#2A2E35] rounded-lg shadow-md">
               {isEmailPasswordSignIn && (
                 <Field 
                   label="Password"
@@ -179,6 +191,7 @@ export default function Profile() {
                 onSelect={() => console.log('Edit button clicked!')}
               />
             </div>
+            </div>
             {showSaveButton ? (
               <div className="mt-4 flex justify-center sm:justify-end">
                 <button
@@ -189,7 +202,7 @@ export default function Profile() {
                 </button>
               </div>
             ) : (
-              <div className="mt-4 flex justify-center sm:justify-end">
+              <div className="mt-4 flex justify-center lg:justify-end">
                 <button
                   className="mr-4 inline-flex bg-red-500 text-white px-4 py-2 rounded-lg shadow-lg"
                   onClick={googleSignOut}
