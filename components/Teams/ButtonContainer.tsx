@@ -19,6 +19,7 @@ const Button: React.FC<ButtonProps> = ({ label, link }) => {
 
 const ButtonContainer: React.FC = () => {
   const buttons = [
+    { label: "2024-25", link: "/team" },
     { label: "2023-24", link: "/team-2023-24" },
     { label: "2022-23", link: "/team-2022-23" },
     { label: "2021-22", link: "/team-2021-22" },

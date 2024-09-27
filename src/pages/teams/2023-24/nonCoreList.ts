@@ -2,7 +2,7 @@ const nonCoreMembers = [
   {
     name: "Pranav Talmale",
     designation: "Jr. Tech Chief",
-    imageUrl: "/images/2023_24_team/pranav_talmale.jpg",
+    imageUrl: "/images/2023_24_team/pranav_talmale.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -12,7 +12,7 @@ const nonCoreMembers = [
   {
     name: "Siddharth Joisar",
     designation: "Jr. Tech Chief",
-    imageUrl: "/images/2023_24_team/Siddhart Joisar.jpg",
+    imageUrl: "/images/2023_24_team/Siddhart Joisar.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -22,7 +22,7 @@ const nonCoreMembers = [
   {
     name: "Atharva Awle",
     designation: "Jr. Tech Chief",
-    imageUrl: "/images/2023_24_team/Atharva Awle.jpg",
+    imageUrl: "/images/2023_24_team/Atharva Awle.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -32,7 +32,7 @@ const nonCoreMembers = [
   {
     name: "Kailash Choudhary",
     designation: "Jr. Tech Chief",
-    imageUrl: "/images/2023_24_team/Kailash Chaudhary.jpg",
+    imageUrl: "/images/2023_24_team/Kailash Chaudhary.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -42,7 +42,7 @@ const nonCoreMembers = [
   {
     name: "Yahya Moosa",
     designation: "Jr. Tech Chief",
-    imageUrl: "/images/2023_24_team/Yahyamoosa.jpg",
+    imageUrl: "/images/2023_24_team/Yahyamoosa.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -52,7 +52,7 @@ const nonCoreMembers = [
   {
     name: "Arnav Ambre",
     designation: "Jr. Management Chief",
-    imageUrl: "/images/2023_24_team/Arnav Ambre.jpg",
+    imageUrl: "/images/2023_24_team/Arnav Ambre.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -62,7 +62,7 @@ const nonCoreMembers = [
   {
     name: "Nishant Wanjari",
     designation: "Jr. Management Chief",
-    imageUrl: "/images/2023_24_team/Nishant Wanjari.jpg",
+    imageUrl: "/images/2023_24_team/Nishant Wanjari.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -72,7 +72,7 @@ const nonCoreMembers = [
   {
     name: "Samarjeet Rankhamb",
     designation: "Jr. Management Chief",
-    imageUrl: "/images/2023_24_team/samar.jpg",
+    imageUrl: "/images/2023_24_team/samar.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -82,7 +82,7 @@ const nonCoreMembers = [
   {
     name: "Anushka Jadhav",
     designation: "Jr. Creative Chief",
-    imageUrl: "/images/2023_24_team/Anushka Jadhav.jpg",
+    imageUrl: "/images/2023_24_team/Anushka Jadhav.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -92,7 +92,7 @@ const nonCoreMembers = [
   {
     name: "Yashika Dhuri",
     designation: "Jr. Creative Chief",
-    imageUrl: "/images/2023_24_team/Yashika Dhuri.jpg",
+    imageUrl: "/images/2023_24_team/Yashika Dhuri.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -102,7 +102,7 @@ const nonCoreMembers = [
   {
     name: "Shruti Patil",
     designation: "Content Chief",
-    imageUrl: "/images/2023_24_team/Shruti Patil - Content Cheif.jpg",
+    imageUrl: "/images/2023_24_team/Shruti Patil - Content Cheif.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -112,7 +112,7 @@ const nonCoreMembers = [
   {
     name: "Astha Singh",
     designation: "Content Chief",
-    imageUrl: "/images/2023_24_team/Astha Singh.jpg",
+    imageUrl: "/images/2023_24_team/Astha Singh.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -122,7 +122,7 @@ const nonCoreMembers = [
   {
     name: "Poulami Majumdar",
     designation: "Publicity Chief",
-    imageUrl: "/images/2023_24_team/Poulami Majumdar.jpg",
+    imageUrl: "/images/2023_24_team/Poulami Majumdar.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -132,7 +132,7 @@ const nonCoreMembers = [
   {
     name: "Aarya Patil",
     designation: "Publicity Chief",
-    imageUrl: "/images/2023_24_team/Aarya-publicity.jpg",
+    imageUrl: "/images/2023_24_team/Aarya-publicity.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -142,7 +142,7 @@ const nonCoreMembers = [
   {
     name: "Arnav Payghan",
     designation: "Design Chief",
-    imageUrl: "/images/2023_24_team/Arnav Paygan.jpg",
+    imageUrl: "/images/2023_24_team/Arnav Paygan.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -152,7 +152,7 @@ const nonCoreMembers = [
   {
     name: "Soham Wankhade",
     designation: "Media Graphics Chief",
-    imageUrl: "/images/2023_24_team/Soham Wankhede- Mediagraphics cheif.jpg",
+    imageUrl: "/images/2023_24_team/Soham Wankhede- Mediagraphics cheif.webp",
     links: {
       instagram: "#",
       linkedin: "#",

@@ -2,7 +2,7 @@ const coreMembers = [
   {
     name: "Anirudh Eyyani",
     designation: "Chair",
-    imgSrc: "/images/2022_23_team/anirudh.jpeg",
+    imgSrc: "/images/2022_23_team/anirudh.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -12,7 +12,7 @@ const coreMembers = [
   {
     name: "Hemang Ranjan",
     designation: "Vice Chair",
-    imgSrc: "/images/2022_23_team/hemang.jpeg",
+    imgSrc: "/images/2022_23_team/hemang.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -22,7 +22,7 @@ const coreMembers = [
   {
     name: "Gauri Jadhav",
     designation: "GenSec",
-    imgSrc: "/images/2022_23_team/gauri.jpeg",
+    imgSrc: "/images/2022_23_team/gauri.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -32,7 +32,7 @@ const coreMembers = [
   {
     name: "Kanishka Ghodke",
     designation: "Treasurer",
-    imgSrc: "/images/2022_23_team/kanishka.jpeg",
+    imgSrc: "/images/2022_23_team/kanishka.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -42,7 +42,7 @@ const coreMembers = [
   {
     name: "Zaid Khan",
     designation: "Webmaster",
-    imgSrc: "/images/2022_23_team/zaid.jpeg",
+    imgSrc: "/images/2022_23_team/zaid.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -52,7 +52,7 @@ const coreMembers = [
   {
     name: "Omkar Komarpant",
     designation: "Tech Chief",
-    imgSrc: "/images/2022_23_team/omkar.jpeg",
+    imgSrc: "/images/2022_23_team/omkar.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -62,7 +62,7 @@ const coreMembers = [
   {
     name: "Rimi Roy",
     designation: "Membership Chair",
-    imgSrc: "/images/2022_23_team/rimi.jpeg",
+    imgSrc: "/images/2022_23_team/rimi.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -72,7 +72,7 @@ const coreMembers = [
   {
     name: "Akansha Mathpathi",
     designation: "Women in Tech",
-    imgSrc: "/images/2022_23_team/akanksha.jpeg",
+    imgSrc: "/images/2022_23_team/akanksha.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -82,7 +82,7 @@ const coreMembers = [
   {
     name: "Anushka Gupta",
     designation: "Public Relations",
-    imgSrc: "/images/2022_23_team/anushka.jpeg",
+    imgSrc: "/images/2022_23_team/anushka.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -92,7 +92,7 @@ const coreMembers = [
   {
     name: "Karan Lokre",
     designation: "Sponsorship Head",
-    imgSrc: "/images/2022_23_team/karan.jpeg",
+    imgSrc: "/images/2022_23_team/karan.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -102,7 +102,7 @@ const coreMembers = [
   {
     name: "Raj Pauwaa",
     designation: "Management Chief",
-    imgSrc: "/images/2022_23_team/raj.jpeg",
+    imgSrc: "/images/2022_23_team/raj.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -112,7 +112,7 @@ const coreMembers = [
   {
     name: "Sneha Khoreja",
     designation: "Logistics Head",
-    imgSrc: "/images/2022_23_team/sneha.jpeg",
+    imgSrc: "/images/2022_23_team/sneha.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -122,7 +122,7 @@ const coreMembers = [
   {
     name: "Megha Nair",
     designation: "Marketing Head",
-    imgSrc: "/images/2022_23_team/megha.jpeg",
+    imgSrc: "/images/2022_23_team/megha.webp",
     links: {
       instagram: "#",
       linkedin: "#",

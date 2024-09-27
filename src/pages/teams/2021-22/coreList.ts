@@ -2,7 +2,7 @@ const coreMembers = [
   {
     name: "Varun Ghorpade",
     designation: "Chair",
-    imgSrc: "/images/2021_22_team/varun.jpg",
+    imgSrc: "/images/2021_22_team/varun.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -12,7 +12,7 @@ const coreMembers = [
   {
     name: "Kanishka Ghodke",
     designation: "ViceChair",
-    imgSrc: "/images/2021_22_team/kansihka.jpg",
+    imgSrc: "/images/2021_22_team/kansihka.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -22,7 +22,7 @@ const coreMembers = [
   {
     name: "Ritvika Sanap",
     designation: "Treasurer",
-    imgSrc: "/images/2021_22_team/ritvika.jpg",
+    imgSrc: "/images/2021_22_team/ritvika.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -32,7 +32,7 @@ const coreMembers = [
   {
     name: "Smital Lunavat",
     designation: "Gensec",
-    imgSrc: "/images/2021_22_team/smital.jpg",
+    imgSrc: "/images/2021_22_team/smital.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -42,7 +42,7 @@ const coreMembers = [
   {
     name: "Vedant Pandey",
     designation: "Webmaster",
-    imgSrc: "/images/2021_22_team/vedant.jpg",
+    imgSrc: "/images/2021_22_team/vedant.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -52,7 +52,7 @@ const coreMembers = [
   {
     name: "Mrunali Gaikwad",
     designation: "Membership Chair",
-    imgSrc: "/images/2021_22_team/mrunalini.jpeg",
+    imgSrc: "/images/2021_22_team/mrunalini.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -62,7 +62,7 @@ const coreMembers = [
   {
     name: "Krushna Dahake",
     designation: "Tech Chief",
-    imgSrc: "/images/2021_22_team/krushna.JPG",
+    imgSrc: "/images/2021_22_team/krushna.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -72,7 +72,7 @@ const coreMembers = [
   {
     name: "Khushi Patel",
     designation: "Public Relations",
-    imgSrc: "/images/2021_22_team/khushi.jpg",
+    imgSrc: "/images/2021_22_team/khushi.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -82,7 +82,7 @@ const coreMembers = [
   {
     name: "Pranay Suryarao",
     designation: "Management Chief",
-    imgSrc: "/images/2021_22_team/pranay.png",
+    imgSrc: "/images/2021_22_team/pranay.webp",
     links: {
       instagram: "#",
       linkedin: "#",

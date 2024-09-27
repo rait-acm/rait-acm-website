@@ -2,7 +2,7 @@ const nonCoreMembers = [
   {
     name: "Hemang Ranjan",
     designation: "Jr Tech Chief",
-    imageUrl: "/images/2021_22_team/hemang.jpg",
+    imageUrl: "/images/2021_22_team/hemang.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -12,7 +12,7 @@ const nonCoreMembers = [
   {
     name: "Anirudh Eyyani",
     designation: "Jr Tech Chief",
-    imageUrl: "/images/2021_22_team/anirudh.jpeg",
+    imageUrl: "/images/2021_22_team/anirudh.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -22,7 +22,7 @@ const nonCoreMembers = [
   {
     name: "Zaid Khan",
     designation: "Jr Tech Chief",
-    imageUrl: "/images/2021_22_team/zaid.jpeg",
+    imageUrl: "/images/2021_22_team/zaid.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -32,7 +32,7 @@ const nonCoreMembers = [
   {
     name: "Jayesh Masurkar",
     designation: "Jr Tech Chief",
-    imageUrl: "/images/2021_22_team/jayesh.jpg",
+    imageUrl: "/images/2021_22_team/jayesh.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -42,7 +42,7 @@ const nonCoreMembers = [
   {
     name: "Rimi Roy",
     designation: "Jr Publicity Chief",
-    imageUrl: "/images/2021_22_team/rimi.jpeg",
+    imageUrl: "/images/2021_22_team/rimi.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -52,7 +52,7 @@ const nonCoreMembers = [
   {
     name: "Minal Aggarwal",
     designation: "Jr Publicity Chief",
-    imageUrl: "/images/2021_22_team/minal.jpg",
+    imageUrl: "/images/2021_22_team/minal.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -62,7 +62,7 @@ const nonCoreMembers = [
   {
     name: "Drishti Sinha",
     designation: "Jr Design Chief",
-    imageUrl: "/images/2021_22_team/drishti.jpg",
+    imageUrl: "/images/2021_22_team/drishti.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -72,7 +72,7 @@ const nonCoreMembers = [
   {
     name: "Aaushi Tiwari",
     designation: "Jr Media Graphics Chief",
-    imageUrl: "/images/2021_22_team/aaushi.jpg",
+    imageUrl: "/images/2021_22_team/aaushi.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -82,7 +82,7 @@ const nonCoreMembers = [
   {
     name: "Akansha Mathpati",
     designation: "Jr Content Chief",
-    imageUrl: "/images/2021_22_team/aakansha.jpg",
+    imageUrl: "/images/2021_22_team/aakansha.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -92,7 +92,7 @@ const nonCoreMembers = [
   {
     name: "Gauri Jadhav",
     designation: "Jr Content Chief",
-    imageUrl: "/images/2021_22_team/gauri.jpg",
+    imageUrl: "/images/2021_22_team/gauri.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -102,7 +102,7 @@ const nonCoreMembers = [
   {
     name: "Anushka Gupta",
     designation: "Jr Creative Chief",
-    imageUrl: "/images/2021_22_team/anushka.jpg",
+    imageUrl: "/images/2021_22_team/anushka.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -112,7 +112,7 @@ const nonCoreMembers = [
   {
     name: "Raj Pauwaa",
     designation: "Jr Management Chief",
-    imageUrl: "/images/2021_22_team/raj.jpg",
+    imageUrl: "/images/2021_22_team/raj.webp",
     links: {
       instagram: "#",
       linkedin: "#",
@@ -122,7 +122,7 @@ const nonCoreMembers = [
   {
     name: "Karan Lokre",
     designation: "Jr Management Chief",
-    imageUrl: "/images/2021_22_team/karan.jpg",
+    imageUrl: "/images/2021_22_team/karan.webp",
     links: {
       instagram: "#",
       linkedin: "#",
