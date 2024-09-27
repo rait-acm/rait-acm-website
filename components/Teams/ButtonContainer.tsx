@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 interface ButtonProps {
   label: string;
@@ -7,20 +8,20 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ label, link }) => {
   return (
-    <button
-      onClick={() => window.location.href = link}
-      className="bg-[#1f2937] text-white py-2 px-4 rounded"
+    <Link
+      to={link}
+      className="bg-[#1f2937] text-white py-2 px-4 rounded inline-block"
     >
       {label}
-    </button>
+    </Link>
   );
 };
 
 const ButtonContainer: React.FC = () => {
   const buttons = [
-    { label: '2023-24', link: '/team-2023-24' },
-    { label: '2022-23', link: '/team-2022-23' },
-    { label: '2021-22', link: '/team-2021-22' },
+    { label: "2023-24", link: "/team-2023-24" },
+    { label: "2022-23", link: "/team-2022-23" },
+    { label: "2021-22", link: "/team-2021-22" },
   ];
 
   return (
