@@ -135,7 +135,7 @@ export default function Profile() {
   return (
     <>
       <section className="overflow-hidden pb-25 pt-45 lg:pb-32.5 lg:pt-50 xl:pb-27.5 xl:pt-45">
-      <div className="flex flex-col lg:flex-row justify-evenly lg:space-x-10 ml-10 mr-10">
+      <div className="flex flex-col lg:flex-row justify-evenly lg:space-x-10 ml-8">
       <div className="m-2 mr-10 p-10 lg:p-16 lg:pr-30 lg:pl-30 flex flex-col justify-center items-center bg-gray-100 dark:bg-[#2A2E35]">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/2048px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png"
@@ -175,7 +175,7 @@ export default function Profile() {
           </nav>
           </div>
           <div className="flex justify-center m-2 p-10 bg-gray-100 dark:bg-[#2A2E35] rounded-lg shadow-md mr-10">
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-20 m-2 p-5 bg-gray-100 dark:bg-[#2A2E35] rounded-lg">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-20 lg:m-2 lg:p-5 bg-gray-100 dark:bg-[#2A2E35] rounded-lg ">
               {isEmailPasswordSignIn && (
                 <Field 
                   label="Password"

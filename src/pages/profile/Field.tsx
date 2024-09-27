@@ -13,7 +13,7 @@ const Field: React.FC<FieldProps> = ({ label, placeholder, onClick, isEditable, 
   const [editable, setEditable] = useState(isEditable);
 
   return (
-    <form className="max-w-sm mx-auto mr-4">
+    <form className="max-w-sm mx-auto">
       <label
         htmlFor="input"
         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
