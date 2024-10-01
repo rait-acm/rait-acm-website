@@ -77,21 +77,21 @@ const menuData: Menu[] = [
 
   {
     id: 5,
-    title: "Support",
+    title: "Past Teams",
     newTab: false,
-    path: "/support",
+    path: "/team-2023-24",
   },
   {
     id: 6,
-    title: "RAIT ACMw",
+    title: "RAIT ACM-W",
     newTab: true,
-    path: "#",
+    path: "https://rait-w.acm.org",
   },
   {
     id: 7,
     title: "RAIT ACM SIG-AI",
     newTab: true,
-    path: "#",
+    path: "https://rait-sigai.acm.org",
   },
 ];
 

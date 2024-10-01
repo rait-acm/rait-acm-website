@@ -24,18 +24,22 @@ const NonCoreSection: React.FC<NonCoreSectionProps> = ({ teamMembers }) => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="flex flex-col items-center rounded-lg bg-gray-100 dark:bg-gray-800 p-4 lg:p-8"
+              className="flex flex-col items-center rounded-lg bg-gray-100 dark:bg-gray-800"
             >
-              <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 shadow-lg md:mb-4 md:h-32 md:w-32">
+              {/* Ensure consistent image height */}
+              <div className="relative w-full h-64 rounded-t-lg overflow-hidden bg-gray-200 dark:bg-gray-700">
                 <img
                   src={member.imageUrl}
                   loading="lazy"
                   alt={`Photo of ${member.name}`}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover"
                 />
+                {/* Adjusted gradient for a shorter fade area */}
+                <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-gray-100 dark:from-gray-800 via-transparent to-transparent"></div>
               </div>
 
-              <div>
+              {/* Ensuring content alignment by providing fixed padding */}
+              <div className="p-4 lg:p-6 w-full flex flex-col items-center">
                 <div className="text-center font-bold text-gray-700 dark:text-white md:text-lg">
                   {member.name}
                 </div>

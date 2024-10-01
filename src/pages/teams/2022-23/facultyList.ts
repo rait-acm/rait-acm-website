@@ -1,8 +1,8 @@
 const facultyMembers = [
   {
     name: "Dr. Pallavi Chavan",
-    designation: "HOD OF IT DEPARTMENT",
-    imgSrc: "/images/2022_23_team/hod2.webp",
+    designation: "FACULTY SPONSOR",
+    imgSrc: "/images/team/faculty/pallavimam.jpeg",
     links: {
       linkedin: "#",
     },

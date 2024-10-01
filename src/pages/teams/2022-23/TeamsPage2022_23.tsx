@@ -30,6 +30,7 @@ export const TeamsPage2022_23 = () => {
         className="animate_top mx-auto text-center"
       >
         <section className="overflow-hidden pb-25 pt-50 lg:pb-32.5 lg:pt-25 xl:pb-37.5 xl:pt-30">
+          <ButtonContainer />
           <div className="h-[32rem]">
             <SectionHeader
               headerInfo={{
@@ -60,7 +61,7 @@ export const TeamsPage2022_23 = () => {
             />
           </div>
           <NonCoreSection teamMembers={nonCoreMembers} />
-          <ButtonContainer/>
+          <ButtonContainer />
         </section>
       </motion.div>
     </>

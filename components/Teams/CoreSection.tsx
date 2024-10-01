@@ -25,13 +25,18 @@ const CoreSection: React.FC<CoreSectionProps> = ({ teamMembers }) => {
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center p-4 border sm:p-6 rounded-xl bg-gray-100 dark:bg-gray-800 dark:border-gray-700 w-full sm:w-1/2 lg:w-1/4"
+                className="flex flex-col items-center  border rounded-xl bg-gray-100 dark:bg-gray-800 dark:border-gray-700 w-full sm:w-1/2 lg:w-1/4"
               >
-                <img
-                  className="object-cover w-full rounded-xl aspect-square"
-                  src={member.imgSrc}
-                  alt={member.name}
-                />
+                {/* Ensuring image container matches the card width */}
+                <div className="relative w-full rounded-t-xl overflow-hidden">
+                  <img
+                    className="object-cover w-full h-auto"
+                    src={member.imgSrc}
+                    alt={member.name}
+                  />
+                  {/* Shortened fade effect positioned flush with the image */}
+                  <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-gray-100 dark:from-gray-800 via-transparent to-transparent"></div>
+                </div>
 
                 <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                   {member.name}
@@ -41,7 +46,7 @@ const CoreSection: React.FC<CoreSectionProps> = ({ teamMembers }) => {
                   {member.designation}
                 </p>
 
-                <div className="flex mt-3 -mx-2">
+                <div className="flex mt-3 -mx-2 p-2">
                   {member.links.instagram && (
                     <a
                       href={member.links.instagram}

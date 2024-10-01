@@ -162,17 +162,17 @@ function Header() {
               Kleos
             </a>
 
-            <a href="/auth/signin">
-            <img
-              src={"https://i.imgur.com/KrNruJ8.png"}
-              alt="Small Icon"
-              width={40}
-              height={45}
-              className="rounded-full"
-            />
-          </a>
+            {/* <a href="/auth/signin">
+              <img
+                src={"https://i.imgur.com/KrNruJ8.png"}
+                alt="Small Icon"
+                width={40}
+                height={45}
+                className="rounded-full"
+              />
+            </a> */}
           </div>
-        </div>                        
+        </div>
       </div>
     </header>
   );

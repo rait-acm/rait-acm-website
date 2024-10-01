@@ -21,26 +21,35 @@ const FacultySection: React.FC<FacultySectionProps> = ({ teamMembers }) => {
     <div className="container mx-auto px-6 py-10 -mt-72 sm:-mt-80 md:-mt-96 flex justify-center items-center">
       <div
         className={`grid gap-8 mt-8 xl:mt-16 ${
-          teamMembers.length === 1 ? "" : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-2"
+          teamMembers.length === 1
+            ? ""
+            : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-2"
         }`}
       >
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-4 border sm:p-6 rounded-xl bg-gray-100 dark:bg-gray-800 dark:border-gray-700 text-center max-w-lg"
+            className="flex flex-col items-center border  rounded-xl bg-gray-100 dark:bg-gray-800 dark:border-gray-700 text-center max-w-lg"
           >
-            <img
-              className="object-cover w-full rounded-xl aspect-square"
-              src={member.imgSrc}
-              alt={member.name}
-            />
+            {/* Ensuring image container matches the card width */}
+            <div className="relative w-full rounded-t-xl overflow-hidden">
+              <img
+                className="object-cover w-full h-auto"
+                src={member.imgSrc}
+                alt={member.name}
+              />
+              {/* Shortened fade effect positioned flush with the image */}
+              <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-gray-100 dark:from-gray-800 via-transparent to-transparent"></div>
+            </div>
+
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
               {member.name}
             </h1>
             <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
               {member.designation}
             </p>
-            <div className="flex mt-3 space-x-2">
+
+            <div className="flex mt-3 space-x-2 p-2">
               {member.links.instagram && (
                 <a
                   href={member.links.instagram}
