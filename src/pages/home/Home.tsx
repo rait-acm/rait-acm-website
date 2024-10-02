@@ -5,7 +5,7 @@ import FunFact from "@/components/FunFact/index";
 import CTA from "@/components/CTA/index";
 import FAQ from "@/components/FAQ/index";
 import Contact from "@/components/Contact/index";
-import Blog from "@/components/Blog/index";
+// import Blog from "@/components/Blog/index";
 import Testimonial from "@/components/Testimonial/index";
 import HomeEvents from "@/components/EventsParallax/HomeEvents";
 
@@ -21,7 +21,7 @@ function Home() {
       <FAQ />
       <Testimonial />
       <Contact />
-      <Blog />
+      {/* <Blog /> */}
     </>
   );
 }

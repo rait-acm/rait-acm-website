@@ -1,9 +1,9 @@
 import { cn } from "@/lib/utils";
 import { GridPattern } from "../GridPattern/GridPattern";
-import { FlipWords } from "@/components/WordFlip/FlipWords";
+// import { FlipWords } from "@/components/WordFlip/FlipWords";
 
 export default function Hero() {
-  const words = ["RAIT ACM", "RAIT ACM W", "RAIT ACM SIG-AI"];
+  // const words = ["RAIT ACM", "RAIT ACM W", "RAIT ACM SIG-AI"];
   return (
     <>
       <section className=" relative pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
@@ -42,10 +42,10 @@ export default function Hero() {
               </div>
             </div>
             <div className="order-2 lg:order-1 w-full md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
+              {/* <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
                 Home of
                 <FlipWords words={words} />
-              </h4>
+              </h4> */}
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
                   RAIT ACM
@@ -66,6 +66,7 @@ export default function Hero() {
                   <button
                     aria-label="get started button"
                     className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
+                    disabled={true}
                   >
                     Join Us
                   </button>

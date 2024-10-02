@@ -144,7 +144,7 @@ function Footer() {
                   </h4>
 
                   <ul>
-                    <li>
+                    {/* <li>
                       <a
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
@@ -159,18 +159,18 @@ function Footer() {
                       >
                         Events
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
-                        href="#"
+                        href="https://rait-w.acm.org"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        RAIT ACMw
+                        RAIT ACM-W
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://rait-sigai.acm.org"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         RAIT ACM SIG-AI
@@ -328,7 +328,10 @@ function Footer() {
             >
               <ul className="flex items-center gap-5">
                 <li>
-                  <a href="https://www.facebook.com/raitacm" aria-label="social icon">
+                  <a
+                    href="https://www.facebook.com/raitacm"
+                    aria-label="social icon"
+                  >
                     <BsFacebook />
                   </a>
                 </li>
@@ -338,12 +341,18 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/rait-acm-student-chapter" aria-label="social icon">
+                  <a
+                    href="https://www.linkedin.com/company/rait-acm-student-chapter"
+                    aria-label="social icon"
+                  >
                     <BsLinkedin />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/rait_acm/" aria-label="social icon">
+                  <a
+                    href="https://www.instagram.com/rait_acm/"
+                    aria-label="social icon"
+                  >
                     <BsInstagram />
                   </a>
                 </li>
