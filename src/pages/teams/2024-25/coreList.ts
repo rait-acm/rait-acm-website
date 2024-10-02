@@ -50,7 +50,7 @@ const coreMembers = [
   {
     name: "Rahul Gadhiraju",
     designation: "Design Head",
-    imgSrc: "#",
+    imgSrc: "/images/team/core/sc/rahul.jpg",
     links: { instagram: "#", linkedin: "#", github: "#" },
   },
   {
