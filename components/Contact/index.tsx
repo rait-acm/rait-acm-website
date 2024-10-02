@@ -180,24 +180,30 @@ function Contact() {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p><a href="https://maps.google.com/maps?ll=19.044385,73.025701&z=16&t=m&hl=en&gl=BG&mapclient=embed&cid=10802387284561148307">Ramrao Adik Institute Of Technology, Nerul, Navi Mumbai.</a></p>
+                <p>
+                  <a href="https://maps.google.com/maps?ll=19.044385,73.025701&z=16&t=m&hl=en&gl=BG&mapclient=embed&cid=10802387284561148307">
+                    Ramrao Adik Institute Of Technology, Nerul, Navi Mumbai.
+                  </a>
+                </p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="mailto:reachraitacm@gmail.com">reachraitacm@gmail.com</a>
+                  <a href="mailto:reachraitacm@gmail.com">
+                    reachraitacm@gmail.com
+                  </a>
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Phone Number
                 </h4>
                 <p>
                   <a href="tel:+919423119067">+91 94231 19067</a>
                 </p>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>
