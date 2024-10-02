@@ -2,9 +2,9 @@ const coreMembers = [
   {
     name: "Arnav Ambre",
     designation: "Chairperson",
-    imgSrc: "/images/team/core/sc/arnav-a.jpg",
+    imgSrc: "/images/team/core/sc/arnav-a.jpeg",
     links: {
-      instagram: "https://www.instagram.com/arnav_2736",
+      instagram: "https://www.instagram.com/arnav_ambre",
       linkedin: "https://www.linkedin.com/in/arnav-ambre",
       github: "https://github.com/1Arnav2",
     },
@@ -12,7 +12,7 @@ const coreMembers = [
   {
     name: "Arnav Payghan",
     designation: "Vice Chairperson",
-    imgSrc: "/images/team/core/sc/arnav-p.jpg",
+    imgSrc: "/images/team/core/sc/arnav-p.jpeg",
     links: {
       instagram: "https://www.instagram.com/arnav.payghan",
       linkedin: "https://www.linkedin.com/in/arnav-payghan-8660a925b/",
@@ -22,7 +22,7 @@ const coreMembers = [
   {
     name: "Poulami Majumder",
     designation: "General Secretary",
-    imgSrc: "/images/team/core/sc/poulami.jpg",
+    imgSrc: "/images/team/core/sc/poulami.jpeg",
     links: {
       instagram: "https://www.instagram.com/poulami_underscore",
       linkedin: "https://www.linkedin.com/in/poulami1111/",
@@ -32,7 +32,7 @@ const coreMembers = [
   {
     name: "Atharva Potdar",
     designation: "Treasurer",
-    imgSrc: "/images/team/core/sc/atharva.jpg",
+    imgSrc: "/images/team/core/sc/atharva.jpeg",
     links: {
       instagram: "https://www.instagram.com/_athrvp_",
       linkedin: "https://www.linkedin.com/in/atharva-potdar-1b704a273/",
@@ -42,7 +42,7 @@ const coreMembers = [
   {
     name: "Pranav Talmale",
     designation: "Webmaster",
-    imgSrc: "/images/team/core/sc/pranav.jpg",
+    imgSrc: "/images/team/core/sc/pranav.jpeg",
     links: {
       instagram: "https://www.instagram.com/pranav_talmale",
       linkedin: "https://www.linkedin.com/in/pranav-talmale-3a98b6273/",
@@ -52,7 +52,7 @@ const coreMembers = [
   {
     name: "Anushka Jadhav",
     designation: "Membership Chair",
-    imgSrc: "/images/team/core/sc/anushka.jpg",
+    imgSrc: "/images/team/core/sc/anushka.jpeg",
     links: {
       instagram: "https://www.instagram.com/_anushka_091",
       linkedin: "https://www.linkedin.com/in/anushka-jadhav-ab3514290/",
@@ -62,7 +62,7 @@ const coreMembers = [
   {
     name: "Gaurav Bisht",
     designation: "Technical Chief",
-    imgSrc: "/images/team/core/sc/gaurav.jpg",
+    imgSrc: "/images/team/core/sc/gaurav.jpeg",
     links: {
       linkedin: "https://www.linkedin.com/in/gaurav23bisht/",
       github: "https://github.com/gurav41439",
@@ -71,7 +71,7 @@ const coreMembers = [
   {
     name: "Karan Kumar",
     designation: "Management Head",
-    imgSrc: "/images/team/core/sc/karan.jpg",
+    imgSrc: "/images/team/core/sc/karan.jpeg",
     links: {
       instagram: "https://www.instagram.com/karankumarr_20",
       linkedin: "https://www.linkedin.com/in/karan-kumar-04-08-04e/",
@@ -81,7 +81,7 @@ const coreMembers = [
   {
     name: "Rahul Gadhiraju",
     designation: "Design Head",
-    imgSrc: "/images/team/core/sc/rahul.jpg",
+    imgSrc: "/images/team/core/sc/rahul.jpeg",
     links: {
       instagram: "https://www.instagram.com/rahul_gadhiraju",
       linkedin: "https://www.linkedin.com/in/rahul-gadhiraju-805542252/",
@@ -91,7 +91,7 @@ const coreMembers = [
   {
     name: "Prashanth Selvaraj",
     designation: "Public Relations Officer",
-    imgSrc: "/images/team/core/sc/prashanth.jpg",
+    imgSrc: "/images/team/core/sc/prashanth.jpeg",
     links: {
       instagram: "https://www.instagram.com/prashanth_2208",
       linkedin: "https://www.linkedin.com/in/prashanth-selvaraj-842a2124b/",
@@ -101,7 +101,7 @@ const coreMembers = [
   {
     name: "Zubair Syed",
     designation: "Sponsorship Head",
-    imgSrc: "/images/team/core/sc/zubair.jpg",
+    imgSrc: "/images/team/core/sc/zubair.jpeg",
     links: {
       instagram: "https://www.instagram.com/__zubairsayed__",
       github: "https://github.com/zubairsayed1818",
