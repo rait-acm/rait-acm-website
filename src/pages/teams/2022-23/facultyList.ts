@@ -4,7 +4,7 @@ const facultyMembers = [
     designation: "FACULTY SPONSOR",
     imgSrc: "/images/team/faculty/pallavimam.jpeg",
     links: {
-      linkedin: "#",
+     
     },
   },
   {
@@ -12,8 +12,7 @@ const facultyMembers = [
     designation: "HOD OF CSE DEPARTMENT",
     imgSrc: "/images/2023_24_team/HODIT.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
+      
     },
   },
 ];

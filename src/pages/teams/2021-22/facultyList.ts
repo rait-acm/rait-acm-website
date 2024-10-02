@@ -4,7 +4,7 @@ const facultyMembers = [
     designation: "HOD OF IT DEPARTMENT",
     imgSrc: "images/2021_22_team/hod.webp",
     links: {
-      linkedin: "#",
+      
     },
   },
 ];

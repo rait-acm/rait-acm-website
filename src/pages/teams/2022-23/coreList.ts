@@ -4,9 +4,7 @@ const coreMembers = [
     designation: "Chair",
     imgSrc: "/images/2022_23_team/anirudh.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -14,9 +12,7 @@ const coreMembers = [
     designation: "Vice Chair",
     imgSrc: "/images/2022_23_team/hemang.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -24,9 +20,7 @@ const coreMembers = [
     designation: "GenSec",
     imgSrc: "/images/2022_23_team/gauri.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -34,9 +28,7 @@ const coreMembers = [
     designation: "Treasurer",
     imgSrc: "/images/2022_23_team/kanishka.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -44,9 +36,7 @@ const coreMembers = [
     designation: "Webmaster",
     imgSrc: "/images/2022_23_team/zaid.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -54,9 +44,7 @@ const coreMembers = [
     designation: "Tech Chief",
     imgSrc: "/images/2022_23_team/omkar.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -64,9 +52,7 @@ const coreMembers = [
     designation: "Membership Chair",
     imgSrc: "/images/2022_23_team/rimi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -74,9 +60,7 @@ const coreMembers = [
     designation: "Women in Tech",
     imgSrc: "/images/2022_23_team/akanksha.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -84,9 +68,7 @@ const coreMembers = [
     designation: "Public Relations",
     imgSrc: "/images/2022_23_team/anushka.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -94,9 +76,7 @@ const coreMembers = [
     designation: "Sponsorship Head",
     imgSrc: "/images/2022_23_team/karan.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -104,9 +84,7 @@ const coreMembers = [
     designation: "Management Chief",
     imgSrc: "/images/2022_23_team/raj.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -114,9 +92,7 @@ const coreMembers = [
     designation: "Logistics Head",
     imgSrc: "/images/2022_23_team/sneha.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -124,9 +100,7 @@ const coreMembers = [
     designation: "Marketing Head",
     imgSrc: "/images/2022_23_team/megha.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
 ];

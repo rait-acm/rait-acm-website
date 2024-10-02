@@ -4,9 +4,7 @@ const coreMembers = [
     designation: "Chairperson",
     imgSrc: "/images/2023_24_team/Vaibhavi2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -14,9 +12,7 @@ const coreMembers = [
     designation: "vice Chairperson",
     imgSrc: "/images/2023_24_team/Amogh2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -24,9 +20,7 @@ const coreMembers = [
     designation: "General Secratary",
     imgSrc: "/images/2023_24_team/Nupur2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -34,9 +28,7 @@ const coreMembers = [
     designation: "Treasurer",
     imgSrc: "/images/2023_24_team/Priyanshi2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -44,9 +36,7 @@ const coreMembers = [
     designation: "Webmaster",
     imgSrc: "/images/2023_24_team/Shreyash2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -54,9 +44,7 @@ const coreMembers = [
     designation: "Technical Chief",
     imgSrc: "/images/2023_24_team/Dev2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -64,9 +52,7 @@ const coreMembers = [
     designation: "Membership Chair",
     imgSrc: "/images/2023_24_team/Priyanka2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -74,9 +60,7 @@ const coreMembers = [
     designation: "Public Relations Officer",
     imgSrc: "/images/2023_24_team/Nihar2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -84,9 +68,7 @@ const coreMembers = [
     designation: "Sponsorship Head",
     imgSrc: "/images/2023_24_team/Aaryan2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -94,9 +76,7 @@ const coreMembers = [
     designation: "Management Chief",
     imgSrc: "/images/2023_24_team/Jay2.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
 ];

@@ -4,9 +4,7 @@ const coreMembers = [
     designation: "Chair",
     imgSrc: "/images/2021_22_team/varun.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -14,9 +12,7 @@ const coreMembers = [
     designation: "ViceChair",
     imgSrc: "/images/2021_22_team/kansihka.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -24,9 +20,7 @@ const coreMembers = [
     designation: "Treasurer",
     imgSrc: "/images/2021_22_team/ritvika.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -34,9 +28,7 @@ const coreMembers = [
     designation: "Gensec",
     imgSrc: "/images/2021_22_team/smital.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -44,9 +36,7 @@ const coreMembers = [
     designation: "Webmaster",
     imgSrc: "/images/2021_22_team/vedant.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -54,9 +44,7 @@ const coreMembers = [
     designation: "Membership Chair",
     imgSrc: "/images/2021_22_team/mrunalini.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -64,9 +52,7 @@ const coreMembers = [
     designation: "Tech Chief",
     imgSrc: "/images/2021_22_team/krushna.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -74,9 +60,7 @@ const coreMembers = [
     designation: "Public Relations",
     imgSrc: "/images/2021_22_team/khushi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
   {
@@ -84,9 +68,7 @@ const coreMembers = [
     designation: "Management Chief",
     imgSrc: "/images/2021_22_team/pranay.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      
     },
   },
 ];

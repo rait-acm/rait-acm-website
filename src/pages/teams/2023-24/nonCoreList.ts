@@ -4,9 +4,7 @@ const nonCoreMembers = [
     designation: "Jr. Tech Chief",
     imageUrl: "/images/2023_24_team/pranav_talmale.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -14,9 +12,7 @@ const nonCoreMembers = [
     designation: "Jr. Tech Chief",
     imageUrl: "/images/2023_24_team/Siddhart Joisar.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -24,9 +20,7 @@ const nonCoreMembers = [
     designation: "Jr. Tech Chief",
     imageUrl: "/images/2023_24_team/Atharva Awle.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -34,9 +28,7 @@ const nonCoreMembers = [
     designation: "Jr. Tech Chief",
     imageUrl: "/images/2023_24_team/Kailash Chaudhary.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -44,9 +36,7 @@ const nonCoreMembers = [
     designation: "Jr. Tech Chief",
     imageUrl: "/images/2023_24_team/Yahyamoosa.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -54,9 +44,7 @@ const nonCoreMembers = [
     designation: "Jr. Management Chief",
     imageUrl: "/images/2023_24_team/Arnav Ambre.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -64,9 +52,7 @@ const nonCoreMembers = [
     designation: "Jr. Management Chief",
     imageUrl: "/images/2023_24_team/Nishant Wanjari.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -74,9 +60,7 @@ const nonCoreMembers = [
     designation: "Jr. Management Chief",
     imageUrl: "/images/2023_24_team/samar.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -84,9 +68,7 @@ const nonCoreMembers = [
     designation: "Jr. Creative Chief",
     imageUrl: "/images/2023_24_team/Anushka Jadhav.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -94,9 +76,7 @@ const nonCoreMembers = [
     designation: "Jr. Creative Chief",
     imageUrl: "/images/2023_24_team/Yashika Dhuri.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -104,9 +84,7 @@ const nonCoreMembers = [
     designation: "Content Chief",
     imageUrl: "/images/2023_24_team/Shruti Patil - Content Cheif.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -114,9 +92,7 @@ const nonCoreMembers = [
     designation: "Content Chief",
     imageUrl: "/images/2023_24_team/Astha Singh.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -124,9 +100,7 @@ const nonCoreMembers = [
     designation: "Publicity Chief",
     imageUrl: "/images/2023_24_team/Poulami Majumdar.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -134,9 +108,7 @@ const nonCoreMembers = [
     designation: "Publicity Chief",
     imageUrl: "/images/2023_24_team/Aarya-publicity.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -144,9 +116,7 @@ const nonCoreMembers = [
     designation: "Design Chief",
     imageUrl: "/images/2023_24_team/Arnav Paygan.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -154,9 +124,7 @@ const nonCoreMembers = [
     designation: "Media Graphics Chief",
     imageUrl: "/images/2023_24_team/Soham Wankhede- Mediagraphics cheif.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
 ];

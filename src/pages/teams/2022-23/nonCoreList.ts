@@ -4,9 +4,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2022_23_team/nupur.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -14,9 +12,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2022_23_team/priyanka.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -24,9 +20,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2022_23_team/danish.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -34,9 +28,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2022_23_team/aditya.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -44,9 +36,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2022_23_team/shreyash.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -54,9 +44,7 @@ const nonCoreMembers = [
     designation: "Jr Design Chief",
     imageUrl: "/images/2022_23_team/sayuj.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -64,9 +52,7 @@ const nonCoreMembers = [
     designation: "Jr Design Chief",
     imageUrl: "/images/2022_23_team/siya.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -74,9 +60,7 @@ const nonCoreMembers = [
     designation: "Jr Design Chief",
     imageUrl: "/images/2022_23_team/keshav.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -84,9 +68,7 @@ const nonCoreMembers = [
     designation: "Jr Design Chief",
     imageUrl: "/images/2022_23_team/vinay.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -94,9 +76,7 @@ const nonCoreMembers = [
     designation: "Jr Design Chief",
     imageUrl: "/images/2022_23_team/shresth.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -104,9 +84,7 @@ const nonCoreMembers = [
     designation: "Jr Publicity Chief",
     imageUrl: "/images/2022_23_team/vaibhavi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -114,9 +92,7 @@ const nonCoreMembers = [
     designation: "Jr Publicity Chief",
     imageUrl: "/images/2022_23_team/reetika.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -124,9 +100,7 @@ const nonCoreMembers = [
     designation: "Jr Publicity Chief",
     imageUrl: "/images/2022_23_team/amey.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -134,9 +108,7 @@ const nonCoreMembers = [
     designation: "Jr Publicity Chief",
     imageUrl: "/images/2022_23_team/samiksha.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -144,9 +116,7 @@ const nonCoreMembers = [
     designation: "Jr Publicity Chief",
     imageUrl: "/images/2022_23_team/vraj.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -154,9 +124,7 @@ const nonCoreMembers = [
     designation: "Jr Management Chief",
     imageUrl: "/images/2022_23_team/pratik.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -164,9 +132,7 @@ const nonCoreMembers = [
     designation: "Jr Management Chief",
     imageUrl: "/images/2022_23_team/nityanand.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -174,9 +140,7 @@ const nonCoreMembers = [
     designation: "Jr Management Chief",
     imageUrl: "/images/2022_23_team/aaryan.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -184,9 +148,7 @@ const nonCoreMembers = [
     designation: "Jr Management Chief",
     imageUrl: "/images/2022_23_team/jay.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -194,9 +156,7 @@ const nonCoreMembers = [
     designation: "Jr Management Chief",
     imageUrl: "/images/2022_23_team/krish.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -204,9 +164,7 @@ const nonCoreMembers = [
     designation: "Jr Creative Chief",
     imageUrl: "/images/2022_23_team/pragya.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -214,9 +172,7 @@ const nonCoreMembers = [
     designation: "Jr Creative Chief",
     imageUrl: "/images/2022_23_team/pranavi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -224,9 +180,7 @@ const nonCoreMembers = [
     designation: "Jr Creative Chief",
     imageUrl: "/images/2022_23_team/palak.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -234,9 +188,7 @@ const nonCoreMembers = [
     designation: "Jr Creative Chief",
     imageUrl: "/images/2022_23_team/suraj.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -244,9 +196,7 @@ const nonCoreMembers = [
     designation: "Jr Creative Chief",
     imageUrl: "/images/2022_23_team/naufil.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -254,9 +204,7 @@ const nonCoreMembers = [
     designation: "Jr Content Chief",
     imageUrl: "/images/2022_23_team/priyanshi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -264,9 +212,7 @@ const nonCoreMembers = [
     designation: "Jr Content Chief",
     imageUrl: "/images/2022_23_team/sakshi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -274,9 +220,7 @@ const nonCoreMembers = [
     designation: "Jr Content Chief",
     imageUrl: "/images/2022_23_team/nidhi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -284,9 +228,7 @@ const nonCoreMembers = [
     designation: "Jr Content Chief",
     imageUrl: "/images/2022_23_team/gaurav.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -294,9 +236,7 @@ const nonCoreMembers = [
     designation: "Jr Content Chief",
     imageUrl: "/images/2022_23_team/ira.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -304,9 +244,7 @@ const nonCoreMembers = [
     designation: "Jr Media Graphics Chief",
     imageUrl: "/images/2022_23_team/amogh.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -314,9 +252,7 @@ const nonCoreMembers = [
     designation: "Jr Media Graphics Chief",
     imageUrl: "/images/2022_23_team/shwetal.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -324,9 +260,7 @@ const nonCoreMembers = [
     designation: "Jr Media Graphics Chief",
     imageUrl: "/images/2022_23_team/utkarsh.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -334,9 +268,7 @@ const nonCoreMembers = [
     designation: "Jr Media Graphics Chief",
     imageUrl: "/images/2022_23_team/pooja.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
   {
@@ -344,9 +276,7 @@ const nonCoreMembers = [
     designation: "Jr Media Graphics Chief",
     imageUrl: "/images/2022_23_team/amey.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+    
     },
   },
 ];

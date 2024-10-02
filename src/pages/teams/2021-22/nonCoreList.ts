@@ -4,9 +4,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2021_22_team/hemang.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -14,9 +12,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2021_22_team/anirudh.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -24,9 +20,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2021_22_team/zaid.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -34,9 +28,7 @@ const nonCoreMembers = [
     designation: "Jr Tech Chief",
     imageUrl: "/images/2021_22_team/jayesh.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -44,9 +36,7 @@ const nonCoreMembers = [
     designation: "Jr Publicity Chief",
     imageUrl: "/images/2021_22_team/rimi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -54,9 +44,7 @@ const nonCoreMembers = [
     designation: "Jr Publicity Chief",
     imageUrl: "/images/2021_22_team/minal.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -64,9 +52,7 @@ const nonCoreMembers = [
     designation: "Jr Design Chief",
     imageUrl: "/images/2021_22_team/drishti.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -74,9 +60,7 @@ const nonCoreMembers = [
     designation: "Jr Media Graphics Chief",
     imageUrl: "/images/2021_22_team/aaushi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -84,9 +68,7 @@ const nonCoreMembers = [
     designation: "Jr Content Chief",
     imageUrl: "/images/2021_22_team/aakansha.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -94,9 +76,7 @@ const nonCoreMembers = [
     designation: "Jr Content Chief",
     imageUrl: "/images/2021_22_team/gauri.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -104,9 +84,7 @@ const nonCoreMembers = [
     designation: "Jr Creative Chief",
     imageUrl: "/images/2021_22_team/anushka.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -114,9 +92,7 @@ const nonCoreMembers = [
     designation: "Jr Management Chief",
     imageUrl: "/images/2021_22_team/raj.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
   {
@@ -124,9 +100,7 @@ const nonCoreMembers = [
     designation: "Jr Management Chief",
     imageUrl: "/images/2021_22_team/karan.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+     
     },
   },
 ];

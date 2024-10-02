@@ -4,9 +4,9 @@ const wMembers = [
     designation: "ACMw Chairperson",
     imgSrc: "/images/team/core/women/shruti.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      instagram: "https://www.instagram.com/shrutiypatil",
+      linkedin: "https://www.linkedin.com/in/shrutiypatil/",
+      github: "https://github.com/vimmss",
     },
   },
   {
@@ -14,9 +14,9 @@ const wMembers = [
     designation: "ACMw ViceChairperson",
     imgSrc: "/images/team/core/women/siya.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      instagram: "https://www.instagram.com/siiyyyaaa",
+      linkedin: "https://www.linkedin.com/in/siya-kocheri-457937244/",
+      github: "https://github.com/Siya2605",
     },
   },
   {
@@ -24,9 +24,8 @@ const wMembers = [
     designation: "ACMw General Secratary",
     imgSrc: "/images/team/core/women/shambhavi.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      instagram: "https://www.instagram.com/Shambhavis_",
+      linkedin: "https://www.linkedin.com/in/shambhavixshukla/",
     },
   },
   {
@@ -34,9 +33,9 @@ const wMembers = [
     designation: "ACMw Webmaster",
     imgSrc: "/images/team/core/women/nishita.webp",
     links: {
-      instagram: "#",
-      linkedin: "#",
-      github: "#",
+      instagram: "https://www.instagram.com/nishitaaaaaa._",
+      linkedin: "https://www.linkedin.com/in/nishitakapkar15/",
+      github: "https://github.com/nish1502",
     },
   },
 ];
