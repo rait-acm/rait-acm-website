@@ -18,11 +18,16 @@ function Feature() {
           />
           {/* <!-- Section Title End --> */}
 
-          <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12.5">
+          <div className="mt-12.5 flex flex-wrap justify-center gap-7.5 lg:mt-15 xl:mt-20 xl:gap-12.5 items-stretch">
             {/* <!-- Features item Start --> */}
 
             {featuresData.map((feature, key) => (
-              <SingleFeature feature={feature} key={key} />
+              <div
+                key={key}
+                className="flex-1 min-w-[300px] max-w-[400px] md:min-w-[300px] lg:min-w-[30%] flex flex-col"
+              >
+                <SingleFeature feature={feature} />
+              </div>
             ))}
             {/* <!-- Features item End --> */}
           </div>
