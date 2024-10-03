@@ -1,0 +1,68 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.12.2"
+
+      # Install dependencies and build the production version
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build for production
+        run: npm run build
+
+      # Configure SSH to push to the second repository
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      # Clone the second repository into a different directory
+      - name: Clone the second repository
+        run: |
+          git clone git@github.com:Pranav-Talmale/rait-acm-compiled.git second-repo
+
+      # Delete all files except the .git directory in the cloned repository
+      - name: Clean cloned repository
+        run: |
+          cd second-repo
+          shopt -s extglob
+          rm -rf !( .git ) # Remove everything except the .git folder
+
+      # Copy the new build files into the cloned repository
+      - name: Copy build files
+        run: |
+          cp -R dist/* second-repo/ # Copy new files from the dist folder to the cloned repo
+
+      # Set up Git user in the cloned repository
+      - name: Configure Git User Identity
+        run: |
+          cd second-repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      # Commit and push changes to the second repository
+      - name: Commit and Push Changes
+        run: |
+          cd second-repo
+          git add -A .
+          git commit -m "Deploy from commit: ${{ github.event.head_commit.message }}"
+          git push origin main
