@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    - export SOURCE_PATH=~/repositories/rait-acm-compiled
+    - export DEST_PATH=/home/raithosting/public_html
+
+      # Use rsync to copy everything except .git and README.md, and overwrite all files
+    - /usr/bin/rsync -av --delete --exclude '.git' --exclude 'README.md' $SOURCE_PATH/ $DEST_PATH/
