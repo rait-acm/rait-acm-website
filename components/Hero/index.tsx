@@ -23,20 +23,22 @@ export default function Hero() {
               <div className="relative aspect-[700/444] w-full mb-10 lg:mb-0">
                 <img
                   className="block dark:hidden"
-                  src="/images/hero/landing_page.svg"
+                  src="/images/hero/landing.jpg"
                   alt="Hero"
                   style={{
                     width: "100%",
                     height: "auto",
+                    borderRadius: "9999px",
                   }}
                 />
                 <img
                   className="hidden dark:block"
-                  src="/images/hero/landing_page.svg"
+                  src="/images/hero/landing.jpg"
                   alt="Hero"
                   style={{
                     width: "100%",
                     height: "auto",
+                    borderRadius: "9999px",
                   }}
                 />
               </div>
