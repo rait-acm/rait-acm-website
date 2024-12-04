@@ -15,13 +15,13 @@ import ResetScroll from "@/components/ScrollToTop/ResetScroll.tsx";
 import "./globals.css";
 import ToasterContext from "@/src/context/ToastContext.tsx";
 
-// import BlogPage from "@/src/pages/blog/BlogPage.tsx";
+import BlogPage from "@/src/pages/blog/BlogPage.tsx";
 import SingleBlogPage from "@/src/pages/blog/blog-details/SingleBlogPage.tsx";
 import ErrorPage from "@/src/pages/error/ErrorPage.tsx";
 import SigninPage from "@/src/pages/auth/signin/SignInPage.tsx";
 import Register from "@/src/pages/auth/signup/Register.tsx";
 import SupportPage from "@/src/pages/support/SupportPage.tsx";
-// import { EventsPage } from "@/src/pages/events/EventsPage.tsx";
+import { EventsPage } from "@/src/pages/events/EventsPage.tsx";
 import { TeamsPage2024_25 } from "@/src/pages/teams/2024-25/TeamsPage2024_25.tsx";
 import { TeamsPage2023_24 } from "./pages/teams/2023-24/TeamsPage2023_24.tsx";
 import { TeamsPage2022_23 } from "./pages/teams/2022-23/TeamsPage2022_23.tsx";
@@ -39,10 +39,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <ResetScroll />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/blog" element={<BlogPage />} /> */}
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<SingleBlogPage />} />
           <Route path="/error" element={<ErrorPage />} />
-          {/* <Route path="/events" element={<EventsPage />} /> */}
+          <Route path="/events" element={<EventsPage />} />
           <Route path="/team" element={<TeamsPage2024_25 />} />
           <Route path="/team-2023-24" element={<TeamsPage2023_24 />} />
           <Route path="/team-2022-23" element={<TeamsPage2022_23 />} />

@@ -8,9 +8,11 @@ export function EventsPage() {
   const [active, setActive] = useState<
     (typeof cardContent)[number] | boolean | null
   >(null);
+  const [filter, setFilter] = useState("Upcoming"); // Default is "All"
   const ref = useRef<HTMLDivElement>(null);
   const navbarRef = useRef<HTMLElement | null>(null);
 
+  // Effect to handle keyboard and navbar behavior
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
@@ -40,6 +42,18 @@ export function EventsPage() {
     navbarRef.current = document.getElementById("navbar");
   }, []);
 
+  // Filtering logic
+  const filteredContent = cardContent.filter((card) => {
+    const now = new Date();
+    const startDate = new Date(card.isoDate.start);
+    const endDate = new Date(card.isoDate.end);
+
+    if (filter === "Past") return endDate < now; // Past events
+    if (filter === "Ongoing") return startDate <= now && now <= endDate; // Ongoing events
+    if (filter === "Upcoming") return startDate > now; // Upcoming events
+    return true; // "All" or default
+  });
+
   return (
     <section className="py-20 lg:py-25 xl:py-30">
       {/* <!-- Section Title Start --> */}
@@ -52,6 +66,26 @@ export function EventsPage() {
       />
       <br />
       {/* <!-- Section Title End --> */}
+
+      {/* Filter Buttons */}
+      <div className="flex gap-4 justify-center mb-8">
+        {["All", "Upcoming", "Ongoing", "Past"].map((type) => (
+          <button
+            key={type}
+            onClick={() =>
+              setFilter(type as "All" | "Upcoming" | "Ongoing" | "Past")
+            }
+            className={`px-4 py-2 rounded ${
+              filter === type
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-black"
+            }`}
+          >
+            {type}
+          </button>
+        ))}
+      </div>
+
       <AnimatePresence>
         {active && typeof active === "object" && (
           <motion.div
@@ -142,7 +176,7 @@ export function EventsPage() {
         ) : null}
       </AnimatePresence>
       <ul className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {cardContent.map((card) => (
+        {filteredContent.map((card) => (
           <motion.div
             layoutId={`card-${card.id}`}
             key={card.id}
