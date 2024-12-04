@@ -90,9 +90,9 @@ const nonCoreMembers = [
     designation: "Media Graphics Chief",
     imageUrl: "/images/team/non-core/MEDIA GRAPHICS/Harshita wattal.webp",
     links: {
-      instagram: "https://www.instagram.com/aastha_.shetty",
-      linkedin: "https://www.linkedin.com/in/aastha-shetty-37386828b/",
-      github: "https://github.com/aasthashettyy",
+      instagram: "https://instagram.com/pinkkcellphone",
+      linkedin: "https://www.linkedin.com/in/harshita-wattal-098987271/",
+      github: "https://github.com/harshitawattal",
     },
   },
 
