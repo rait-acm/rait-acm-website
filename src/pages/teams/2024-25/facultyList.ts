@@ -9,7 +9,7 @@ const facultyMembers = [
   },
   {
     name: "Dr. Sangeeta Chaudhari",
-    designation: "HOD OF CSE DEPARTMENT",
+    designation: "FACULTY COORDINATOR",
     imgSrc: "/images/team/faculty/HODIT.webp",
     links: {
       instagram: "https://www.instagram.com/sangita.sc/",
