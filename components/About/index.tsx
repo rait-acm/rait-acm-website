@@ -25,16 +25,28 @@ function About() {
               className="animate_left relative mx-auto aspect-[588/526.5] w-full md:w-1/2"
             >
               <img
-                src="/images/about/about-light-02.svg"
+                src="/images/about/kyros.png"
                 alt="About"
                 className="dark:hidden"
-                style={{ position: "absolute", width: "100%", height: "100%" }}
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "100%",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                }}
               />
               <img
-                src="/images/about/about-dark-02.svg"
+                src="/images/about/kyros.png"
                 alt="About"
                 className="hidden dark:block"
-                style={{ position: "absolute", width: "100%", height: "100%" }}
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "100%",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                }}
               />
             </motion.div>
             <motion.div
@@ -189,16 +201,28 @@ function About() {
               className="animate_right relative mx-auto aspect-[588/526.5] w-full md:w-1/2"
             >
               <img
-                src="/images/about/about-light-01.svg"
+                src="/images/about/about2.jpg"
                 alt="About"
                 className="dark:hidden"
-                style={{ position: "absolute", width: "100%", height: "100%" }}
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "100%",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                }}
               />
               <img
-                src="/images/about/about-dark-01.svg"
+                src="/images/about/about2.jpg"
                 alt="About"
                 className="hidden dark:block"
-                style={{ position: "absolute", width: "100%", height: "100%" }}
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "100%",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                }}
               />
             </motion.div>
           </div>
