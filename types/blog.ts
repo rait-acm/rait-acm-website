@@ -10,6 +10,7 @@ export type Blog = {
   _id: number;
   title: string;
   slug?: any;
+  url: string,
   metadata?: string;
   body?: string;
   mainImage?: any;
