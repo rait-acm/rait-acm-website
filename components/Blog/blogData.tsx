@@ -3,11 +3,10 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    url: "advert",
+    url: "tech-startups",
     mainImage: "/images/blog/blog-01.png",
-    title: "Free advertising for your online business",
-    metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+    title: "Startup World - Tech Edition",
+    metadata: "What springs to your mind when you first hear the word....",
   },
   {
     _id: 2,
@@ -25,7 +24,6 @@ const BlogData: Blog[] = [
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
- 
 ];
 
 export default BlogData;

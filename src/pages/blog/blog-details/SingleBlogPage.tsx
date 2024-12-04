@@ -1,17 +1,16 @@
 import { useParams } from "react-router-dom";
-import RelatedPost from "@/components/Blog/RelatedPost";
-import SharePost from "@/components/Blog/SharePost";
+// import RelatedPost from "@/components/Blog/RelatedPost";
+// import SharePost from "@/components/Blog/SharePost";
 import { ActualBlogData } from "./actualblogData"; // Adjust the import path as needed
 
 function SingleBlogPage() {
-
   const { slug } = useParams<{ slug: keyof typeof indexMapping }>();
-  
+
   // Define your mapping object
   const indexMapping = {
-    advert: 0,
+    "tech-startups": 0,
     design: 1,
-    coding: 2
+    coding: 2,
     // Add more mappings as needed
   };
 
@@ -27,14 +26,13 @@ function SingleBlogPage() {
     return <div>Blog not found</div>;
   }
 
-
   return (
     <>
       <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
-              <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
+              {/* <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <form
                   action="https://formbold.com/s/unique_form_id"
                   method="POST"
@@ -63,9 +61,9 @@ function SingleBlogPage() {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
 
-              <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
+              {/* <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white">
                   Categories
                 </h4>
@@ -87,9 +85,9 @@ function SingleBlogPage() {
                     <a href="#">Rounded</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
-              <RelatedPost />
+              {/* <RelatedPost /> */}
             </div>
 
             <div className="lg:w-2/3">
@@ -115,13 +113,19 @@ function SingleBlogPage() {
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
-                    <span className="text-black dark:text-white">Author: </span> {blog.author}
+                    <span className="text-black dark:text-white">Author: </span>{" "}
+                    {blog.author}
                   </li>
                   <li>
-                    <span className="text-black dark:text-white">Published On: {blog.publishedOn}</span>
+                    <span className="text-black dark:text-white">
+                      Published On: {blog.publishedOn}
+                    </span>
                   </li>
                   <li>
-                    <span className="text-black dark:text-white">Category:</span> {blog.category}
+                    <span className="text-black dark:text-white">
+                      Category:
+                    </span>{" "}
+                    {blog.category}
                   </li>
                 </ul>
 
@@ -130,7 +134,13 @@ function SingleBlogPage() {
 
                   <div className="flex flex-wrap gap-5">
                     {blog.images.map((image, index) => (
-                      <img key={index} src={image} width={350} height={200} alt="image" />
+                      <img
+                        key={index}
+                        src={image}
+                        width={350}
+                        height={200}
+                        alt="image"
+                      />
                     ))}
                   </div>
 
@@ -139,7 +149,7 @@ function SingleBlogPage() {
                   <p>{blog.content2}</p>
                 </div>
 
-                <SharePost />
+                {/* <SharePost /> */}
               </div>
             </div>
           </div>
