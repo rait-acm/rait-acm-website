@@ -1,46 +1,47 @@
-import { Blog } from "@/types/blog";
-import { motion } from "framer-motion";
+import slugify from "slugify"; // Install this package using npm or yarn
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { Blog } from "@/types/blog";
 
 function BlogItem({ blog }: { blog: Blog }) {
-  const { mainImage, title, metadata, url } = blog;
+  const { mainImage, title, metadata } = blog;
+
+  // Generate a URL-safe slug
+  const slug = slugify(title, { lower: true });
 
   return (
-    <>
-      <motion.div
-        variants={{
-          hidden: {
-            opacity: 0,
-            y: -20,
-          },
+    <motion.div
+      variants={{
+        hidden: {
+          opacity: 0,
+          y: -20,
+        },
+        visible: {
+          opacity: 1,
+          y: 0,
+        },
+      }}
+      initial="hidden"
+      whileInView="visible"
+      transition={{ duration: 1, delay: 0.5 }}
+      viewport={{ once: true }}
+      className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
+    >
+      <Link to={`/blog/${slug}`} className="relative block aspect-[368/239]">
+        <img
+          src={mainImage}
+          alt={title}
+          style={{ position: "absolute", width: "100%", height: "100%" }}
+        />
+      </Link>
 
-          visible: {
-            opacity: 1,
-            y: 0,
-          },
-        }}
-        initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 1, delay: 0.5 }}
-        viewport={{ once: true }}
-        className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
-      >
-        <Link to={`/blog/${url}`} className="relative block aspect-[368/239]">
-          <img
-            src={mainImage}
-            alt={title}
-            style={{ position: "absolute", width: "100%", height: "100%" }}
-          />
-        </Link>
-
-        <div className="px-4">
-          <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
-            <Link to={`/blog/${url}`}>{`${title.slice(0, 40)}...`}</Link>
-          </h3>
-          <p className="line-clamp-3">{metadata}</p>
-        </div>
-      </motion.div>
-    </>
+      <div className="px-4">
+        <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
+          <Link to={`/blog/${slug}`}>{`${title.slice(0, 40)}...`}</Link>
+        </h3>
+        <p className="line-clamp-3">{metadata}</p>
+      </div>
+    </motion.div>
   );
 }
 
