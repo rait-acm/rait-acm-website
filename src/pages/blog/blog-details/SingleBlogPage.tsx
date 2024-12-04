@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { ActualBlogData } from "./actualblogData"; // Adjust the import path as needed
+import  ActualBlogData  from "./actualblogData"; // Adjust the import path as needed
 import slugify from "slugify";
 
 function SingleBlogPage() {

@@ -1,9 +1,9 @@
-import slugify from "slugify"; // Install this package using npm or yarn
+import slugify from "slugify"; 
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Blog } from "@/types/blog";
+import { ActualBlogType } from "@/types/blog"; // Ensure ActualBlogType is imported
 
-function BlogItem({ blog }: { blog: Blog }) {
+function BlogItem({ blog }: { blog: ActualBlogType }) {
   const { mainImage, title, metadata } = blog;
 
   // Generate a URL-safe slug

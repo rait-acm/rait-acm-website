@@ -17,3 +17,17 @@ export type Blog = {
   tags?: string[];
   publishedAt?: string;
 };
+
+export type ActualBlogType = {
+  _id: number;
+  mainImage: string;
+  title: string;
+  author: string;
+  publishedOn: string;
+  category: string;
+  metadata: string;
+  content1: string;
+  content2: string;
+  smallh: string;
+  images: string[];
+}

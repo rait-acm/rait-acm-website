@@ -1,17 +1,6 @@
-export interface ActualBlogType {
-  _id: number;
-  mainImage: string;
-  title: string;
-  author: string;
-  publishedOn: string;
-  category: string;
-  content1: string;
-  content2: string;
-  smallh: string;
-  images: string[];
-}
+import { ActualBlogType } from "@/types/blog";
 
-export const ActualBlogData: ActualBlogType[] = [
+const ActualBlogData: ActualBlogType[] = [
   {
     _id: 1,
     mainImage: "/images/blog/blog-01.png",
@@ -19,6 +8,7 @@ export const ActualBlogData: ActualBlogType[] = [
     author: "Nalin Khare",
     publishedOn: "September 29, 2022",
     category: "Startups",
+    metadata: "What springs to your mind when you first hear the word....",
     content1: `
         What springs to your mind when you first hear the word "UNICORN" ? To me, a mere 19-year-old, unbeknown to the conventions of the corporate world, it doesn't#39;t seems to imply anything more than a white-winged steed with a horn on its forehead. Naturally, my perplexity knew no bounds when I encountered this term in the context of commerce. At first, I assumed it to be a typing error. However, when this &quot;error &quot; became more frequent, I was forced to accuse my limited familiarity with the subject rather than the publisher's grammar. And that was the moment of epiphany - my first glimpse of corporate practices.
       `,
@@ -35,6 +25,7 @@ export const ActualBlogData: ActualBlogType[] = [
     author: "Samarjeet Rakhamb",
     publishedOn: "September 9, 2022",
     category: "Internet",
+    metadata: "What springs to your mind when you first hear the word....",
     content1: `
 Back in 1990, when Tim Berners-Lee created the internet, it was seen as a new revolution.
 
@@ -61,6 +52,40 @@ Our lives are infinitely better and worse because of the internet. The term “I
     author: "Aryan Joshi",
     publishedOn: "September 24, 2022",
     category: "Events",
+    metadata: "What springs to your mind when you first hear the word....",
+    content1: `
+Let's dive into the world of NFTs. It all began with Satoshi Nakamoto, who created the famous cryptocurrency Bitcoin, which is based on anonymity and decentralization. The goal was to create a currency that would be controlled by the people and for the people. The chain is typically controlled by large companies or governments, but this individual or organization had a different vision.
+
+The introduction of Ethereum marked the next major milestone in the crypto world. This was created by Vitalik Buterin. Ethereum was a more prominent decentralized platform. As the crypto world evolved, people wanted to use these currencies to do more. This led to the creation of digital assets called NFTs—Non-Fungible Tokens. These tokens were a way for artists and other digital creators to create assets that their communities craved.
+
+The first decentralized platform to buy and trade NFTs on was OpenSea, which is based on the Ethereum blockchain. OpenSea is the largest NFT marketplace where users can buy, sell, trade, and bid on NFTs as they are accessible to the public. For collectors, NFT artworks are better investments than real-world art since they are indestructible, on the blockchain, and cannot be stolen as they are easily traceable.
+
+The NFT scene began with ordinary artworks by famous creators but soon became popular among ordinary people. As the NFT and crypto scene were booming, many companies tried to ride the wave and introduced perks just for owning their NFTs. Big names like Bored Ape Yacht Club, CryptoPunks, and VeeFriends provided their NFT holders with perks like invitations to special private events. This fostered a sense of community and exclusivity, changing the user experience of owning an NFT.
+
+Besides the Ethereum blockchain, the Solana blockchain came into play. The developers of Solana focused on making the user experience more friendly and straightforward. Buying, selling, and trading NFTs on the Solana platform was much more hassle-free as it evaded the gas fees needed to process transactions on the Ethereum blockchain. After a massive airdrop from any popular NFT studio, the traffic on trading platforms was frustrating, but the Solana blockchain NFTs thrived.
+    `,
+    smallh: "After the era of web 1 and web 2",
+    content2: `
+It was the time for Web 3. This included creating an outside-the-world experience by integrating NFTs into the mainstream business stream. A big highlight was Facebook changing its name to META to create a strong first-mover advantage in the METAVERSE.
+
+The ownership of digital assets within the metaverse increases one's chances of creating a social presence on the platform. For example, owning an outfit on the blockchain will be added to your Metamask wallet, which directly links to the metaverse. This allows you to wear the same outfit in a game or simulation.
+
+Gears or equipment such as the Oculus Quest 2 and the Valve Index are available to help users experience the METAVERSE. There are many different blockchain-based gaming platforms, but the pioneers were Decentraland and Sandbox, where users can simulate the real world virtually.
+
+Most blockchains provide open-source frameworks, and UX and UI designers can play an important role in the METAVERSE. The possibilities are endless, as most mainstream occupations can be integrated into the METAVERSE and potentially be much more profitable than traditional methods.
+
+There is no doubt that NFTs will continue to evolve as a topic over time. There’s a lot to say about the unexplored world of cryptocurrency—a world of learning experiences combined with the chance to make some cold hard cash!
+    `,
+    images: ["/images/blog/blog-01.png", "/images/blog/blog-02.png"],
+  },
+  {
+    _id: 3,
+    mainImage: "/images/blog/blog-01.png",
+    title: "NFTS: The Evolution",
+    author: "Aryan Joshi",
+    publishedOn: "September 24, 2022",
+    category: "Events",
+    metadata: "What springs to your mind when you first hear the word....",
     content1: `
 Let's dive into the world of NFTs. It all began with Satoshi Nakamoto, who created the famous cryptocurrency Bitcoin, which is based on anonymity and decentralization. The goal was to create a currency that would be controlled by the people and for the people. The chain is typically controlled by large companies or governments, but this individual or organization had a different vision.
 
@@ -88,3 +113,5 @@ There is no doubt that NFTs will continue to evolve as a topic over time. There�
   },
   
 ];
+
+export default ActualBlogData
