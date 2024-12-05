@@ -6,6 +6,7 @@ import CTA from "@/components/CTA/index";
 import FAQ from "@/components/FAQ/index";
 import Contact from "@/components/Contact/index";
 // import Blog from "@/components/Blog/index";
+import ThreeCardsComponent from "@/components/ThreeCards/ThreeCardsComponent";
 import Testimonial from "@/components/Testimonial/index";
 import HomeEvents from "@/components/EventsParallax/HomeEvents";
 
@@ -17,6 +18,7 @@ function Home() {
       <Feature />
       <HomeEvents />
       <FunFact />
+      <ThreeCardsComponent />
       <CTA />
       <FAQ />
       <Testimonial />
