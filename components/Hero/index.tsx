@@ -61,7 +61,7 @@ export default function Hero() {
 
               <div className="mt-10">
                 <a
-                  href="https://forms.gle/TXnuxGRfgnMRtFqn9"
+                  href="https://docs.google.com/forms/d/13SKxzPqXmRa92T0coNz0PFcYK4TUtyRRO7D9wI31G4I/edit?pli=1&edit_requested=true&pli=1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
