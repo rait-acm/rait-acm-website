@@ -99,7 +99,7 @@ export const cardContent = [
       start: "2024-10-07T00:00:00+05:30",
       end: "2024-10-07T23:59:59+05:30",
     },
-    src: "",
+    src: "/images/events/2024/8.jpg",
     content:
       "On October 7, 2024, the RAIT ACM Student Chapter at Ramrao Adik Institute of Technology, Nerul, held the Poster Making Competition 2024 as part of Cybersecurity and Cybercrime Awareness month, an online event. The winning poster for the Cybersecurity and AI Awareness Month competition, created by Ksitij Kharate, stood out by skillfully portraying “The Future of Cybersecurity.” The design focused on six key areas: Threat Detection with AI, Privacy Shield, Protecting Smart Devices, Cybersecurity in Cloud Computing, Fast Cyber Attack Response, and Stronger Data Protection. Each section of the poster offered a clear, concise message about the growing role of AI and innovative technologies in cybersecurity.",
   },
@@ -112,7 +112,7 @@ export const cardContent = [
       start: "2024-10-09T00:00:00+05:30",
       end: "2024-10-09T23:59:59+05:30",
     },
-    src: "",
+    src: "/images/events/2024/9.jpg",
     content:
       "On October 9, 2024, the RAIT ACM Student Chapter at Ramrao Adik Institute of Technology, Nerul, held the Bug Bounty Program 2024 as part of Cybersecurity and Cybercrime Awareness month, an offline event. The program was led by  Mr. Aditya Roy Chowdhury and was attended by students from various branches of RAIT. The speaker, Mr. Aditya Roy Chowdhury, led the session with hands-on examples, showcasing how to apply these techniques effectively in a real-world bug bounty scenario. His interactive approach made the session both informative and engaging for all participants.",
   },
@@ -130,27 +130,31 @@ export const cardContent = [
       'The "Hour of Code" is a week-long social event dedicated to introducing small and young children to the fundamentals of computing. Over five days, enthusiastic members will engage the participants in hands-on learning experiences. Children will be immersed in the basics of computer usage, gaining essential knowledge about navigating software, understanding the fundamentals of the internet, and becoming familiar with Microsoft Office applications. The event is aimed to foster an early interest in technology, empowering the next generation with essential digital skills in a fun and interactive environment.',
   },
   {
-    id: "12",
+    id: "11",
     description: "Competition",
     title: "CodeSummit",
     date: "📆: 21 Dec 2024",
+    ctaText: "Register",
+    ctaLink: "https://rait.acm.org/codesummit",
     isoDate: {
       start: "2024-12-21T00:00:00+05:30",
       end: "2024-12-21T23:59:59+05:30",
     },
-    src: "",
+    src: "/images/events/2024/12.jpg",
     content: "National Level Coding Competition",
   },
   {
-    id: "13",
+    id: "12",
     description: "Internship Program",
     title: "Winter Internship Program",
     date: "📆: 16 Dec 2024 to 16 Jan 2025",
+    ctaText: "Register",
+    ctaLink: "https://rait.acm.org/wip-register",
     isoDate: {
       start: "2024-12-16T00:00:00+05:30",
       end: "2025-01-16T23:59:59+05:30",
     },
-    src: "",
+    src: "/images/events/2024/13.png",
     content:
       'Winter Internship Program 2024 on "Project Development: Way to Entrepreneur” Organised by Department of Information Technology in association with ACM & IIC-RAIT. Enhance your technical skills with sessions from industry-level experts and put your knowledge into use by developing brilliant projects and getting them evaluated by domain experts! 👩🏻💻👨🏻💻',
   },

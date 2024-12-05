@@ -42,21 +42,27 @@ export function EventsPage() {
     navbarRef.current = document.getElementById("navbar");
   }, []);
 
-  // Filtering logic
-  const filteredContent = cardContent.filter((card) => {
-    const now = new Date();
-    const startDate = new Date(card.isoDate.start);
-    const endDate = new Date(card.isoDate.end);
+  // Sorting and Filtering logic
+  const filteredContent = cardContent
+    .sort((a, b) => {
+      const dateA = new Date(a.isoDate.start);
+      const dateB = new Date(b.isoDate.start);
+      return dateB.getTime() - dateA.getTime(); // Sort in descending order by date
+    })
+    .filter((card) => {
+      const now = new Date();
+      const startDate = new Date(card.isoDate.start);
+      const endDate = new Date(card.isoDate.end);
 
-    if (filter === "Past") return endDate < now; // Past events
-    if (filter === "Ongoing") return startDate <= now && now <= endDate; // Ongoing events
-    if (filter === "Upcoming") return startDate > now; // Upcoming events
-    return true; // "All" or default
-  });
+      if (filter === "Past") return endDate < now; // Past events
+      if (filter === "Ongoing") return startDate <= now && now <= endDate; // Ongoing events
+      if (filter === "Upcoming") return startDate > now; // Upcoming events
+      return true; // "All" or default
+    });
 
   return (
     <section className="py-20 lg:py-25 xl:py-30">
-      {/* <!-- Section Title Start --> */}
+      {/* Section Title Start */}
       <SectionHeader
         headerInfo={{
           title: "Events",
@@ -65,7 +71,7 @@ export function EventsPage() {
         }}
       />
       <br />
-      {/* <!-- Section Title End --> */}
+      {/* Section Title End */}
 
       {/* Filter Buttons */}
       <div className="flex gap-4 justify-center mb-8">
@@ -97,31 +103,28 @@ export function EventsPage() {
           />
         )}
       </AnimatePresence>
+
       <AnimatePresence>
         {active && typeof active === "object" ? (
           <div className="fixed inset-0 grid place-items-center z-[100]">
+            {/* Close Button */}
             <motion.button
-              key={`button-${active.id}`}
               layout
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-              }}
-              exit={{
-                opacity: 0,
-              }}
-              className="flex absolute top-2 right-2 lg:hidden items-center justify-center bg-white rounded-full h-6 w-6"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute top-4 right-4 z-20 flex items-center justify-center bg-white rounded-full h-8 w-8"
               onClick={() => setActive(null)}
             >
               <CloseIcon />
             </motion.button>
+
             <motion.div
               layoutId={`card-${active.id}`}
               ref={ref}
               className="w-full max-w-[500px] h-full md:h-fit md:max-h-[90%] flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden"
             >
+              {/* Image Section */}
               <motion.div layoutId={`image-${active.id}`}>
                 <img
                   width={200}
@@ -132,6 +135,7 @@ export function EventsPage() {
                 />
               </motion.div>
 
+              {/* Content Section */}
               <div>
                 <div className="flex justify-between items-start p-4">
                   <div className="">
@@ -160,6 +164,21 @@ export function EventsPage() {
                     {active.date}
                   </motion.a>
                 </div>
+
+                {/* Conditional Rendering of CTA Button */}
+                {active.ctaText && active.ctaLink && (
+                  <div className="pt-4 px-4">
+                    <motion.a
+                      href={active.ctaLink}
+                      target="_blank"
+                      className="inline-block px-6 py-3 text-sm rounded-full font-bold text-white"
+                      style={{ backgroundColor: "#0063ec" }}
+                    >
+                      {active.ctaText}
+                    </motion.a>
+                  </div>
+                )}
+
                 <div className="pt-4 relative px-4">
                   <motion.div
                     layoutId={`content-${active.id}`}
@@ -175,6 +194,8 @@ export function EventsPage() {
           </div>
         ) : null}
       </AnimatePresence>
+
+      {/* Cards Grid */}
       <ul className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {filteredContent.map((card) => (
           <motion.div
