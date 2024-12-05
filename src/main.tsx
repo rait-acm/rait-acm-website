@@ -12,7 +12,7 @@ import {
 import { ThemeProvider } from "next-themes";
 import ScrollToTop from "@/components/ScrollToTop/index.tsx";
 import ResetScroll from "@/components/ScrollToTop/ResetScroll.tsx";
-import "./globals.css";
+import "@/src/globals.css";
 import ToasterContext from "@/src/context/ToastContext.tsx";
 
 import BlogPage from "@/src/pages/blog/BlogPage.tsx";
@@ -21,19 +21,19 @@ import ErrorPage from "@/src/pages/error/ErrorPage.tsx";
 import SigninPage from "@/src/pages/auth/signin/SignInPage.tsx";
 import Register from "@/src/pages/auth/signup/Register.tsx";
 import SupportPage from "@/src/pages/support/SupportPage.tsx";
+import GalleryPage from "@/src/pages/gallery/GalleryPage.tsx";
 import { EventsPage } from "@/src/pages/events/EventsPage.tsx";
 import { TeamsPage2024_25 } from "@/src/pages/teams/2024-25/TeamsPage2024_25.tsx";
-import { TeamsPage2023_24 } from "./pages/teams/2023-24/TeamsPage2023_24.tsx";
-import { TeamsPage2022_23 } from "./pages/teams/2022-23/TeamsPage2022_23.tsx";
-import { TeamsPage2021_22 } from "./pages/teams/2021-22/TeamsPage2021_22.tsx";
-import Profile from "./pages/profile/ProfilePage.tsx";
-import Events from "./pages/profile/Events.tsx";
+import { TeamsPage2023_24 } from "@/src/pages/teams/2023-24/TeamsPage2023_24.tsx";
+import { TeamsPage2022_23 } from "@/src/pages/teams/2022-23/TeamsPage2022_23.tsx";
+import { TeamsPage2021_22 } from "@/src/pages/teams/2021-22/TeamsPage2021_22.tsx";
+import Profile from "@/src/pages/profile/ProfilePage.tsx";
+import Events from "@/src/pages/profile/Events.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Router>
       <ThemeProvider enableSystem={false} attribute="class" defaultTheme="dark">
-        {/* <Lines /> */}
         <Header />
         <ToasterContext />
         <ResetScroll />
@@ -43,6 +43,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/blog/:slug" element={<SingleBlogPage />} />
           <Route path="/error" element={<ErrorPage />} />
           <Route path="/events" element={<EventsPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/team" element={<TeamsPage2024_25 />} />
           <Route path="/team-2023-24" element={<TeamsPage2023_24 />} />
           <Route path="/team-2022-23" element={<TeamsPage2022_23 />} />

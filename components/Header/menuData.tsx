@@ -19,37 +19,37 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/blog",
   },
-  // {
-  //   id: 2.3,
-  //   title: "Docs",
-  //   newTab: false,
-  //   path: "/docs",
-  // },
   {
     id: 4,
+    title: "Gallery",
+    newTab: false,
+    path: "/gallery",
+  },
+  {
+    id: 5,
     title: "Our Team",
     newTab: false,
     path: "/team",
   },
   {
-    id: 5,
+    id: 6,
     title: "Past Teams",
     newTab: false,
     path: "/team-2023-24",
   },
   {
-    id: 6,
+    id: 7,
     title: "Other RAIT ACM Chapters",
     newTab: false,
     submenu: [
       {
-        id: 7,
+        id: 8,
         title: "RAIT ACM-W",
         newTab: true,
         path: "https://rait-w.acm.org",
       },
       {
-        id: 8,
+        id: 9,
         title: "RAIT ACM SIG-AI",
         newTab: true,
         path: "https://rait-sigai.acm.org",
