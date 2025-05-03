@@ -158,4 +158,18 @@ export const cardContent = [
     content:
       'Winter Internship Program 2024 on "Project Development: Way to Entrepreneur” Organised by Department of Information Technology in association with ACM & IIC-RAIT. Enhance your technical skills with sessions from industry-level experts and put your knowledge into use by developing brilliant projects and getting them evaluated by domain experts! 👩🏻💻👨🏻💻',
   },
+  {
+    id: "13",
+    description: "Speaker Session",
+    title: "DSP: Applied Computing",
+    date: "📆: 20 Jan 2025",
+    isoDate: {
+      start: "2025-01-20T00:00:00+05:30",
+      end: "2025-01-20T23:59:59+05:30",
+    },
+    src: "/images/events/dsp.png",
+    content:
+      "The RAIT ACM Student Chapter at Ramrao Adik Institute of Technology, Nerul, will host the Demystifying Quantum Computing Technology lecture session in the last week of June 2025. The event will feature Dr. Aswani Kumar Cherukuri, an expert in Applied Computing, who will explain the fundamentals and real-world applications of quantum computing. Participants will gain insights into quantum concepts, their technological implications, and the future impact of quantum technologies across industries. The session will conclude with an interactive Q&A segment.",
+  },
+  
 ];
