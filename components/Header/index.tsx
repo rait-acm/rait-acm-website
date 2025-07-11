@@ -155,12 +155,20 @@ function Header() {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <ThemeToggler />
 
-            <a
-              href="https://rait.acm.org/codesummit/"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
-            >
-              CodeSummit
-            </a>
+          <a
+  href="https://rait.acm.org/codesummit/"
+  className="flex items-center justify-center whitespace-nowrap rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+>
+  CodeSummit
+</a>
+
+<a
+  href="https://rait.acm.org/kleos-3.0"
+  className="flex items-center justify-center whitespace-nowrap rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+>
+  kleos&nbsp;3.0
+</a>
+
 
             {/* <a href="/auth/signin">
               <img

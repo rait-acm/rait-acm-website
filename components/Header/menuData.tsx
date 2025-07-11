@@ -27,30 +27,30 @@ const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "Our Team",
+    title: "Our\u00A0Team", // Prevents "Our" and "Team" from breaking
     newTab: false,
     path: "/team",
   },
   {
     id: 6,
-    title: "Past Teams",
+    title: "Past\u00A0Teams", // Prevents "Past" and "Teams" from breaking
     newTab: false,
     path: "/team-2023-24",
   },
   {
     id: 7,
-    title: "Other RAIT ACM Chapters",
+    title: "Other\u00A0RAIT\u00A0ACM\u00A0Chapters", // Keeps this whole label on one line
     newTab: false,
     submenu: [
       {
         id: 8,
-        title: "RAIT ACM-W",
+        title: "RAIT\u00A0ACM-W",
         newTab: true,
         path: "https://rait-w.acm.org",
       },
       {
         id: 9,
-        title: "RAIT ACM SIG-AI",
+        title: "RAIT\u00A0ACM\u00A0SIG-AI",
         newTab: true,
         path: "https://rait-sigai.acm.org",
       },

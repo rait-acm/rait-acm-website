@@ -158,7 +158,7 @@ export const cardContent = [
     content:
       'Winter Internship Program 2024 on "Project Development: Way to Entrepreneur” Organised by Department of Information Technology in association with ACM & IIC-RAIT. Enhance your technical skills with sessions from industry-level experts and put your knowledge into use by developing brilliant projects and getting them evaluated by domain experts! 👩🏻💻👨🏻💻',
   },
-{
+  {
   id: "13",
   description: "Speaker Session",
   title: "DSP: Applied Computing",
@@ -172,7 +172,26 @@ export const cardContent = [
   src: "/images/events/dsp.png.png",
   content:
     'On July 28, 2025, the RAIT ACM Student Chapter at Ramrao Adik Institute of Technology, Nerul, will host the Distinguished Speaker Program, 2025 as an offline session focused on applied computing. The session will be led by Dr. Aswani Kumar Cherukuri, Professor at VIT Vellore and faculty at Tulip Academy, who is also an ACM Distinguished Speaker. Dr. Cherukuri is known for his impactful work in Artificial Intelligence, Machine Learning, and core computing systems. He will engage the audience with practical insights and real-world examples, offering students a deeper understanding of emerging technologies and their applications. Attendees can look forward to an interactive discussion and valuable career-oriented guidance in the field of advanced computing.'
+},
+
+{
+  id: "14",
+  description: "National Level Hackathon",
+  title: "Kleos 3.0",
+  date: "📆: 18th - 19th July 2025",
+  ctaText: "Register",
+  ctaLink: "https://rait.acm.org/kleos-3.0",
+ isoDate: {
+  start: "2025-07-18T00:00:00+05:30",
+  end: "2025-07-19T23:59:59+05:30"
+},
+
+  src: "/images/events/kleos_BANNER.png",
+  content :
+  'National Level Hackathon'
 }
+
+
 
 
   
