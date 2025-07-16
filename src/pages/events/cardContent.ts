@@ -169,7 +169,7 @@ export const cardContent = [
     start: "2025-07-28T00:00:00+05:30",
     end: "2025-07-28T23:59:59+05:30"
   },
-  src: "/images/events/dsp.png.png",
+  src: "/images/events/dspF.png",
   content:
     'On July 29, 2025 from 6:00 PM onwards, the RAIT ACM Student Chapter at Ramrao Adik Institute of Technology, Nerul, will host the Distinguished Speaker Program, 2025 as an offline session focused on applied computing. The session will be led by Dr. Aswani Kumar Cherukuri, Professor at VIT Vellore and faculty at Tulip Academy, who is also an ACM Distinguished Speaker. Dr. Cherukuri is known for his impactful work in Artificial Intelligence, Machine Learning, and core computing systems. He will engage the audience with practical insights and real-world examples, offering students a deeper understanding of emerging technologies and their applications. Attendees can look forward to an interactive discussion and valuable career-oriented guidance in the field of advanced computing.'
 },
